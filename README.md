@@ -236,16 +236,30 @@ function submitOrder(){
   orderForm.submit();
 }
 
+/* ===== FIX COPY BUTTON – CHẠY ỔN ĐỊNH MỌI NƠI ===== */
 function copyBtn(btn){
   const text = btn.getAttribute("data-copy");
-  navigator.clipboard.writeText(text).then(()=>{
-    btn.innerText="✅";
-    setTimeout(()=>btn.innerText="📋",1000);
-  });
+
+  const textarea = document.createElement("textarea");
+  textarea.value = text;
+  textarea.style.position = "fixed";
+  textarea.style.opacity = "0";
+
+  document.body.appendChild(textarea);
+  textarea.focus();
+  textarea.select();
+
+  try{
+    document.execCommand("copy");
+    btn.innerText = "✅";
+    setTimeout(()=>btn.innerText="📋",1200);
+  }catch(e){
+    alert("❌ Không thể sao chép, vui lòng copy thủ công");
+  }
+
+  document.body.removeChild(textarea);
 }
 </script>
 
-</body>
-</html>
 </body>
 </html>
