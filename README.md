@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="vi">
 <head>
 <meta charset="UTF-8">
@@ -37,7 +36,7 @@ header,.Header,#header,#Header1,.header,.header-wrapper{
 .banner h1{margin:0;font-size:26px}
 .banner p{margin-top:6px;font-size:15px;opacity:.95}
 
-/* ===== CONTAINER (FIX LỆCH DỌC) ===== */
+/* ===== CONTAINER ===== */
 .container{
   width:100%;
   max-width:600px;
@@ -77,26 +76,26 @@ button{
 .note{
   width:100%;
   background:#fff7d6;
-  padding:12px;
-  border-radius:12px;
+  padding:14px;
+  border-radius:14px;
   margin-top:14px;
   font-size:13px;
 }
 
 .note h3{
-  margin:0 0 6px;
+  margin:0 0 8px;
   font-size:15px;
 }
 
 .note p{
-  margin:4px 0;
+  margin:6px 0;
   font-size:13px;
 }
 
-/* ===== QR FIX TUYỆT ĐỐI ===== */
+/* ===== QR FIX TRUNG TÂM TUYỆT ĐỐI ===== */
 .qr-box{
   width:100%;
-  margin-top:10px;
+  margin-top:14px;
   display:flex;
   flex-direction:column;
   align-items:center;
@@ -105,28 +104,29 @@ button{
 
 .qr-box img{
   width:100%;
-  max-width:240px;
+  max-width:280px;
   height:auto;
   display:block;
   margin:0 auto;
-  border-radius:12px;
+  border-radius:14px;
   background:#fff;
-  padding:8px;
+  padding:10px;
 }
 
 .transfer-content{
   width:100%;
+  max-width:320px;
   background:#eee;
-  padding:6px;
-  border-radius:6px;
+  padding:8px;
+  border-radius:8px;
   font-size:11px;
   word-break:break-word;
   text-align:center;
-  margin-top:6px;
+  margin-top:8px;
 }
 
 /* ===== CHECKBOX ===== */
-.confirm-box{margin-top:14px}
+.confirm-box{margin-top:16px}
 .confirm-box input{display:none}
 
 .confirm-box label{
@@ -152,14 +152,14 @@ button{
 /* ===== SUPPORT ===== */
 .support-buttons{
   position:fixed;
-  bottom:14px;
-  right:14px;
+  bottom:12px;
+  right:6px;
   z-index:9999;
 }
 
 .support-btn{
-  width:48px;
-  height:48px;
+  width:46px;
+  height:46px;
   border-radius:50%;
   margin-top:10px;
   display:flex;
@@ -174,13 +174,18 @@ button{
 .support-zalo{background:#0068ff}
 .support-messenger{background:linear-gradient(135deg,#00c6ff,#0072ff)}
 
-/* ===== MOBILE PORTRAIT ===== */
+/* ===== MOBILE ===== */
 @media (max-width:480px){
   .banner h1{font-size:22px}
   .banner p{font-size:14px}
+
   .container{
     margin-left:auto;
     margin-right:auto;
+  }
+
+  .note{
+    padding-right:20px;
   }
 }
 </style>
@@ -259,7 +264,6 @@ function updateQR(){
 
   document.getElementById("transferText").innerText = content;
 
-  /* QR TRẦN – KHÔNG LOGO */
   document.getElementById("qrImage").src =
     `https://img.vietqr.io/image/MB-${ACCOUNT}-qr_only.png?amount=${price}&addInfo=${encodeURIComponent(content)}`;
 }
