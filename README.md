@@ -26,7 +26,6 @@ header,.Header,#header,#Header1,.header,.header-wrapper{
   display:none!important;
 }
 
-/* ===== BANNER ===== */
 .banner{
   width:100%;
   background:linear-gradient(135deg,#d32f2f,#ff7043);
@@ -37,7 +36,6 @@ header,.Header,#header,#Header1,.header,.header-wrapper{
 .banner h1{margin:0;font-size:26px}
 .banner p{margin-top:6px;font-size:15px;opacity:.95}
 
-/* ===== CONTAINER ===== */
 .container{
   width:100%;
   max-width:600px;
@@ -48,7 +46,6 @@ header,.Header,#header,#Header1,.header,.header-wrapper{
   box-shadow:0 10px 25px rgba(0,0,0,.12);
 }
 
-/* ===== FORM ===== */
 select,input,button{
   width:100%;
   padding:12px;
@@ -73,7 +70,6 @@ button{
   margin-top:10px;
 }
 
-/* ===== THANH TOÁN ===== */
 .note{
   width:100%;
   background:#fff7d6;
@@ -86,7 +82,6 @@ button{
 .note h3{margin:0 0 6px;font-size:15px}
 .note p{margin:6px 0;font-size:13px}
 
-/* ===== COPY BUTTON ===== */
 .copy-btn{
   margin-left:6px;
   border:none;
@@ -97,7 +92,6 @@ button{
   font-size:13px;
 }
 
-/* ===== QR ===== */
 .qr-box{
   width:100%;
   margin-top:10px;
@@ -125,7 +119,6 @@ button{
   margin-top:6px;
 }
 
-/* ===== CHECKBOX ===== */
 .confirm-box{margin-top:14px}
 .confirm-box input{display:none}
 .confirm-box label{
@@ -204,8 +197,9 @@ button{
 
 <input type="hidden" name="_subject" value="🔔 Đơn hàng eSIM Nhật">
 <input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="Noi_dung_chuyen_khoan" id="transferInput">
 
-<button type="button" onclick="submitOrder()">Đặt mua eSIM</button>
+<button type="submit">Đặt mua eSIM</button>
 </form>
 </div>
 
@@ -213,6 +207,9 @@ button{
 const ACCOUNT="1807200320033";
 const emailInput=document.getElementById("email");
 const pkg=document.getElementById("package");
+const transferInput=document.getElementById("transferInput");
+const form=document.getElementById("orderForm");
+const paidCheck=document.getElementById("paidCheck");
 
 function updateQR(){
   const price=pkg.options[pkg.selectedIndex].dataset.price;
@@ -223,6 +220,7 @@ function updateQR(){
     "Giá: "+Number(price).toLocaleString("vi-VN")+"đ";
 
   document.getElementById("transferText").innerText = content;
+  transferInput.value = content;
 
   document.getElementById("qrImage").src =
     `https://img.vietqr.io/image/MB-${ACCOUNT}-qr_only.png?amount=${price}&addInfo=${encodeURIComponent(content)}`;
@@ -232,30 +230,36 @@ pkg.addEventListener("change",updateQR);
 emailInput.addEventListener("input",updateQR);
 updateQR();
 
-/* COPY CHẮC CHẮN – KHÔNG LỖI BLOGGER / IOS */
+/* COPY CHUẨN – KHÔNG LỖI IOS / BLOGGER */
 function copyText(id, btn){
-  const text=document.getElementById(id).innerText;
-  const t=document.createElement("textarea");
-  t.value=text;
-  t.style.position="fixed";
-  t.style.left="-9999px";
-  document.body.appendChild(t);
-  t.select();
-  document.execCommand("copy");
-  document.body.removeChild(t);
+  const text=document.getElementById(id).innerText.trim();
 
-  btn.innerText="✅";
-  setTimeout(()=>btn.innerText="📋",1000);
-}
-
-function submitOrder(){
-  if(!paidCheck.checked){
-    alert("⚠️ Vui lòng xác nhận đã thanh toán");
-    return;
+  if (navigator.clipboard && window.isSecureContext) {
+    navigator.clipboard.writeText(text).then(()=>{
+      btn.innerText="✅";
+      setTimeout(()=>btn.innerText="📋",1000);
+    });
+  } else {
+    const t=document.createElement("textarea");
+    t.value=text;
+    t.style.position="fixed";
+    t.style.left="-9999px";
+    document.body.appendChild(t);
+    t.select();
+    document.execCommand("copy");
+    document.body.removeChild(t);
+    btn.innerText="✅";
+    setTimeout(()=>btn.innerText="📋",1000);
   }
-  alert("✅ Đã ghi nhận đơn hàng! QR eSIM sẽ được gửi qua email.");
-  orderForm.submit();
 }
+
+/* KIỂM TRA THANH TOÁN TRƯỚC KHI SUBMIT */
+form.addEventListener("submit",function(e){
+  if(!paidCheck.checked){
+    e.preventDefault();
+    alert("⚠️ Vui lòng xác nhận đã thanh toán");
+  }
+});
 </script>
 
 </body>
