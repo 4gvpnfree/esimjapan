@@ -21,12 +21,10 @@ html,body{
   background:linear-gradient(180deg,#f0f6ff,#f9f9f9);
 }
 
-/* ẨN HEADER BLOGGER */
 header,.Header,#header,#Header1,.header,.header-wrapper{
   display:none!important;
 }
 
-/* ===== BANNER ===== */
 .banner{
   width:100%;
   background:linear-gradient(135deg,#d32f2f,#ff7043);
@@ -37,7 +35,6 @@ header,.Header,#header,#Header1,.header,.header-wrapper{
 .banner h1{margin:0;font-size:26px}
 .banner p{margin-top:6px;font-size:15px;opacity:.95}
 
-/* ===== CONTAINER ===== */
 .container{
   width:100%;
   max-width:600px;
@@ -48,7 +45,6 @@ header,.Header,#header,#Header1,.header,.header-wrapper{
   box-shadow:0 10px 25px rgba(0,0,0,.12);
 }
 
-/* ===== FORM ===== */
 select,input,button{
   width:100%;
   padding:12px;
@@ -73,7 +69,6 @@ button{
   margin-top:10px;
 }
 
-/* ===== THANH TOÁN ===== */
 .note{
   width:100%;
   background:#fff7d6;
@@ -88,7 +83,6 @@ button{
   font-size:15px;
 }
 
-/* ===== NÚT COPY GIỐNG ẢNH ===== */
 .pay-block{margin-bottom:12px}
 .pay-row{
   font-size:13px;
@@ -106,11 +100,8 @@ button{
   font-weight:bold;
   cursor:pointer;
 }
-.copy-btn:active{
-  transform:scale(0.97);
-}
+.copy-btn:active{transform:scale(0.97)}
 
-/* ===== QR ===== */
 .qr-box{
   width:100%;
   margin-top:10px;
@@ -137,7 +128,6 @@ button{
   margin-top:6px;
 }
 
-/* ===== CHECKBOX ===== */
 .confirm-box{margin-top:14px}
 .confirm-box input{display:none}
 
@@ -213,10 +203,10 @@ button{
   <button type="button" class="copy-btn" onclick="copyText('transferText')">
     Sao chép nội dung chuyển khoản
   </button>
-  <p style="margin-top:6px;font-size:12px;color:#c0392b;text-align:center">
-  ⚠️ Vui lòng điền đúng nội dung chuyển khoản để được xử lý nhanh
-</p>
 
+  <p style="margin-top:6px;font-size:12px;color:#c0392b;text-align:center">
+    ⚠️ Vui lòng điền đúng nội dung chuyển khoản để được xử lý nhanh
+  </p>
 </div>
 
 <div class="confirm-box">
@@ -227,8 +217,10 @@ button{
   </label>
 </div>
 
+<!-- FORM SUBMIT CONFIG -->
 <input type="hidden" name="_subject" value="🔔 Đơn hàng eSIM Nhật">
 <input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_next" value="">
 
 <button type="button" onclick="submitOrder()">Đặt mua eSIM</button>
 </form>
@@ -243,7 +235,7 @@ function updateQR(){
   const price=pkg.options[pkg.selectedIndex].dataset.price;
   const email=emailInput.value || "CHUA_CO_EMAIL";
 
-  const content = `ESIM JAPAN - ${price} - ${email}`;
+  const content = `ESIM JAPAN | ${price} | ${email}`;
 
   document.getElementById("priceText").innerText =
     "Giá: " + Number(price).toLocaleString("vi-VN") + "đ";
