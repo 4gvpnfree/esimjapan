@@ -11,151 +11,56 @@
 *,
 *::before,
 *::after{box-sizing:border-box}
-
 html,body{
-  margin:0;
-  padding:0;
-  width:100%;
-  overflow-x:hidden;
+  margin:0;padding:0;width:100%;overflow-x:hidden;
   font-family:Arial,sans-serif;
   background:linear-gradient(180deg,#f0f6ff,#f9f9f9);
 }
-
-/* ẨN HEADER BLOGGER */
-header,.Header,#header,#Header1,.header,.header-wrapper{
-  display:none!important;
-}
-
-/* ===== BANNER ===== */
+header,.Header,#header,#Header1,.header,.header-wrapper{display:none!important;}
 .banner{
-  width:100%;
   background:linear-gradient(135deg,#d32f2f,#ff7043);
-  color:#fff;
-  padding:26px 16px 40px;
-  text-align:center;
+  color:#fff;padding:26px 16px 40px;text-align:center;
 }
-.banner h1{margin:0;font-size:26px}
-.banner p{margin-top:6px;font-size:15px;opacity:.95}
-
-/* ===== CONTAINER ===== */
 .container{
-  width:100%;
-  max-width:600px;
-  margin:0 auto 28px;
-  background:#fff;
-  padding:16px;
-  border-radius:16px;
+  max-width:600px;margin:0 auto 28px;background:#fff;
+  padding:16px;border-radius:16px;
   box-shadow:0 10px 25px rgba(0,0,0,.12);
 }
-
-/* ===== FORM ===== */
 select,input,button{
-  width:100%;
-  padding:12px;
-  margin-top:12px;
-  font-size:16px;
+  width:100%;padding:12px;margin-top:12px;font-size:16px;
 }
-
 button{
   background:linear-gradient(135deg,#e53935,#ff7043);
-  color:#fff;
-  border:none;
-  border-radius:10px;
-  font-weight:bold;
-  cursor:pointer;
+  color:#fff;border:none;border-radius:10px;
+  font-weight:bold;cursor:pointer;
 }
-
-.price{
-  text-align:center;
-  font-size:19px;
-  font-weight:bold;
-  color:#e53935;
-  margin-top:10px;
-}
-
-/* ===== THANH TOÁN ===== */
+.price{text-align:center;font-size:19px;font-weight:bold;color:#e53935;margin-top:10px;}
 .note{
-  width:100%;
-  background:#fff7d6;
-  padding:12px;
-  border-radius:12px;
-  margin-top:14px;
-  font-size:13px;
+  background:#fff7d6;padding:12px;border-radius:12px;margin-top:14px;font-size:13px;
 }
-
-.note h3{margin:0 0 6px;font-size:15px}
-.note p{margin:6px 0;font-size:13px}
-
-/* ===== NÚT SAO CHÉP ===== */
 .copy-btn{
-  margin-top:6px;
-  border:none;
-  background:#ff7043;
-  color:#fff;
-  border-radius:6px;
-  padding:6px 10px;
-  cursor:pointer;
-  font-size:12px;
-  font-weight:bold;
+  margin-top:6px;background:#ff7043;color:#fff;border:none;
+  border-radius:6px;padding:6px 10px;font-size:12px;font-weight:bold;
 }
-
-/* ===== CHÚ Ý ===== */
 .notice{
-  margin-top:8px;
-  font-size:12px;
-  color:#d32f2f;
-  font-weight:bold;
-  text-align:center;
+  margin-top:8px;font-size:12px;color:#d32f2f;font-weight:bold;text-align:center;
 }
-
-/* ===== QR ===== */
-.qr-box{
-  width:100%;
-  margin-top:10px;
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-}
-
-.qr-box img{
-  width:100%;
-  max-width:240px;
-  border-radius:12px;
-  background:#fff;
-  padding:8px;
-}
-
+.qr-box{margin-top:10px;display:flex;flex-direction:column;align-items:center;}
+.qr-box img{max-width:240px;border-radius:12px;background:#fff;padding:8px;}
 .transfer-content{
-  width:100%;
-  background:#eee;
-  padding:6px;
-  border-radius:6px;
-  font-size:11px;
-  word-break:break-word;
-  text-align:center;
-  margin-top:6px;
+  width:100%;background:#eee;padding:6px;border-radius:6px;
+  font-size:11px;text-align:center;margin-top:6px;
 }
-
-/* ===== CHECKBOX ===== */
 .confirm-box{margin-top:14px}
 .confirm-box input{display:none}
 .confirm-box label{
-  display:flex;
-  align-items:center;
-  gap:10px;
-  padding:12px;
-  border:2px dashed #ccc;
-  border-radius:12px;
-  cursor:pointer;
-  font-weight:bold;
-  color:#555;
+  display:flex;align-items:center;gap:10px;padding:12px;
+  border:2px dashed #ccc;border-radius:12px;cursor:pointer;
+  font-weight:bold;color:#555;
 }
 .confirm-box input:checked+label{
-  border-color:#4caf50;
-  background:#e8f5e9;
-  color:#2e7d32;
+  border-color:#4caf50;background:#e8f5e9;color:#2e7d32;
 }
-.confirm-box i{font-size:22px}
 </style>
 </head>
 
@@ -167,9 +72,7 @@ button{
 </div>
 
 <div class="container">
-<form id="orderForm"
- action="https://formsubmit.co/chungthanh18072003@gmail.com"
- method="POST">
+<form id="orderForm">
 
 <select id="package" name="Goi_eSIM">
   <option data-price="150000">3 ngày – 1GB/ngày</option>
@@ -192,7 +95,7 @@ button{
   <button type="button" class="copy-btn" data-copy="DO THANH CHUNG" onclick="copyBtn(this)">Sao chép chủ TK</button>
 
   <div class="qr-box">
-    <img id="qrImage" alt="QR Thanh toán">
+    <img id="qrImage">
     <div class="transfer-content" id="transferText"></div>
     <button type="button" class="copy-btn" onclick="copyTransfer()">Sao chép nội dung chuyển khoản</button>
     <div class="notice">⚠️ Vui lòng điền đúng nội dung chuyển khoản để được xử lý nhanh</div>
@@ -207,9 +110,6 @@ button{
   </label>
 </div>
 
-<input type="hidden" name="_subject" value="🔔 Đơn hàng eSIM Nhật">
-<input type="hidden" name="_captcha" value="false">
-
 <button type="button" onclick="submitOrder()">Đặt mua eSIM</button>
 </form>
 </div>
@@ -223,18 +123,12 @@ function updateQR(){
   const price=pkg.options[pkg.selectedIndex].dataset.price;
   const email=emailInput.value || "EMAIL";
   const content=`ESIM JAPAN | ${price} | ${email}`;
-
-  document.getElementById("priceText").innerText =
-    "Giá: "+Number(price).toLocaleString("vi-VN")+"đ";
-
-  document.getElementById("transferText").innerText = content;
-
-  document.getElementById("qrImage").src =
-    `https://img.vietqr.io/image/MB-${ACCOUNT}-qr_only.png?amount=${price}&addInfo=${encodeURIComponent(content)}`;
+  priceText.innerText="Giá: "+Number(price).toLocaleString("vi-VN")+"đ";
+  transferText.innerText=content;
+  qrImage.src=`https://img.vietqr.io/image/MB-${ACCOUNT}-qr_only.png?amount=${price}&addInfo=${encodeURIComponent(content)}`;
 }
-
-pkg.addEventListener("change",updateQR);
-emailInput.addEventListener("input",updateQR);
+pkg.onchange=updateQR;
+emailInput.oninput=updateQR;
 updateQR();
 
 function submitOrder(){
@@ -242,36 +136,33 @@ function submitOrder(){
     alert("⚠️ Vui lòng xác nhận đã thanh toán");
     return;
   }
-  alert("✅ Đã ghi nhận đơn hàng! QR eSIM sẽ được gửi qua email.");
-  orderForm.submit();
+
+  const data=new FormData(orderForm);
+
+  fetch("https://formsubmit.co/ajax/chungthanh18072003@gmail.com",{
+    method:"POST",
+    body:data,
+    headers:{Accept:"application/json"}
+  })
+  .then(()=>alert("✅ Đã ghi nhận đơn hàng!\nVui lòng kiểm tra email nhận eSIM."))
+  .catch(()=>alert("❌ Lỗi gửi đơn, vui lòng thử lại."));
 }
 
 function copyBtn(btn){
-  const text = btn.getAttribute("data-copy");
-  copyText(text, btn);
+  copyText(btn.dataset.copy,btn);
 }
-
 function copyTransfer(){
-  const text = document.getElementById("transferText").innerText;
-  copyText(text);
+  copyText(transferText.innerText);
 }
-
-function copyText(text, btn){
-  const textarea=document.createElement("textarea");
-  textarea.value=text;
-  textarea.style.position="fixed";
-  textarea.style.opacity="0";
-  document.body.appendChild(textarea);
-  textarea.select();
-  document.execCommand("copy");
-  document.body.removeChild(textarea);
-
+function copyText(text,btn){
+  const t=document.createElement("textarea");
+  t.value=text;document.body.appendChild(t);
+  t.select();document.execCommand("copy");
+  document.body.removeChild(t);
   if(btn){
     const old=btn.innerText;
     btn.innerText="Đã sao chép";
     setTimeout(()=>btn.innerText=old,1500);
-  }else{
-    alert("✅ Đã sao chép nội dung chuyển khoản");
   }
 }
 </script>
