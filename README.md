@@ -294,6 +294,3 @@ updateQR();
 
 </body>
 </html>
-
-</body>
-</html>
