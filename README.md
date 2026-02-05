@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="vi">
 <head>
 <meta charset="UTF-8">
@@ -161,6 +162,11 @@ button{
   background:#e8f5e9;
   color:#2e7d32;
 }
+
+.confirm-box i{font-size:22px}
+</style>
+</head>
+
 <body>
 
 <div class="banner">
@@ -252,7 +258,8 @@ function updateQR(){
 function copyText(id){
   navigator.clipboard.writeText(document.getElementById(id).innerText);
 }
-.function submitOrder(){
+
+function submitOrder(){
   if(!paidCheck.checked){
     alert("⚠️ Vui lòng xác nhận đã thanh toán");
     return;
@@ -265,6 +272,4 @@ updateQR();
 </script>
 
 </body>
-</html>confirm-box i{font-size:22px}
-</style>
-</head>
+</html>
