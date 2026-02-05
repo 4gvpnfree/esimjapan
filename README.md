@@ -76,26 +76,45 @@ button{
 .note{
   width:100%;
   background:#fff7d6;
-  padding:14px;
-  border-radius:14px;
+  padding:12px;
+  border-radius:12px;
   margin-top:14px;
   font-size:13px;
 }
 
 .note h3{
-  margin:0 0 8px;
+  margin:0 0 6px;
   font-size:15px;
 }
 
 .note p{
   margin:6px 0;
   font-size:13px;
+  display:flex;
+  align-items:center;
+  gap:6px;
+  flex-wrap:wrap;
 }
 
-/* ===== QR CENTER ===== */
+/* ===== NÚT COPY ===== */
+.copy-btn{
+  padding:4px 8px;
+  font-size:12px;
+  border:none;
+  border-radius:6px;
+  background:#4caf50;
+  color:#fff;
+  cursor:pointer;
+}
+
+.copy-btn:active{
+  transform:scale(0.95);
+}
+
+/* ===== QR ===== */
 .qr-box{
   width:100%;
-  margin-top:14px;
+  margin-top:10px;
   display:flex;
   flex-direction:column;
   align-items:center;
@@ -104,29 +123,28 @@ button{
 
 .qr-box img{
   width:100%;
-  max-width:280px;
+  max-width:240px;
   height:auto;
   display:block;
   margin:0 auto;
-  border-radius:14px;
+  border-radius:12px;
   background:#fff;
-  padding:10px;
+  padding:8px;
 }
 
 .transfer-content{
   width:100%;
-  max-width:320px;
   background:#eee;
-  padding:8px;
-  border-radius:8px;
+  padding:6px;
+  border-radius:6px;
   font-size:11px;
   word-break:break-word;
   text-align:center;
-  margin-top:8px;
+  margin-top:6px;
 }
 
 /* ===== CHECKBOX ===== */
-.confirm-box{margin-top:16px}
+.confirm-box{margin-top:14px}
 .confirm-box input{display:none}
 
 .confirm-box label{
@@ -152,14 +170,14 @@ button{
 /* ===== SUPPORT ===== */
 .support-buttons{
   position:fixed;
-  bottom:12px;
-  right:6px;
+  bottom:14px;
+  right:14px;
   z-index:9999;
 }
 
 .support-btn{
-  width:46px;
-  height:46px;
+  width:48px;
+  height:48px;
   border-radius:50%;
   margin-top:10px;
   display:flex;
@@ -184,7 +202,9 @@ button{
 </div>
 
 <div class="container">
-<form id="orderForm">
+<form id="orderForm"
+ action="https://formsubmit.co/chungthanh18072003@gmail.com"
+ method="POST">
 
 <select id="package" name="Goi_eSIM" onchange="updateQR()">
   <option data-price="150000">3 ngày – 1GB/ngày</option>
@@ -199,8 +219,18 @@ button{
 
 <div class="note">
   <h3>💳 Thanh toán QR MB Bank</h3>
-  <p><b>Số TK:</b> 1807200320033</p>
-  <p><b>Chủ TK:</b> DO THANH CHUNG</p>
+
+  <p>
+    <b>Số TK:</b>
+    <span id="stkText">1807200320033</span>
+    <button type="button" class="copy-btn" onclick="copyText('stkText')">📋 Sao chép</button>
+  </p>
+
+  <p>
+    <b>Chủ TK:</b>
+    <span id="ctkText">DO THANH CHUNG</span>
+    <button type="button" class="copy-btn" onclick="copyText('ctkText')">📋 Sao chép</button>
+  </p>
 
   <div class="qr-box">
     <img id="qrImage" alt="QR Thanh toán">
@@ -215,6 +245,9 @@ button{
     Tôi đã thanh toán và đồng ý điều khoản
   </label>
 </div>
+
+<input type="hidden" name="_subject" value="🔔 Đơn hàng eSIM Nhật">
+<input type="hidden" name="_captcha" value="false">
 
 <button type="button" onclick="submitOrder()">Đặt mua eSIM</button>
 </form>
@@ -254,24 +287,14 @@ function submitOrder(){
     alert("⚠️ Vui lòng xác nhận đã thanh toán");
     return;
   }
+  alert("✅ Đã ghi nhận đơn hàng! QR eSIM sẽ được gửi qua email.");
+  orderForm.submit();
+}
 
-  const formData = new FormData();
-  formData.append("Goi_eSIM", package.value);
-  formData.append("Email_khach", email.value);
-  formData.append("_subject", "🔔 Đơn hàng eSIM Nhật");
-  formData.append("_captcha", "false");
-
-  fetch("https://formsubmit.co/ajax/chungthanh18072003@gmail.com", {
-    method: "POST",
-    body: formData
-  })
-  .then(() => {
-    alert("✅ Đặt hàng thành công! QR eSIM sẽ được gửi qua email.");
-    document.getElementById("orderForm").reset();
-    updateQR();
-  })
-  .catch(() => {
-    alert("❌ Có lỗi xảy ra, vui lòng thử lại.");
+function copyText(id){
+  const text=document.getElementById(id).innerText;
+  navigator.clipboard.writeText(text).then(()=>{
+    alert("✅ Đã sao chép: " + text);
   });
 }
 </script>
