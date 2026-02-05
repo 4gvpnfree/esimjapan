@@ -37,7 +37,7 @@ header,.Header,#header,#Header1,.header,.header-wrapper{
 .banner h1{margin:0;font-size:26px}
 .banner p{margin-top:6px;font-size:15px;opacity:.95}
 
-/* ===== CONTAINER (FIX LỆCH DỌC) ===== */
+/* ===== CONTAINER ===== */
 .container{
   width:100%;
   max-width:600px;
@@ -88,27 +88,40 @@ button{
   font-size:15px;
 }
 
-.note p{
-  margin:4px 0;
+/* ===== NÚT COPY GIỐNG ẢNH ===== */
+.pay-block{margin-bottom:12px}
+.pay-row{
   font-size:13px;
+  margin-bottom:6px;
 }
 
-/* ===== QR FIX TUYỆT ĐỐI ===== */
+.copy-btn{
+  width:100%;
+  background:#ff7043;
+  color:#fff;
+  border:none;
+  padding:10px;
+  border-radius:10px;
+  font-size:14px;
+  font-weight:bold;
+  cursor:pointer;
+}
+.copy-btn:active{
+  transform:scale(0.97);
+}
+
+/* ===== QR ===== */
 .qr-box{
   width:100%;
   margin-top:10px;
   display:flex;
   flex-direction:column;
   align-items:center;
-  justify-content:center;
 }
 
 .qr-box img{
   width:100%;
   max-width:240px;
-  height:auto;
-  display:block;
-  margin:0 auto;
   border-radius:12px;
   background:#fff;
   padding:8px;
@@ -120,7 +133,6 @@ button{
   padding:6px;
   border-radius:6px;
   font-size:11px;
-  word-break:break-word;
   text-align:center;
   margin-top:6px;
 }
@@ -148,43 +160,6 @@ button{
 }
 
 .confirm-box i{font-size:22px}
-
-/* ===== SUPPORT ===== */
-.support-buttons{
-  position:fixed;
-  bottom:14px;
-  right:14px;
-  z-index:9999;
-}
-
-.support-btn{
-  width:48px;
-  height:48px;
-  border-radius:50%;
-  margin-top:10px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  color:#fff;
-  font-size:20px;
-
-
-text-decoration:none;
-box-shadow:0 6px 15px rgba(0,0,0,.35);
-}
-
-.support-zalo{background:#0068ff}
-.support-messenger{background:linear-gradient(135deg,#00c6ff,#0072ff)}
-
-/* ===== MOBILE PORTRAIT ===== */
-@media (max-width:480px){
-  .banner h1{font-size:22px}
-  .banner p{font-size:14px}
-  .container{
-    margin-left:auto;
-    margin-right:auto;
-  }
-}
 </style>
 </head>
 
@@ -209,17 +184,35 @@ box-shadow:0 6px 15px rgba(0,0,0,.35);
 
 <div class="price" id="priceText">Giá: 150.000đ</div>
 
-<input type="email" id="email" name="Email_khach" placeholder="Nhập email nhận eSIM" required>
+<input type="email" id="email" name="Email_khach"
+ placeholder="Nhập email nhận eSIM"
+ required oninput="updateQR()">
 
 <div class="note">
   <h3>💳 Thanh toán QR MB Bank</h3>
-  <p><b>Số TK:</b> 1807200320033</p>
-  <p><b>Chủ TK:</b> DO THANH CHUNG</p>
+
+  <div class="pay-block">
+    <div class="pay-row"><b>Số TK:</b> <span id="stkText">1807200320033</span></div>
+    <button type="button" class="copy-btn" onclick="copyText('stkText')">
+      Sao chép số TK
+    </button>
+  </div>
+
+  <div class="pay-block">
+    <div class="pay-row"><b>Chủ TK:</b> <span id="ctkText">DO THANH CHUNG</span></div>
+    <button type="button" class="copy-btn" onclick="copyText('ctkText')">
+      Sao chép chủ TK
+    </button>
+  </div>
 
   <div class="qr-box">
     <img id="qrImage" alt="QR Thanh toán">
     <div class="transfer-content" id="transferText"></div>
   </div>
+
+  <button type="button" class="copy-btn" onclick="copyText('transferText')">
+    Sao chép nội dung chuyển khoản
+  </button>
 </div>
 
 <div class="confirm-box">
@@ -237,15 +230,6 @@ box-shadow:0 6px 15px rgba(0,0,0,.35);
 </form>
 </div>
 
-<div class="support-buttons">
-  <a href="https://zalo.me/0858712745" class="support-btn support-zalo" target="_blank">
-    <i class="fa-solid fa-comment-dots"></i>
-  </a>
-  <a href="https://m.me/100083581842218" class="support-btn support-messenger" target="_blank">
-    <i class="fa-brands fa-facebook-messenger"></i>
-  </a>
-</div>
-
 <script>
 const ACCOUNT="1807200320033";
 const emailInput=document.getElementById("email");
@@ -253,28 +237,33 @@ const emailInput=document.getElementById("email");
 function updateQR(){
   const pkg=document.getElementById("package");
   const price=pkg.options[pkg.selectedIndex].dataset.price;
-  const email=emailInput.value||"EMAIL";
-  const content=`ESIM JAPAN - ${price} - ${email}`;
+  const email=emailInput.value || "CHUA_CO_EMAIL";
+
+  const content = `ESIM JAPAN - ${price} - ${email}`;
 
   document.getElementById("priceText").innerText =
-    "Giá: "+Number(price).toLocaleString("vi-VN")+"đ";
+    "Giá: " + Number(price).toLocaleString("vi-VN") + "đ";
 
   document.getElementById("transferText").innerText = content;
 
-  /* QR TRẦN – KHÔNG LOGO */
   document.getElementById("qrImage").src =
     `https://img.vietqr.io/image/MB-${ACCOUNT}-qr_only.png?amount=${price}&addInfo=${encodeURIComponent(content)}`;
 }
-updateQR();
+
+function copyText(id){
+  navigator.clipboard.writeText(document.getElementById(id).innerText);
+}
 
 function submitOrder(){
   if(!paidCheck.checked){
     alert("⚠️ Vui lòng xác nhận đã thanh toán");
-return;
+    return;
   }
   alert("✅ Đã ghi nhận đơn hàng! QR eSIM sẽ được gửi qua email.");
   orderForm.submit();
 }
+
+updateQR();
 </script>
 
 </body>
