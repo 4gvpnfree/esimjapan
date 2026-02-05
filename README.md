@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="vi">
 <head>
 <meta charset="UTF-8">
@@ -7,9 +8,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 <style>
-*,
-*::before,
-*::after{box-sizing:border-box}
+*{box-sizing:border-box}
 
 html,body{
   margin:0;
@@ -27,18 +26,16 @@ header,.Header,#header,#Header1,.header,.header-wrapper{
 
 /* ===== BANNER ===== */
 .banner{
-  width:100%;
   background:linear-gradient(135deg,#d32f2f,#ff7043);
   color:#fff;
   padding:26px 16px 40px;
   text-align:center;
 }
 .banner h1{margin:0;font-size:26px}
-.banner p{margin-top:6px;font-size:15px;opacity:.95}
+.banner p{margin-top:6px;font-size:15px}
 
 /* ===== CONTAINER ===== */
 .container{
-  width:100%;
   max-width:600px;
   margin:0 auto 28px;
   background:#fff;
@@ -47,7 +44,6 @@ header,.Header,#header,#Header1,.header,.header-wrapper{
   box-shadow:0 10px 25px rgba(0,0,0,.12);
 }
 
-/* ===== FORM ===== */
 select,input,button{
   width:100%;
   padding:12px;
@@ -72,7 +68,7 @@ button{
   margin-top:10px;
 }
 
-/* ===== THANH TOÁN (ĐÃ CĂN GIỮA CHUẨN) ===== */
+/* ===== THANH TOÁN ===== */
 .note{
   background:#fff7d6;
   padding:16px;
@@ -82,23 +78,17 @@ button{
 }
 
 .note h3{
-  margin:0 0 14px;
-  font-size:16px;
   text-align:center;
-}
-
-/* ===== COPY BLOCK ===== */
-.pay-block{
-  width:100%;
   margin-bottom:14px;
 }
+
+.pay-block{margin-bottom:14px}
 
 .pay-row{
   font-size:14px;
   margin-bottom:6px;
 }
 
-/* ===== NÚT COPY ===== */
 .copy-btn{
   width:100%;
   background:#ff7043;
@@ -108,34 +98,28 @@ button{
   border-radius:10px;
   font-size:14px;
   font-weight:bold;
-  cursor:pointer;
 }
-.copy-btn:active{transform:scale(0.97)}
 
-/* ===== QR (KHÔNG LỆCH) ===== */
 .qr-box{
-  margin:16px auto 12px;
   background:#fff;
   padding:14px;
   border-radius:16px;
-  width:100%;
+  margin:14px auto;
   display:flex;
   flex-direction:column;
   align-items:center;
 }
 
 .qr-box img{
-  width:100%;
   max-width:220px;
-  display:block;
+  width:100%;
 }
 
 .transfer-content{
-  margin-top:10px;
-  width:100%;
   background:#f1f1f1;
   padding:8px;
   border-radius:8px;
+  margin-top:10px;
   font-size:12px;
   text-align:center;
 }
@@ -153,7 +137,6 @@ button{
   border-radius:12px;
   cursor:pointer;
   font-weight:bold;
-  color:#555;
 }
 
 .confirm-box input:checked+label{
@@ -162,7 +145,30 @@ button{
   color:#2e7d32;
 }
 
-.confirm-box i{font-size:22px}
+/* ===== NÚT HỖ TRỢ NỔI ===== */
+.support-buttons{
+  position:fixed;
+  bottom:16px;
+  right:16px;
+  z-index:9999;
+}
+
+.support-btn{
+  width:48px;
+  height:48px;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:#fff;
+  font-size:22px;
+  margin-top:10px;
+  text-decoration:none;
+  box-shadow:0 6px 15px rgba(0,0,0,.35);
+}
+
+.support-zalo{background:#0068ff}
+.support-messenger{background:linear-gradient(135deg,#00c6ff,#0072ff)}
 </style>
 </head>
 
@@ -174,11 +180,9 @@ button{
 </div>
 
 <div class="container">
-<form id="orderForm"
- action="https://formsubmit.co/chungthanh18072003@gmail.com"
- method="POST">
+<form id="orderForm" onsubmit="return false">
 
-<select id="package" name="Goi_eSIM" onchange="updateQR()">
+<select id="package" onchange="updateQR()">
   <option data-price="150000">3 ngày – 1GB/ngày</option>
   <option data-price="230000">5 ngày – 2GB/ngày</option>
   <option data-price="320000">7 ngày – 5GB</option>
@@ -187,9 +191,7 @@ button{
 
 <div class="price" id="priceText">Giá: 150.000đ</div>
 
-<input type="email" id="email" name="Email_khach"
- placeholder="Nhập email nhận eSIM"
- required oninput="updateQR()">
+<input type="email" id="email" placeholder="Nhập email nhận eSIM" required oninput="updateQR()">
 
 <div class="note">
   <h3>💳 Thanh toán QR MB Bank</h3>
@@ -205,7 +207,7 @@ button{
   </div>
 
   <div class="qr-box">
-    <img id="qrImage" alt="QR Thanh toán">
+    <img id="qrImage">
     <div class="transfer-content" id="transferText"></div>
   </div>
 
@@ -226,24 +228,30 @@ button{
   </label>
 </div>
 
-<input type="hidden" name="_subject" value="🔔 Đơn hàng eSIM Nhật">
-<input type="hidden" name="_captcha" value="false">
-<input type="hidden" name="_next" value="">
-
 <button type="button" onclick="submitOrder()">Đặt mua eSIM</button>
 </form>
 </div>
 
+<!-- ===== NÚT HỖ TRỢ ===== -->
+<div class="support-buttons">
+  <a href="https://zalo.me/0858712745" class="support-btn support-zalo" target="_blank">
+    <i class="fa-solid fa-comment-dots"></i>
+  </a>
+  <a href="https://www.facebook.com/profile.php?id=100083581842218"
+     class="support-btn support-messenger" target="_blank">
+    <i class="fa-brands fa-facebook-messenger"></i>
+  </a>
+</div>
+
 <script>
 const ACCOUNT="1807200320033";
-const emailInput=document.getElementById("email");
 
 function updateQR(){
   const pkg=document.getElementById("package");
   const price=pkg.options[pkg.selectedIndex].dataset.price;
-  const email=emailInput.value || "CHUA_CO_EMAIL";
+  const email=document.getElementById("email").value || "CHUA_CO_EMAIL";
 
-  const content = `ESIM JAPAN | ${price} | ${email}`;
+  const content=`ESIM JAPAN | ${price} | ${email}`;
 
   document.getElementById("priceText").innerText =
     "Giá: " + Number(price).toLocaleString("vi-VN") + "đ";
@@ -264,7 +272,6 @@ function submitOrder(){
     return;
   }
   alert("✅ Đã ghi nhận đơn hàng! QR eSIM sẽ được gửi qua email.");
-  orderForm.submit();
 }
 
 updateQR();
