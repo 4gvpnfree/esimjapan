@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="vi">
 <head>
 <meta charset="UTF-8">
@@ -92,7 +93,7 @@ button{
   font-size:13px;
 }
 
-/* ===== QR FIX TRUNG TÂM TUYỆT ĐỐI ===== */
+/* ===== QR CENTER ===== */
 .qr-box{
   width:100%;
   margin-top:14px;
@@ -173,21 +174,6 @@ button{
 
 .support-zalo{background:#0068ff}
 .support-messenger{background:linear-gradient(135deg,#00c6ff,#0072ff)}
-
-/* ===== MOBILE ===== */
-@media (max-width:480px){
-  .banner h1{font-size:22px}
-  .banner p{font-size:14px}
-
-  .container{
-    margin-left:auto;
-    margin-right:auto;
-  }
-
-  .note{
-    padding-right:20px;
-  }
-}
 </style>
 </head>
 
@@ -199,9 +185,7 @@ button{
 </div>
 
 <div class="container">
-<form id="orderForm"
- action="https://formsubmit.co/chungthanh18072003@gmail.com"
- method="POST">
+<form id="orderForm">
 
 <select id="package" name="Goi_eSIM" onchange="updateQR()">
   <option data-price="150000">3 ngày – 1GB/ngày</option>
@@ -232,9 +216,6 @@ button{
     Tôi đã thanh toán và đồng ý điều khoản
   </label>
 </div>
-
-<input type="hidden" name="_subject" value="🔔 Đơn hàng eSIM Nhật">
-<input type="hidden" name="_captcha" value="false">
 
 <button type="button" onclick="submitOrder()">Đặt mua eSIM</button>
 </form>
@@ -274,8 +255,25 @@ function submitOrder(){
     alert("⚠️ Vui lòng xác nhận đã thanh toán");
     return;
   }
-  alert("✅ Đã ghi nhận đơn hàng! QR eSIM sẽ được gửi qua email.");
-  orderForm.submit();
+
+  const formData = new FormData();
+  formData.append("Goi_eSIM", package.value);
+  formData.append("Email_khach", email.value);
+  formData.append("_subject", "🔔 Đơn hàng eSIM Nhật");
+  formData.append("_captcha", "false");
+
+  fetch("https://formsubmit.co/ajax/chungthanh18072003@gmail.com", {
+    method: "POST",
+    body: formData
+  })
+  .then(() => {
+    alert("✅ Đặt hàng thành công! QR eSIM sẽ được gửi qua email.");
+    document.getElementById("orderForm").reset();
+    updateQR();
+  })
+  .catch(() => {
+    alert("❌ Có lỗi xảy ra, vui lòng thử lại.");
+  });
 }
 </script>
 
