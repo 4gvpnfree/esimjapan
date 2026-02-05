@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="vi">
 <head>
 <meta charset="UTF-8">
@@ -7,197 +8,163 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 <style>
-/* ===== FIX TRÀN & LỆCH MOBILE ===== */
-* {
-  box-sizing: border-box;
+*{box-sizing:border-box}
+
+html,body{
+  margin:0;
+  padding:0;
+  width:100%;
+  overflow-x:hidden;
+  font-family:Arial,sans-serif;
+  background:linear-gradient(180deg,#f0f6ff,#f9f9f9);
 }
 
-html, body {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-  font-family: Arial, sans-serif;
-  background: linear-gradient(180deg,#f0f6ff,#f9f9f9);
-}
-
-/* ===== ẨN HEADER BLOGGER ===== */
-header,
-.Header,
-#header,
-#Header1,
-.header,
-.header-wrapper {
-  display: none !important;
-  height: 0 !important;
-  margin: 0 !important;
-  padding: 0 !important;
+/* ẨN HEADER BLOGGER */
+header,.Header,#header,#Header1,.header,.header-wrapper{
+  display:none!important;
 }
 
 /* ===== BANNER ===== */
 .banner{
-  background: linear-gradient(135deg,#d32f2f,#ff7043);
-  color: #fff;
-  padding: 28px 16px 40px;
-  text-align: center;
+  background:linear-gradient(135deg,#d32f2f,#ff7043);
+  color:#fff;
+  padding:26px 16px 44px;
+  text-align:center;
 }
-
-.banner h1{
-  margin: 0;
-  font-size: 26px;
-}
-
-.banner p{
-  margin-top: 8px;
-  font-size: 15px;
-  opacity: .95;
-}
+.banner h1{margin:0;font-size:26px}
+.banner p{margin-top:6px;font-size:15px;opacity:.95}
 
 /* ===== CONTAINER ===== */
 .container{
-  max-width: 600px;
-  margin: -24px auto 30px;
-  background: #fff;
-  padding: 20px;
-  border-radius: 16px;
-  box-shadow: 0 10px 25px rgba(0,0,0,.12);
+  max-width:600px;
+  margin:14px auto 28px;
+  background:#fff;
+  padding:18px;
+  border-radius:16px;
+  box-shadow:0 10px 25px rgba(0,0,0,.12);
 }
 
 /* ===== FORM ===== */
 select,input,button{
-  width: 100%;
-  padding: 12px;
-  margin-top: 12px;
-  font-size: 16px;
+  width:100%;
+  padding:12px;
+  margin-top:12px;
+  font-size:16px;
 }
 
 button{
-  background: linear-gradient(135deg,#e53935,#ff7043);
-  color: #fff;
-  border: none;
-  border-radius: 10px;
-  font-weight: bold;
-  cursor: pointer;
+  background:linear-gradient(135deg,#e53935,#ff7043);
+  color:#fff;
+  border:none;
+  border-radius:10px;
+  font-weight:bold;
+  cursor:pointer;
 }
 
 .price{
-  text-align: center;
-  font-size: 20px;
-  font-weight: bold;
-  color: #e53935;
-  margin-top: 12px;
+  text-align:center;
+  font-size:19px;
+  font-weight:bold;
+  color:#e53935;
+  margin-top:10px;
 }
 
-/* ===== THANH TOÁN ===== */
+/* ===== THANH TOÁN (ĐÃ THU GỌN) ===== */
 .note{
-  background: #fff7d6;
-  padding: 16px;
-  border-radius: 14px;
-  margin-top: 16px;
-  font-size: 14px;
+  background:#fff7d6;
+  padding:10px;
+  border-radius:12px;
+  margin-top:14px;
+  font-size:13px;
+}
+
+.note h3{
+  margin:0 0 6px;
+  font-size:15px;
+}
+
+.note p{
+  margin:4px 0;
+  font-size:13px;
 }
 
 .qr-box{
-  text-align: center;
-  margin-top: 12px;
+  text-align:center;
+  margin-top:6px;
 }
 
 .qr-box img{
-  width: 100%;
-  max-width: 240px;
-  margin: 10px auto;
-  display: block;
-  border-radius: 12px;
-  background: #fff;
-  padding: 8px;
+  width:100%;
+  max-width:180px;
+  margin:6px auto;
+  display:block;
+  border-radius:10px;
+  background:#fff;
+  padding:6px;
 }
 
 .transfer-content{
-  background: #eee;
-  padding: 8px;
-  border-radius: 6px;
-  font-size: 12px;
-  word-break: break-word;
+  background:#eee;
+  padding:6px;
+  border-radius:6px;
+  font-size:11px;
+  word-break:break-word;
 }
 
 /* ===== CHECKBOX ===== */
-.confirm-box{
-  margin-top: 15px;
-}
-
-.confirm-box input{
-  display: none;
-}
+.confirm-box{margin-top:14px}
+.confirm-box input{display:none}
 
 .confirm-box label{
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 12px;
-  border: 2px dashed #ccc;
-  border-radius: 12px;
-  cursor: pointer;
-  font-weight: bold;
-  color: #555;
+  display:flex;
+  align-items:center;
+  gap:10px;
+  padding:12px;
+  border:2px dashed #ccc;
+  border-radius:12px;
+  cursor:pointer;
+  font-weight:bold;
+  color:#555;
 }
 
-.confirm-box input:checked + label{
-  border-color: #4caf50;
-  background: #e8f5e9;
-  color: #2e7d32;
+.confirm-box input:checked+label{
+  border-color:#4caf50;
+  background:#e8f5e9;
+  color:#2e7d32;
 }
 
-.confirm-box i{
-  font-size: 22px;
-}
+.confirm-box i{font-size:22px}
 
-/* ===== SUPPORT BUTTONS ===== */
+/* ===== SUPPORT ===== */
 .support-buttons{
-  position: fixed;
-  bottom: 14px;
-  right: 14px;
-  z-index: 9999;
+  position:fixed;
+  bottom:14px;
+  right:14px;
+  z-index:9999;
 }
 
 .support-btn{
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  margin-top: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  font-size: 22px;
-  text-decoration: none;
-  box-shadow: 0 6px 15px rgba(0,0,0,.35);
-  animation: pulse 1.8s infinite;
+  width:48px;
+  height:48px;
+  border-radius:50%;
+  margin-top:10px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:#fff;
+  font-size:20px;
+  text-decoration:none;
+  box-shadow:0 6px 15px rgba(0,0,0,.35);
 }
 
 .support-zalo{background:#0068ff}
 .support-messenger{background:linear-gradient(135deg,#00c6ff,#0072ff)}
 
-@keyframes pulse{
-  0%{box-shadow:0 0 0 0 rgba(0,136,255,.6)}
-  70%{box-shadow:0 0 0 15px rgba(0,136,255,0)}
-  100%{box-shadow:0 0 0 0 rgba(0,136,255,0)}
-}
-
-/* ===== MOBILE TỐI ƯU ===== */
-@media (max-width: 480px) {
+/* ===== MOBILE ===== */
+@media (max-width:480px){
   .banner h1{font-size:22px}
   .banner p{font-size:14px}
-
-  .container{
-    margin: -20px 10px 30px;
-    padding: 16px;
-  }
-
-  .support-btn{
-    width: 46px;
-    height: 46px;
-    font-size: 20px;
-  }
+  .container{margin:12px 10px 26px;padding:16px}
 }
 </style>
 </head>
@@ -226,15 +193,14 @@ button{
 <input type="email" id="email" name="Email_khach" placeholder="Nhập email nhận eSIM" required>
 
 <div class="note">
-<h3>💳 Thanh toán QR MB Bank</h3>
-<p><b>Số TK:</b> 1807200320033</p>
-<p><b>Chủ TK:</b> DO THANH CHUNG</p>
+  <h3>💳 Thanh toán QR MB Bank</h3>
+  <p><b>Số TK:</b> 1807200320033</p>
+  <p><b>Chủ TK:</b> DO THANH CHUNG</p>
 
-<div class="qr-box">
-  <img id="qrImage">
-  <p><b>Nội dung chuyển khoản:</b></p>
-  <div class="transfer-content" id="transferText"></div>
-</div>
+  <div class="qr-box">
+    <img id="qrImage">
+    <div class="transfer-content" id="transferText"></div>
+  </div>
 </div>
 
 <div class="confirm-box">
@@ -275,10 +241,11 @@ function updateQR(){
   document.getElementById("priceText").innerText =
     "Giá: "+Number(price).toLocaleString("vi-VN")+"đ";
 
-  document.getElementById("transferText").innerText = content;
-  document.getElementById("qrImage").src =
+  document.getElementById("transferText").innerText=content;
+  document.getElementById("qrImage").src=
    `https://img.vietqr.io/image/MB-${ACCOUNT}-compact2.png?amount=${price}&addInfo=${encodeURIComponent(content)}&accountName=${encodeURIComponent(NAME)}`;
 }
+updateQR();
 
 function submitOrder(){
   if(!paidCheck.checked){
@@ -288,8 +255,6 @@ function submitOrder(){
   alert("✅ Đã ghi nhận đơn hàng! QR eSIM sẽ được gửi qua email.");
   orderForm.submit();
 }
-
-updateQR();
 </script>
 
 </body>
