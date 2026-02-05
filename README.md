@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="vi">
 <head>
 <meta charset="UTF-8">
@@ -97,21 +98,29 @@ button{
   border-radius:10px;
   font-size:14px;
   font-weight:bold;
+  cursor:pointer;
 }
 
+/* ===== QR FIX CHUẨN – KHÔNG LỆCH ===== */
 .qr-box{
   background:#fff;
-  padding:14px;
+  padding:14px 12px;
   border-radius:16px;
-  margin:14px auto;
+  margin:16px auto;
+  width:100%;
+  max-width:260px;   /* 🔥 KHÓA NGANG */
   display:flex;
   flex-direction:column;
   align-items:center;
+  justify-content:center;
 }
 
 .qr-box img{
-  max-width:220px;
   width:100%;
+  max-width:220px;
+  height:auto;
+  display:block;
+  margin:0 auto;
 }
 
 .transfer-content{
@@ -121,6 +130,7 @@ button{
   margin-top:10px;
   font-size:12px;
   text-align:center;
+  width:100%;
 }
 
 /* ===== CHECKBOX ===== */
@@ -144,7 +154,7 @@ button{
   color:#2e7d32;
 }
 
-/* ===== NÚT HỖ TRỢ NỔI ===== */
+/* ===== NÚT HỖ TRỢ ===== */
 .support-buttons{
   position:fixed;
   bottom:16px;
@@ -206,7 +216,7 @@ button{
   </div>
 
   <div class="qr-box">
-    <img id="qrImage">
+    <img id="qrImage" alt="QR Thanh toán">
     <div class="transfer-content" id="transferText"></div>
   </div>
 
@@ -231,7 +241,7 @@ button{
 </form>
 </div>
 
-<!-- ===== NÚT HỖ TRỢ ===== -->
+<!-- ===== HỖ TRỢ ===== -->
 <div class="support-buttons">
   <a href="https://zalo.me/0858712745" class="support-btn support-zalo" target="_blank">
     <i class="fa-solid fa-comment-dots"></i>
