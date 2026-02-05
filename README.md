@@ -69,10 +69,10 @@ button{
   margin-top:10px;
 }
 
-/* ===== THANH TOÁN (QR NHỎ VỪA MOBILE) ===== */
+/* ===== THANH TOÁN ===== */
 .note{
   background:#fff7d6;
-  padding:10px;
+  padding:12px;
   border-radius:12px;
   margin-top:14px;
   font-size:13px;
@@ -88,28 +88,35 @@ button{
   font-size:13px;
 }
 
+/* QR */
 .qr-box{
-  text-align:center;
-  margin-top:6px;
+  width:100%;
+  margin-top:10px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
 }
 
-/* 👇 CHỖ SỬA QUAN TRỌNG */
 .qr-box img{
-  width:150px;        /* QR NHỎ GỌN */
-  max-width:150px;
-  margin:6px auto;
+  width:75vw;        /* TO VỪA MÀN MOBILE */
+  max-width:260px;
+  min-width:220px;
+  height:auto;
   display:block;
-  border-radius:10px;
+  border-radius:12px;
   background:#fff;
-  padding:6px;
+  padding:8px;
 }
 
 .transfer-content{
+  width:100%;
   background:#eee;
   padding:6px;
   border-radius:6px;
   font-size:11px;
   word-break:break-word;
+  text-align:center;
+  margin-top:6px;
 }
 
 /* ===== CHECKBOX ===== */
@@ -166,12 +173,6 @@ button{
   .banner h1{font-size:22px}
   .banner p{font-size:14px}
   .container{margin:12px 10px 26px;padding:16px}
-
-  /* QR nhỏ thêm chút trên mobile nhỏ */
-  .qr-box img{
-    width:140px;
-    max-width:140px;
-  }
 }
 </style>
 </head>
