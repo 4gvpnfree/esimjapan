@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="vi">
 <head>
 <meta charset="UTF-8">
@@ -25,6 +26,7 @@ header,.Header,#header,#Header1,.header,.header-wrapper{
   display:none!important;
 }
 
+/* ===== BANNER ===== */
 .banner{
   width:100%;
   background:linear-gradient(135deg,#d32f2f,#ff7043);
@@ -35,6 +37,7 @@ header,.Header,#header,#Header1,.header,.header-wrapper{
 .banner h1{margin:0;font-size:26px}
 .banner p{margin-top:6px;font-size:15px;opacity:.95}
 
+/* ===== CONTAINER (FIX LỆCH DỌC) ===== */
 .container{
   width:100%;
   max-width:600px;
@@ -45,6 +48,7 @@ header,.Header,#header,#Header1,.header,.header-wrapper{
   box-shadow:0 10px 25px rgba(0,0,0,.12);
 }
 
+/* ===== FORM ===== */
 select,input,button{
   width:100%;
   padding:12px;
@@ -69,6 +73,7 @@ button{
   margin-top:10px;
 }
 
+/* ===== THANH TOÁN ===== */
 .note{
   width:100%;
   background:#fff7d6;
@@ -78,30 +83,32 @@ button{
   font-size:13px;
 }
 
-.note h3{margin:0 0 6px;font-size:15px}
-.note p{margin:6px 0;font-size:13px}
+.note h3{
+  margin:0 0 6px;
+  font-size:15px;
+}
 
-.copy-btn{
-  margin-left:6px;
-  border:none;
-  background:#eee;
-  border-radius:6px;
-  padding:4px 6px;
-  cursor:pointer;
+.note p{
+  margin:4px 0;
   font-size:13px;
 }
 
+/* ===== QR FIX TUYỆT ĐỐI ===== */
 .qr-box{
   width:100%;
   margin-top:10px;
   display:flex;
   flex-direction:column;
   align-items:center;
+  justify-content:center;
 }
 
 .qr-box img{
   width:100%;
   max-width:240px;
+  height:auto;
+  display:block;
+  margin:0 auto;
   border-radius:12px;
   background:#fff;
   padding:8px;
@@ -118,8 +125,10 @@ button{
   margin-top:6px;
 }
 
+/* ===== CHECKBOX ===== */
 .confirm-box{margin-top:14px}
 .confirm-box input{display:none}
+
 .confirm-box label{
   display:flex;
   align-items:center;
@@ -131,12 +140,51 @@ button{
   font-weight:bold;
   color:#555;
 }
+
 .confirm-box input:checked+label{
   border-color:#4caf50;
   background:#e8f5e9;
   color:#2e7d32;
 }
+
 .confirm-box i{font-size:22px}
+
+/* ===== SUPPORT ===== */
+.support-buttons{
+  position:fixed;
+  bottom:14px;
+  right:14px;
+  z-index:9999;
+}
+
+.support-btn{
+  width:48px;
+  height:48px;
+  border-radius:50%;
+  margin-top:10px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:#fff;
+  font-size:20px;
+
+
+text-decoration:none;
+box-shadow:0 6px 15px rgba(0,0,0,.35);
+}
+
+.support-zalo{background:#0068ff}
+.support-messenger{background:linear-gradient(135deg,#00c6ff,#0072ff)}
+
+/* ===== MOBILE PORTRAIT ===== */
+@media (max-width:480px){
+  .banner h1{font-size:22px}
+  .banner p{font-size:14px}
+  .container{
+    margin-left:auto;
+    margin-right:auto;
+  }
+}
 </style>
 </head>
 
@@ -152,7 +200,7 @@ button{
  action="https://formsubmit.co/chungthanh18072003@gmail.com"
  method="POST">
 
-<select id="package" name="Goi_eSIM">
+<select id="package" name="Goi_eSIM" onchange="updateQR()">
   <option data-price="150000">3 ngày – 1GB/ngày</option>
   <option data-price="230000">5 ngày – 2GB/ngày</option>
   <option data-price="320000">7 ngày – 5GB</option>
@@ -165,25 +213,13 @@ button{
 
 <div class="note">
   <h3>💳 Thanh toán QR MB Bank</h3>
-
-  <p>
-    <b>Số TK:</b> <span id="stk">1807200320033</span>
-    <button type="button" class="copy-btn" onclick="copyText('stk', this)">📋</button>
-  </p>
-
-  <p>
-    <b>Chủ TK:</b> <span id="ctk">DO THANH CHUNG</span>
-    <button type="button" class="copy-btn" onclick="copyText('ctk', this)">📋</button>
-  </p>
+  <p><b>Số TK:</b> 1807200320033</p>
+  <p><b>Chủ TK:</b> DO THANH CHUNG</p>
 
   <div class="qr-box">
     <img id="qrImage" alt="QR Thanh toán">
     <div class="transfer-content" id="transferText"></div>
   </div>
-
-  <p style="margin-top:6px;color:#c62828;font-weight:bold">
-    ⚠️ Vui lòng điền ĐÚNG nội dung chuyển khoản
-  </p>
 </div>
 
 <div class="confirm-box">
@@ -196,69 +232,49 @@ button{
 
 <input type="hidden" name="_subject" value="🔔 Đơn hàng eSIM Nhật">
 <input type="hidden" name="_captcha" value="false">
-<input type="hidden" name="Noi_dung_chuyen_khoan" id="transferInput">
 
-<button type="submit">Đặt mua eSIM</button>
+<button type="button" onclick="submitOrder()">Đặt mua eSIM</button>
 </form>
+</div>
+
+<div class="support-buttons">
+  <a href="https://zalo.me/0858712745" class="support-btn support-zalo" target="_blank">
+    <i class="fa-solid fa-comment-dots"></i>
+  </a>
+  <a href="https://m.me/100083581842218" class="support-btn support-messenger" target="_blank">
+    <i class="fa-brands fa-facebook-messenger"></i>
+  </a>
 </div>
 
 <script>
 const ACCOUNT="1807200320033";
 const emailInput=document.getElementById("email");
-const pkg=document.getElementById("package");
-const transferInput=document.getElementById("transferInput");
-const form=document.getElementById("orderForm");
-const paidCheck=document.getElementById("paidCheck");
 
 function updateQR(){
+  const pkg=document.getElementById("package");
   const price=pkg.options[pkg.selectedIndex].dataset.price;
-  const email=emailInput.value || "EMAIL";
-  const content=`ESIM JAPAN | ${price} | ${email}`;
+  const email=emailInput.value||"EMAIL";
+  const content=`ESIM JAPAN - ${price} - ${email}`;
 
   document.getElementById("priceText").innerText =
     "Giá: "+Number(price).toLocaleString("vi-VN")+"đ";
 
   document.getElementById("transferText").innerText = content;
-  transferInput.value = content;
 
+  /* QR TRẦN – KHÔNG LOGO */
   document.getElementById("qrImage").src =
     `https://img.vietqr.io/image/MB-${ACCOUNT}-qr_only.png?amount=${price}&addInfo=${encodeURIComponent(content)}`;
 }
-
-pkg.addEventListener("change",updateQR);
-emailInput.addEventListener("input",updateQR);
 updateQR();
 
-/* COPY CHUẨN – KHÔNG LỖI IOS / BLOGGER */
-function copyText(id, btn){
-  const text=document.getElementById(id).innerText.trim();
-
-  if (navigator.clipboard && window.isSecureContext) {
-    navigator.clipboard.writeText(text).then(()=>{
-      btn.innerText="✅";
-      setTimeout(()=>btn.innerText="📋",1000);
-    });
-  } else {
-    const t=document.createElement("textarea");
-    t.value=text;
-    t.style.position="fixed";
-    t.style.left="-9999px";
-    document.body.appendChild(t);
-    t.select();
-    document.execCommand("copy");
-    document.body.removeChild(t);
-    btn.innerText="✅";
-    setTimeout(()=>btn.innerText="📋",1000);
-  }
-}
-
-/* KIỂM TRA THANH TOÁN TRƯỚC KHI SUBMIT */
-form.addEventListener("submit",function(e){
+function submitOrder(){
   if(!paidCheck.checked){
-    e.preventDefault();
     alert("⚠️ Vui lòng xác nhận đã thanh toán");
+return;
   }
-});
+  alert("✅ Đã ghi nhận đơn hàng! QR eSIM sẽ được gửi qua email.");
+  orderForm.submit();
+}
 </script>
 
 </body>
