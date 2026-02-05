@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="vi">
 <head>
 <meta charset="UTF-8">
@@ -14,18 +13,14 @@ body{
   margin:0;
   font-family:Arial,sans-serif;
   background:linear-gradient(180deg,#f0f6ff,#f9f9f9);
-}
-
-/* ẨN HEADER BLOGGER */
-header,.Header,#header,#Header1,.header,.header-wrapper{
-  display:none!important;
+  overflow-x:hidden;
 }
 
 /* ===== BANNER ===== */
 .banner{
   background:linear-gradient(135deg,#d32f2f,#ff7043);
   color:#fff;
-  padding:28px 16px 40px;
+  padding:26px 16px 38px;
   text-align:center;
 }
 .banner h1{margin:0;font-size:26px}
@@ -34,11 +29,12 @@ header,.Header,#header,#Header1,.header,.header-wrapper{
 /* ===== CONTAINER ===== */
 .container{
   max-width:600px;
-  margin:0 auto 32px;
+  width:100%;
+  margin:0 auto 28px;
   padding:16px;
   background:#fff;
-  border-radius:18px;
-  box-shadow:0 12px 30px rgba(0,0,0,.12);
+  border-radius:16px;
+  box-shadow:0 10px 25px rgba(0,0,0,.12);
 }
 
 /* ===== FORM ===== */
@@ -53,13 +49,13 @@ button{
   background:linear-gradient(135deg,#e53935,#ff7043);
   color:#fff;
   border:none;
-  border-radius:12px;
+  border-radius:10px;
   font-weight:bold;
 }
 
 .price{
   text-align:center;
-  font-size:20px;
+  font-size:19px;
   font-weight:bold;
   color:#e53935;
   margin-top:10px;
@@ -84,13 +80,9 @@ button{
 }
 .trust-item i{font-size:18px}
 
-/* ===== PAYMENT WRAPPER (KHÓA LỆCH) ===== */
-.payment-wrapper{
-  width:100%;
-  margin-top:18px;
-}
-
+/* ===== THANH TOÁN (KHÔNG LỆCH MOBILE) ===== */
 .note{
+  margin-top:18px;
   background:#fff7d6;
   padding:16px;
   border-radius:16px;
@@ -98,15 +90,22 @@ button{
 }
 
 .note h3{
-  text-align:center;
   margin:0 0 14px;
   font-size:16px;
+  text-align:center;
 }
 
-/* ===== COPY ===== */
-.pay-block{margin-bottom:14px}
-.pay-row{font-size:14px;margin-bottom:6px}
+.pay-block{
+  width:100%;
+  margin-bottom:14px;
+}
 
+.pay-row{
+  font-size:14px;
+  margin-bottom:6px;
+}
+
+/* ===== COPY BUTTON ===== */
 .copy-btn{
   width:100%;
   background:#ff7043;
@@ -114,10 +113,11 @@ button{
   padding:11px;
   border:none;
   border-radius:10px;
+  font-size:14px;
   font-weight:bold;
 }
 
-/* ===== QR (CĂN GIỮA TUYỆT ĐỐI MOBILE) ===== */
+/* ===== QR ===== */
 .qr-box{
   width:100%;
   text-align:center;
@@ -136,6 +136,7 @@ button{
   padding:8px;
   border-radius:8px;
   font-size:12px;
+  word-break:break-word;
 }
 
 /* ===== CHECKBOX ===== */
@@ -149,6 +150,7 @@ button{
   border:2px dashed #ccc;
   border-radius:12px;
   font-weight:bold;
+  color:#555;
 }
 
 .confirm-box input:checked+label{
@@ -165,6 +167,7 @@ button{
   display:flex;
   flex-direction:column;
   gap:10px;
+  z-index:9999;
 }
 .support-btn{
   width:48px;
@@ -208,31 +211,33 @@ button{
   <div class="trust-item"><i class="fa-solid fa-headset"></i> Hỗ trợ 24/7</div>
 </div>
 
-<div class="payment-wrapper">
-  <div class="note">
-    <h3>💳 Thanh toán QR MB Bank</h3>
+<!-- PAYMENT -->
+<div class="note">
+  <h3>💳 Thanh toán QR MB Bank</h3>
 
-    <div class="pay-block">
-      <div class="pay-row"><b>Số TK:</b> 1807200320033</div>
-      <button type="button" class="copy-btn">Sao chép số TK</button>
-    </div>
-
-    <div class="qr-box">
-      <img id="qrImage">
-      <div class="transfer-content" id="transferText"></div>
-    </div>
-
-    <button type="button" class="copy-btn">Sao chép nội dung chuyển khoản</button>
-
-    <p style="text-align:center;font-size:12px;color:#c0392b;margin-top:8px">
-      ⚠️ Vui lòng điền đúng nội dung chuyển khoản
-    </p>
+  <div class="pay-block">
+    <div class="pay-row"><b>Số TK:</b> 1807200320033</div>
+    <div class="pay-row"><b>Chủ TK:</b> DO THANH CHUNG</div>
   </div>
+
+  <div class="qr-box">
+    <img id="qrImage">
+    <div class="transfer-content" id="transferText"></div>
+  </div>
+
+  <button type="button" class="copy-btn">
+    Sao chép nội dung chuyển khoản
+  </button>
+
+  <p style="text-align:center;font-size:12px;color:#c0392b;margin-top:8px">
+    ⚠️ Vui lòng điền đúng nội dung chuyển khoản để được xử lý nhanh
+  </p>
 </div>
 
 </form>
 </div>
 
+<!-- SUPPORT -->
 <div class="support-buttons">
   <a href="https://zalo.me/0858712745" class="support-btn support-zalo" target="_blank">
     <i class="fa-solid fa-comment"></i>
