@@ -3,12 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <title>eSIM Nhật Bản – Internet du lịch</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 <style>
-*{box-sizing:border-box}
+*,
+*::before,
+*::after{box-sizing:border-box}
 
 html,body{
   margin:0;
@@ -26,20 +28,22 @@ header,.Header,#header,#Header1,.header,.header-wrapper{
 
 /* ===== BANNER ===== */
 .banner{
+  width:100%;
   background:linear-gradient(135deg,#d32f2f,#ff7043);
   color:#fff;
-  padding:26px 16px 44px;
+  padding:26px 16px 40px;
   text-align:center;
 }
 .banner h1{margin:0;font-size:26px}
 .banner p{margin-top:6px;font-size:15px;opacity:.95}
 
-/* ===== CONTAINER ===== */
+/* ===== CONTAINER (FIX LỆCH DỌC) ===== */
 .container{
+  width:100%;
   max-width:600px;
-  margin:14px auto 28px;
+  margin:0 auto 28px;
   background:#fff;
-  padding:18px;
+  padding:16px;
   border-radius:16px;
   box-shadow:0 10px 25px rgba(0,0,0,.12);
 }
@@ -71,6 +75,7 @@ button{
 
 /* ===== THANH TOÁN ===== */
 .note{
+  width:100%;
   background:#fff7d6;
   padding:12px;
   border-radius:12px;
@@ -88,21 +93,22 @@ button{
   font-size:13px;
 }
 
-/* QR */
+/* ===== QR FIX TUYỆT ĐỐI ===== */
 .qr-box{
   width:100%;
   margin-top:10px;
   display:flex;
   flex-direction:column;
   align-items:center;
+  justify-content:center;
 }
 
 .qr-box img{
-  width:75vw;        /* TO VỪA MÀN MOBILE */
-  max-width:260px;
-  min-width:220px;
+  width:100%;
+  max-width:240px;
   height:auto;
   display:block;
+  margin:0 auto;
   border-radius:12px;
   background:#fff;
   padding:8px;
@@ -168,11 +174,14 @@ button{
 .support-zalo{background:#0068ff}
 .support-messenger{background:linear-gradient(135deg,#00c6ff,#0072ff)}
 
-/* ===== MOBILE ===== */
+/* ===== MOBILE PORTRAIT ===== */
 @media (max-width:480px){
   .banner h1{font-size:22px}
   .banner p{font-size:14px}
-  .container{margin:12px 10px 26px;padding:16px}
+  .container{
+    margin-left:auto;
+    margin-right:auto;
+  }
 }
 </style>
 </head>
@@ -206,7 +215,7 @@ button{
   <p><b>Chủ TK:</b> DO THANH CHUNG</p>
 
   <div class="qr-box">
-    <img id="qrImage">
+    <img id="qrImage" alt="QR Thanh toán">
     <div class="transfer-content" id="transferText"></div>
   </div>
 </div>
@@ -237,7 +246,6 @@ button{
 
 <script>
 const ACCOUNT="1807200320033";
-const NAME="DO THANH CHUNG";
 const emailInput=document.getElementById("email");
 
 function updateQR(){
@@ -249,9 +257,11 @@ function updateQR(){
   document.getElementById("priceText").innerText =
     "Giá: "+Number(price).toLocaleString("vi-VN")+"đ";
 
-  document.getElementById("transferText").innerText=content;
-  document.getElementById("qrImage").src=
-   `https://img.vietqr.io/image/MB-${ACCOUNT}-compact2.png?amount=${price}&addInfo=${encodeURIComponent(content)}&accountName=${encodeURIComponent(NAME)}`;
+  document.getElementById("transferText").innerText = content;
+
+  /* QR TRẦN – KHÔNG LOGO */
+  document.getElementById("qrImage").src =
+    `https://img.vietqr.io/image/MB-${ACCOUNT}-qr_only.png?amount=${price}&addInfo=${encodeURIComponent(content)}`;
 }
 updateQR();
 
