@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="vi">
 <head>
 <meta charset="UTF-8">
@@ -85,15 +86,17 @@ button{
 .note h3{margin:0 0 6px;font-size:15px}
 .note p{margin:6px 0;font-size:13px}
 
-/* ===== COPY BUTTON ===== */
+/* ===== NÚT SAO CHÉP ===== */
 .copy-btn{
   margin-left:6px;
   border:none;
-  background:#eee;
+  background:#ff7043;
+  color:#fff;
   border-radius:6px;
-  padding:4px 6px;
+  padding:4px 10px;
   cursor:pointer;
-  font-size:13px;
+  font-size:12px;
+  font-weight:bold;
 }
 
 /* ===== QR ===== */
@@ -174,13 +177,13 @@ button{
   <h3>💳 Thanh toán QR MB Bank</h3>
 
   <p>
-    <b>Số TK:</b> <span id="stk">1807200320033</span>
-    <button type="button" class="copy-btn" data-copy="1807200320033" onclick="copyBtn(this)">📋</button>
+    <b>Số TK:</b> <span>1807200320033</span>
+    <button type="button" class="copy-btn" data-copy="1807200320033" onclick="copyBtn(this)">Sao chép</button>
   </p>
 
   <p>
-    <b>Chủ TK:</b> <span id="ctk">DO THANH CHUNG</span>
-    <button type="button" class="copy-btn" data-copy="DO THANH CHUNG" onclick="copyBtn(this)">📋</button>
+    <b>Chủ TK:</b> <span>DO THANH CHUNG</span>
+    <button type="button" class="copy-btn" data-copy="DO THANH CHUNG" onclick="copyBtn(this)">Sao chép</button>
   </p>
 
   <div class="qr-box">
@@ -236,27 +239,18 @@ function submitOrder(){
   orderForm.submit();
 }
 
-/* ===== FIX COPY BUTTON – CHẠY ỔN ĐỊNH MỌI NƠI ===== */
+/* ===== NÚT SAO CHÉP HOẠT ĐỘNG ỔN ĐỊNH ===== */
 function copyBtn(btn){
   const text = btn.getAttribute("data-copy");
-
   const textarea = document.createElement("textarea");
   textarea.value = text;
   textarea.style.position = "fixed";
   textarea.style.opacity = "0";
-
   document.body.appendChild(textarea);
-  textarea.focus();
   textarea.select();
-
-  try{
-    document.execCommand("copy");
-    btn.innerText = "✅";
-    setTimeout(()=>btn.innerText="📋",1200);
-  }catch(e){
-    alert("❌ Không thể sao chép, vui lòng copy thủ công");
-  }
-
+  document.execCommand("copy");
+  btn.innerText = "Đã sao chép";
+  setTimeout(()=>btn.innerText="Sao chép",1500);
   document.body.removeChild(textarea);
 }
 </script>
