@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="vi">
 <head>
 <meta charset="UTF-8">
@@ -87,15 +88,24 @@ button{
 
 /* ===== NÚT SAO CHÉP ===== */
 .copy-btn{
-  margin-left:6px;
+  margin-top:6px;
   border:none;
   background:#ff7043;
   color:#fff;
   border-radius:6px;
-  padding:4px 10px;
+  padding:6px 10px;
   cursor:pointer;
   font-size:12px;
   font-weight:bold;
+}
+
+/* ===== CHÚ Ý ===== */
+.notice{
+  margin-top:8px;
+  font-size:12px;
+  color:#d32f2f;
+  font-weight:bold;
+  text-align:center;
 }
 
 /* ===== QR ===== */
@@ -175,19 +185,17 @@ button{
 <div class="note">
   <h3>💳 Thanh toán QR MB Bank</h3>
 
-  <p>
-    <b>Số TK:</b> <span>1807200320033</span>
-    <button type="button" class="copy-btn" data-copy="1807200320033" onclick="copyBtn(this)">Sao chép</button>
-  </p>
+  <p><b>Số TK:</b> 1807200320033</p>
+  <button type="button" class="copy-btn" data-copy="1807200320033" onclick="copyBtn(this)">Sao chép số TK</button>
 
-  <p>
-    <b>Chủ TK:</b> <span>DO THANH CHUNG</span>
-    <button type="button" class="copy-btn" data-copy="DO THANH CHUNG" onclick="copyBtn(this)">Sao chép</button>
-  </p>
+  <p><b>Chủ TK:</b> DO THANH CHUNG</p>
+  <button type="button" class="copy-btn" data-copy="DO THANH CHUNG" onclick="copyBtn(this)">Sao chép chủ TK</button>
 
   <div class="qr-box">
     <img id="qrImage" alt="QR Thanh toán">
     <div class="transfer-content" id="transferText"></div>
+    <button type="button" class="copy-btn" onclick="copyTransfer()">Sao chép nội dung chuyển khoản</button>
+    <div class="notice">⚠️ Vui lòng điền đúng nội dung chuyển khoản để được xử lý nhanh</div>
   </div>
 </div>
 
@@ -238,19 +246,33 @@ function submitOrder(){
   orderForm.submit();
 }
 
-/* ===== NÚT SAO CHÉP HOẠT ĐỘNG ỔN ĐỊNH ===== */
 function copyBtn(btn){
   const text = btn.getAttribute("data-copy");
-  const textarea = document.createElement("textarea");
-  textarea.value = text;
-  textarea.style.position = "fixed";
-  textarea.style.opacity = "0";
+  copyText(text, btn);
+}
+
+function copyTransfer(){
+  const text = document.getElementById("transferText").innerText;
+  copyText(text);
+}
+
+function copyText(text, btn){
+  const textarea=document.createElement("textarea");
+  textarea.value=text;
+  textarea.style.position="fixed";
+  textarea.style.opacity="0";
   document.body.appendChild(textarea);
   textarea.select();
   document.execCommand("copy");
-  btn.innerText = "Đã sao chép";
-  setTimeout(()=>btn.innerText="Sao chép",1500);
   document.body.removeChild(textarea);
+
+  if(btn){
+    const old=btn.innerText;
+    btn.innerText="Đã sao chép";
+    setTimeout(()=>btn.innerText=old,1500);
+  }else{
+    alert("✅ Đã sao chép nội dung chuyển khoản");
+  }
 }
 </script>
 
