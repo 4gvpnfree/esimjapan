@@ -25,16 +25,16 @@ header,.Header,#header,#Header1,.header,.header-wrapper{
 .banner{
   background:linear-gradient(135deg,#d32f2f,#ff7043);
   color:#fff;
-  padding:28px 16px 42px;
+  padding:28px 16px 40px;
   text-align:center;
 }
 .banner h1{margin:0;font-size:26px}
 .banner p{margin-top:6px;font-size:15px;opacity:.95}
 
-/* ===== CONTAINER (KHÓA GIỮA) ===== */
+/* ===== CONTAINER ===== */
 .container{
   max-width:600px;
-  margin:0 auto 40px;
+  margin:0 auto 32px;
   padding:16px;
   background:#fff;
   border-radius:18px;
@@ -55,7 +55,6 @@ button{
   border:none;
   border-radius:12px;
   font-weight:bold;
-  cursor:pointer;
 }
 
 .price{
@@ -63,63 +62,76 @@ button{
   font-size:20px;
   font-weight:bold;
   color:#e53935;
-  margin-top:12px;
+  margin-top:10px;
 }
 
-/* ===== KHỐI THANH TOÁN (FIX LỆCH) ===== */
+/* ===== TRUST ===== */
+.trust-box{
+  margin-top:14px;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:10px;
+}
+.trust-item{
+  background:#f1f8ff;
+  padding:10px;
+  border-radius:10px;
+  font-size:12px;
+  display:flex;
+  align-items:center;
+  gap:8px;
+  color:#1a73e8;
+}
+.trust-item i{font-size:18px}
+
+/* ===== PAYMENT WRAPPER (KHÓA LỆCH) ===== */
+.payment-wrapper{
+  width:100%;
+  margin-top:18px;
+}
+
 .note{
   background:#fff7d6;
   padding:16px;
   border-radius:16px;
-  margin:20px auto 0;
   width:100%;
 }
 
 .note h3{
   text-align:center;
-  margin:0 0 16px;
+  margin:0 0 14px;
   font-size:16px;
 }
 
+/* ===== COPY ===== */
 .pay-block{margin-bottom:14px}
 .pay-row{font-size:14px;margin-bottom:6px}
 
-/* ===== NÚT COPY ===== */
 .copy-btn{
   width:100%;
   background:#ff7043;
-  padding:11px;
-  border-radius:10px;
   color:#fff;
-  font-weight:bold;
+  padding:11px;
   border:none;
-}
-.copy-btn:active{transform:scale(.97)}
-
-/* ===== QR KHÓA CỨNG GIỮA ===== */
-.qr-wrap{
-  width:100%;
-  display:flex;
-  justify-content:center;
+  border-radius:10px;
+  font-weight:bold;
 }
 
+/* ===== QR (CĂN GIỮA TUYỆT ĐỐI MOBILE) ===== */
 .qr-box{
-  background:#fff;
-  padding:14px;
-  border-radius:16px;
-  width:240px;
+  width:100%;
   text-align:center;
-  box-shadow:0 6px 16px rgba(0,0,0,.15);
+  margin:16px 0;
 }
 
 .qr-box img{
   width:200px;
-  display:block;
-  margin:0 auto;
+  max-width:100%;
+  display:inline-block;
 }
 
 .transfer-content{
-  margin-top:10px;
+  margin-top:8px;
   background:#f1f1f1;
   padding:8px;
   border-radius:8px;
@@ -132,12 +144,10 @@ button{
 
 .confirm-box label{
   display:flex;
-  align-items:center;
   gap:10px;
   padding:12px;
   border:2px dashed #ccc;
   border-radius:12px;
-  cursor:pointer;
   font-weight:bold;
 }
 
@@ -147,7 +157,7 @@ button{
   color:#2e7d32;
 }
 
-/* ===== NÚT HỖ TRỢ ===== */
+/* ===== SUPPORT ===== */
 .support-buttons{
   position:fixed;
   right:16px;
@@ -155,7 +165,6 @@ button{
   display:flex;
   flex-direction:column;
   gap:10px;
-  z-index:999;
 }
 .support-btn{
   width:48px;
@@ -166,8 +175,6 @@ button{
   justify-content:center;
   color:#fff;
   font-size:22px;
-  text-decoration:none;
-  box-shadow:0 6px 14px rgba(0,0,0,.35);
 }
 .support-zalo{background:#0068ff}
 .support-messenger{background:#0078ff}
@@ -182,7 +189,7 @@ button{
 </div>
 
 <div class="container">
-<form id="orderForm" action="https://formsubmit.co/chungthanh18072003@gmail.com" method="POST">
+<form>
 
 <select id="package" onchange="updateQR()">
   <option data-price="150000">3 ngày – 1GB/ngày</option>
@@ -193,44 +200,36 @@ button{
 
 <div class="price" id="priceText">Giá: 150.000đ</div>
 
-<input id="email" type="email" placeholder="Nhập email nhận eSIM" required oninput="updateQR()">
+<!-- TRUST -->
+<div class="trust-box">
+  <div class="trust-item"><i class="fa-solid fa-shield"></i> Thanh toán an toàn</div>
+  <div class="trust-item"><i class="fa-solid fa-envelope"></i> Gửi QR qua email</div>
+  <div class="trust-item"><i class="fa-solid fa-clock"></i> Xử lý nhanh</div>
+  <div class="trust-item"><i class="fa-solid fa-headset"></i> Hỗ trợ 24/7</div>
+</div>
 
-<div class="note">
-  <h3>💳 Thanh toán QR MB Bank</h3>
+<div class="payment-wrapper">
+  <div class="note">
+    <h3>💳 Thanh toán QR MB Bank</h3>
 
-  <div class="pay-block">
-    <div class="pay-row"><b>Số TK:</b> <span id="stkText">1807200320033</span></div>
-    <button type="button" class="copy-btn" onclick="copyText('stkText')">Sao chép số TK</button>
-  </div>
+    <div class="pay-block">
+      <div class="pay-row"><b>Số TK:</b> 1807200320033</div>
+      <button type="button" class="copy-btn">Sao chép số TK</button>
+    </div>
 
-  <div class="pay-block">
-    <div class="pay-row"><b>Chủ TK:</b> DO THANH CHUNG</div>
-  </div>
-
-  <div class="qr-wrap">
     <div class="qr-box">
       <img id="qrImage">
       <div class="transfer-content" id="transferText"></div>
     </div>
+
+    <button type="button" class="copy-btn">Sao chép nội dung chuyển khoản</button>
+
+    <p style="text-align:center;font-size:12px;color:#c0392b;margin-top:8px">
+      ⚠️ Vui lòng điền đúng nội dung chuyển khoản
+    </p>
   </div>
-
-  <button type="button" class="copy-btn" onclick="copyText('transferText')">
-    Sao chép nội dung chuyển khoản
-  </button>
-
-  <p style="text-align:center;font-size:12px;color:#c0392b;margin-top:8px">
-    ⚠️ Vui lòng điền đúng nội dung chuyển khoản để được xử lý nhanh
-  </p>
 </div>
 
-<div class="confirm-box">
-  <input type="checkbox" id="paidCheck">
-  <label for="paidCheck">
-    <i class="fa-solid fa-circle-check"></i> Tôi đã thanh toán
-  </label>
-</div>
-
-<button type="button" onclick="submitOrder()">Đặt mua eSIM</button>
 </form>
 </div>
 
@@ -246,34 +245,16 @@ button{
 
 <script>
 const ACCOUNT="1807200320033";
-
 function updateQR(){
   const pkg=document.getElementById("package");
   const price=pkg.options[pkg.selectedIndex].dataset.price;
-  const email=document.getElementById("email").value || "CHUA_CO_EMAIL";
-  const content=`ESIM JAPAN | ${price} | ${email}`;
-
+  const content=`ESIM JAPAN | ${price}`;
   document.getElementById("priceText").innerText=
     "Giá: "+Number(price).toLocaleString("vi-VN")+"đ";
-
   document.getElementById("transferText").innerText=content;
-
   document.getElementById("qrImage").src=
     `https://img.vietqr.io/image/MB-${ACCOUNT}-qr_only.png?amount=${price}&addInfo=${encodeURIComponent(content)}`;
 }
-
-function copyText(id){
-  navigator.clipboard.writeText(document.getElementById(id).innerText);
-}
-
-function submitOrder(){
-  if(!paidCheck.checked){
-    alert("Vui lòng xác nhận đã thanh toán");
-    return;
-  }
-  alert("Đã ghi nhận đơn hàng!");
-}
-
 updateQR();
 </script>
 
