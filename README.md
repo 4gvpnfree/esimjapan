@@ -1,9 +1,8 @@
-<!DOCTYPE html>
 <html lang="vi">
 <head>
 <meta charset="UTF-8">
 <title>eSIM Nhật Bản – Internet du lịch</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
@@ -14,7 +13,6 @@ body{
   font-family:Arial,sans-serif;
   background:linear-gradient(180deg,#f0f6ff,#f9f9f9);
 }
-
 header,.Header,#header,#Header1,.header,.header-wrapper{display:none!important}
 
 .banner{
@@ -45,10 +43,8 @@ button{
   font-weight:bold;
   cursor:pointer;
 }
-button:disabled{
-  opacity:.6;
-  cursor:not-allowed;
-}
+button:disabled{opacity:.6;cursor:not-allowed}
+
 .price{text-align:center;font-size:19px;font-weight:bold;color:#e53935}
 
 .note{
@@ -68,10 +64,16 @@ button:disabled{
   border-radius:10px;
   font-weight:bold;
   cursor:pointer;
+  margin-top:6px;
 }
 
 .qr-box{text-align:center}
-.qr-box img{max-width:240px;border-radius:12px;background:#fff;padding:8px}
+.qr-box img{
+  max-width:240px;
+  border-radius:12px;
+  background:#fff;
+  padding:8px;
+}
 
 .transfer-content{
   background:#eee;
@@ -98,7 +100,6 @@ button:disabled{
   color:#2e7d32;
 }
 
-/* LOADING */
 .loading{
   display:none;
   margin-top:12px;
@@ -128,7 +129,9 @@ button:disabled{
 
 <div class="price" id="priceText">Giá: 150.000đ</div>
 
-<input type="email" id="email" name="Email_khach" placeholder="Nhập email nhận eSIM" required oninput="updateQR()">
+<input type="email" id="email" name="Email_khach"
+ placeholder="Nhập email nhận eSIM"
+ required oninput="updateQR()">
 
 <div class="note">
 <h3>💳 Thanh toán QR MB Bank</h3>
@@ -144,7 +147,7 @@ button:disabled{
 </div>
 
 <div class="qr-box">
-<img id="qrImage">
+<img id="qrImage" alt="QR Thanh toán">
 <div class="transfer-content" id="transferText"></div>
 </div>
 
@@ -175,20 +178,33 @@ Tôi đã thanh toán và đồng ý điều khoản
 </div>
 
 <script>
-const ACCOUNT="1807200320033";
-const form=document.getElementById("orderForm");
-const btn=document.getElementById("submitBtn");
-const loading=document.getElementById("loadingText");
+const ACCOUNT = "1807200320033";
+
+const form = document.getElementById("orderForm");
+const btn = document.getElementById("submitBtn");
+const loading = document.getElementById("loadingText");
+
+const packageSelect = document.getElementById("package");
+const emailInput = document.getElementById("email");
+const priceText = document.getElementById("priceText");
+const transferText = document.getElementById("transferText");
+const qrImage = document.getElementById("qrImage");
+const paidCheck = document.getElementById("paidCheck");
 
 function updateQR(){
-  const pkg=package;
-  const price=pkg.options[pkg.selectedIndex].dataset.price;
-  const email=email.value||"CHUA_CO_EMAIL";
-  const content=`ESIM JAPAN | ${price} | ${email}`;
+  const option = packageSelect.options[packageSelect.selectedIndex];
+  const price = option.dataset.price;
+  const email = emailInput.value || "CHUA_CO_EMAIL";
 
-  priceText.innerText="Giá: "+Number(price).toLocaleString("vi-VN")+"đ";
-  transferText.innerText=content;
-  qrImage.src=`https://img.vietqr.io/image/MB-${ACCOUNT}-qr_only.png?amount=${price}&addInfo=${encodeURIComponent(content)}`;
+  const content = `ESIM JAPAN | ${price} | ${email}`;
+
+  priceText.innerText =
+    "Giá: " + Number(price).toLocaleString("vi-VN") + "đ";
+
+  transferText.innerText = content;
+
+  qrImage.src =
+    `https://img.vietqr.io/image/MB-${ACCOUNT}-qr_only.png?amount=${price}&addInfo=${encodeURIComponent(content)}`;
 }
 
 function copyText(id){
@@ -201,18 +217,23 @@ function submitOrder(){
     return;
   }
 
-  btn.disabled=true;
-  loading.style.display="block";
+  btn.disabled = true;
+  loading.style.display = "block";
 
   fetch(form.action,{
     method:"POST",
     body:new FormData(form),
     headers:{Accept:"application/json"}
   })
-  .then(()=>alert("✅ Đã ghi nhận đơn hàng! QR eSIM sẽ được gửi qua email."))
+  .then(()=>{
+    alert("✅ Đã ghi nhận đơn hàng! QR eSIM sẽ được gửi qua email.");
+  })
+  .catch(()=>{
+    alert("⚠️ Có lỗi khi gửi đơn, vui lòng thử lại");
+  })
   .finally(()=>{
-    btn.disabled=false;
-    loading.style.display="none";
+    btn.disabled = false;
+    loading.style.display = "none";
   });
 }
 
