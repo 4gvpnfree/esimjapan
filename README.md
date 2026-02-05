@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="vi">
 <head>
 <meta charset="UTF-8">
@@ -7,17 +8,21 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 <style>
-  /* ===== FIX 2 Ô TRẮNG BLOGGER (ÉP TRỰC TIẾP TRONG BÀI) ===== */
-body,
-.post-body,
-.post-body-container,
-.post,
-.post-content,
-.entry-content {
-  margin-top: 0 !important;
-  padding-top: 0 !important;
+/* ===== FIX TRÀN & LỆCH MOBILE ===== */
+* {
+  box-sizing: border-box;
 }
 
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(180deg,#f0f6ff,#f9f9f9);
+}
+
+/* ===== ẨN HEADER BLOGGER ===== */
 header,
 .Header,
 #header,
@@ -30,133 +35,146 @@ header,
   padding: 0 !important;
 }
 
-/* XÓA KHOẢNG TRẮNG ĐẦU BÀI */
-.post-body > br,
-.post-body-container > br,
-.post-content > br {
-  display: none !important;
-}
-
-body{
-  font-family:Arial,sans-serif;
-  margin:0;
-  background:linear-gradient(180deg,#f0f6ff,#f9f9f9);
-}
-
 /* ===== BANNER ===== */
 .banner{
-  background:linear-gradient(135deg,#d32f2f,#ff7043);
-  color:#fff;
-  padding:28px 16px 40px;
-  text-align:center;
+  background: linear-gradient(135deg,#d32f2f,#ff7043);
+  color: #fff;
+  padding: 28px 16px 40px;
+  text-align: center;
 }
-.banner h1{margin:0;font-size:26px}
-.banner p{margin-top:8px;font-size:15px;opacity:.95}
+
+.banner h1{
+  margin: 0;
+  font-size: 26px;
+}
+
+.banner p{
+  margin-top: 8px;
+  font-size: 15px;
+  opacity: .95;
+}
 
 /* ===== CONTAINER ===== */
 .container{
-  max-width:600px;
-  margin:0 auto 30px;
-  background:#fff;
-  padding:20px;
-  border-radius:16px;
-  box-shadow:0 10px 25px rgba(0,0,0,.12);
-  box-sizing:border-box;
+  max-width: 600px;
+  margin: -24px auto 30px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,.12);
 }
 
+/* ===== FORM ===== */
 select,input,button{
-  width:100%;
-  padding:12px;
-  margin-top:12px;
-  font-size:16px;
-  box-sizing:border-box;
+  width: 100%;
+  padding: 12px;
+  margin-top: 12px;
+  font-size: 16px;
 }
 
 button{
-  background:linear-gradient(135deg,#e53935,#ff7043);
-  color:#fff;
-  border:none;
-  border-radius:10px;
-  font-weight:bold;
-  cursor:pointer;
+  background: linear-gradient(135deg,#e53935,#ff7043);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .price{
-  text-align:center;
-  font-size:20px;
-  font-weight:bold;
-  color:#e53935;
-  margin-top:12px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #e53935;
+  margin-top: 12px;
 }
 
 /* ===== THANH TOÁN ===== */
 .note{
-  background:#fff7d6;
-  padding:16px;
-  border-radius:14px;
-  margin-top:16px;
-  font-size:14px;
+  background: #fff7d6;
+  padding: 16px;
+  border-radius: 14px;
+  margin-top: 16px;
+  font-size: 14px;
 }
-.qr-box{text-align:center;margin-top:12px}
+
+.qr-box{
+  text-align: center;
+  margin-top: 12px;
+}
+
 .qr-box img{
-  width:100%;
-  max-width:240px;
-  margin:10px auto;
-  display:block;
-  border-radius:12px;
-  background:#fff;
-  padding:8px;
+  width: 100%;
+  max-width: 240px;
+  margin: 10px auto;
+  display: block;
+  border-radius: 12px;
+  background: #fff;
+  padding: 8px;
 }
+
 .transfer-content{
-  background:#eee;
-  padding:8px;
-  border-radius:6px;
-  font-size:12px;
-  word-break:break-word;
+  background: #eee;
+  padding: 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  word-break: break-word;
 }
 
 /* ===== CHECKBOX ===== */
-.confirm-box{margin-top:15px}
-.confirm-box input{display:none}
-.confirm-box label{
-  display:flex;
-  align-items:center;
-  gap:10px;
-  padding:12px;
-  border:2px dashed #ccc;
-  border-radius:12px;
-  cursor:pointer;
-  font-weight:bold;
-  color:#555;
+.confirm-box{
+  margin-top: 15px;
 }
-.confirm-box input:checked + label{
-  border-color:#4caf50;
-  background:#e8f5e9;
-  color:#2e7d32;
-}
-.confirm-box i{font-size:22px}
 
-/* ===== SUPPORT ===== */
+.confirm-box input{
+  display: none;
+}
+
+.confirm-box label{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px;
+  border: 2px dashed #ccc;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #555;
+}
+
+.confirm-box input:checked + label{
+  border-color: #4caf50;
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.confirm-box i{
+  font-size: 22px;
+}
+
+/* ===== SUPPORT BUTTONS ===== */
 .support-buttons{
-  position:fixed;
-  bottom:16px;
-  right:16px;
-  z-index:9999;
+  position: fixed;
+  bottom: 14px;
+  right: 14px;
+  z-index: 9999;
 }
+
 .support-btn{
-  width:52px;
-  height:52px;
-  border-radius:50%;
-  margin-top:12px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  color:#fff;
-  font-size:22px;
-  text-decoration:none;
-  box-shadow:0 6px 15px rgba(0,0,0,.35);
-  animation:pulse 1.8s infinite;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 22px;
+  text-decoration: none;
+  box-shadow: 0 6px 15px rgba(0,0,0,.35);
+  animation: pulse 1.8s infinite;
 }
+
 .support-zalo{background:#0068ff}
 .support-messenger{background:linear-gradient(135deg,#00c6ff,#0072ff)}
 
@@ -165,25 +183,23 @@ button{
   70%{box-shadow:0 0 0 15px rgba(0,136,255,0)}
   100%{box-shadow:0 0 0 0 rgba(0,136,255,0)}
 }
-  /* ===== FIX Ô TRẮNG CUỐI CÙNG BLOGGER ===== */
-#outer-wrapper,
-#content-wrapper,
-#main-wrapper,
-#main,
-.blog-posts,
-.post-outer,
-.post,
-.post-body,
-body {
-  margin-top: 0 !important;
-  padding-top: 0 !important;
-}
 
-/* ÉP SÁT BANNER LÊN TRÊN */
-.banner {
-  margin-top: 0 !important;
-}
+/* ===== MOBILE TỐI ƯU ===== */
+@media (max-width: 480px) {
+  .banner h1{font-size:22px}
+  .banner p{font-size:14px}
 
+  .container{
+    margin: -20px 10px 30px;
+    padding: 16px;
+  }
+
+  .support-btn{
+    width: 46px;
+    height: 46px;
+    font-size: 20px;
+  }
+}
 </style>
 </head>
 
@@ -230,10 +246,8 @@ body {
   </label>
 </div>
 
-<!-- FORM SUBMIT CONFIG -->
 <input type="hidden" name="_subject" value="🔔 Đơn hàng eSIM Nhật">
 <input type="hidden" name="_captcha" value="false">
-<input type="hidden" name="_next" value="javascript:void(0)">
 
 <button type="button" onclick="submitOrder()">Đặt mua eSIM</button>
 </form>
@@ -249,7 +263,6 @@ body {
 </div>
 
 <script>
-const BANK="MB";
 const ACCOUNT="1807200320033";
 const NAME="DO THANH CHUNG";
 const emailInput=document.getElementById("email");
@@ -260,11 +273,11 @@ function updateQR(){
   const email=emailInput.value||"EMAIL";
   const content=`ESIM JAPAN - ${price} - ${email}`;
 
-  document.getElementById("priceText").innerText=
+  document.getElementById("priceText").innerText =
     "Giá: "+Number(price).toLocaleString("vi-VN")+"đ";
 
-  document.getElementById("transferText").innerText=content;
-  document.getElementById("qrImage").src=
+  document.getElementById("transferText").innerText = content;
+  document.getElementById("qrImage").src =
    `https://img.vietqr.io/image/MB-${ACCOUNT}-compact2.png?amount=${price}&addInfo=${encodeURIComponent(content)}&accountName=${encodeURIComponent(NAME)}`;
 }
 
@@ -279,6 +292,9 @@ function submitOrder(){
 
 updateQR();
 </script>
+
+</body>
+</html>
 
 </body>
 </html>
