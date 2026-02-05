@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="vi">
 <head>
 <meta charset="UTF-8">
@@ -68,7 +69,7 @@ button{
   margin-top:10px;
 }
 
-/* ===== THANH TOÁN (ĐÃ THU GỌN) ===== */
+/* ===== THANH TOÁN (QR NHỎ VỪA MOBILE) ===== */
 .note{
   background:#fff7d6;
   padding:10px;
@@ -92,9 +93,10 @@ button{
   margin-top:6px;
 }
 
+/* 👇 CHỖ SỬA QUAN TRỌNG */
 .qr-box img{
-  width:100%;
-  max-width:180px;
+  width:150px;        /* QR NHỎ GỌN */
+  max-width:150px;
   margin:6px auto;
   display:block;
   border-radius:10px;
@@ -164,6 +166,12 @@ button{
   .banner h1{font-size:22px}
   .banner p{font-size:14px}
   .container{margin:12px 10px 26px;padding:16px}
+
+  /* QR nhỏ thêm chút trên mobile nhỏ */
+  .qr-box img{
+    width:140px;
+    max-width:140px;
+  }
 }
 </style>
 </head>
