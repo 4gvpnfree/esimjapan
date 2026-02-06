@@ -28,10 +28,23 @@ header,.Header,#header,#Header1,.header,.header-wrapper{
 /* ===== BANNER ===== */
 .banner{
   width:100%;
-  background:linear-gradient(135deg,#d32f2f,#ff7043);
+  background:linear-gradient(135deg,#d32f2f,#ff7043,#ff8a65);
   color:#fff;
-  padding:26px 16px 40px;
+  padding:40px 20px 60px;
   text-align:center;
+  position:relative;
+  overflow:hidden;
+}
+
+.banner::before{
+  content:"";
+  position:absolute;
+  width:200%;
+  height:200%;
+  background:radial-gradient(circle at top left, rgba(255,255,255,.15), transparent 60%);
+  top:-50%;
+  left:-50%;
+  transform:rotate(25deg);
 }
 .banner h1{margin:0;font-size:26px}
 .banner p{margin-top:6px;font-size:15px;opacity:.95}
