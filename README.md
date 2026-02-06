@@ -48,11 +48,21 @@ header,.Header,#header,#Header1,.header,.header-wrapper{
 }
 
 /* ===== FORM ===== */
-select,input,button{
+select,input{
   width:100%;
-  padding:12px;
+  padding:14px;
   margin-top:12px;
   font-size:16px;
+  border-radius:12px;
+  border:2px solid #ff7043;   /* Viền cam nổi bật */
+  outline:none;
+  transition:all .25s ease;
+  background:#fff;
+  box-shadow:0 4px 12px rgba(255,112,67,.15); /* Bóng nhẹ */
+}
+input:focus{
+  border-color:#e53935;
+  box-shadow:0 0 0 4px rgba(229,57,53,.2);
 }
 
 button{
