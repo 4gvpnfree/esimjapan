@@ -192,14 +192,22 @@ button{
 
 .country-btn{
   flex:1;
-  padding:12px;
-  border-radius:12px;
-  border:none;
+  padding:14px;
+  border-radius:14px;
+  border:2px solid #ddd;
   cursor:pointer;
   font-weight:bold;
-  font-size:15px;
-  background:#eee;
+  font-size:16px;
+  background:#f5f5f5;
+  color:#555;
+  transition:all .25s ease;
 }
+
+.country-btn:hover{
+  transform:translateY(-2px);
+  box-shadow:0 6px 15px rgba(0,0,0,.08);
+}
+
 
 .country-btn.active{
   background:linear-gradient(135deg,#e53935,#ff7043);
