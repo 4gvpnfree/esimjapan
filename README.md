@@ -472,7 +472,6 @@ function randomViewer(){
 }
 
 randomViewer();
-</script>
 
 </script>
 <div class="trust-box">
