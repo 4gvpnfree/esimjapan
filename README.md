@@ -388,6 +388,33 @@ function submitOrder(){
 
 updateQR();
 </script>
+<div class="trust-box">
+  <h3>🔒 Cam kết & Uy tín</h3>
+
+  <div class="trust-item">
+    <i class="fa-solid fa-shield-halved"></i>
+    <div>
+      <b>Kích hoạt nhanh 5 – 15 phút</b>
+      <p>QR eSIM được gửi tự động qua email sau khi xác nhận thanh toán.</p>
+    </div>
+  </div>
+
+  <div class="trust-item">
+    <i class="fa-solid fa-bolt"></i>
+    <div>
+      <b>Tốc độ cao – Không giới hạn mạng xã hội</b>
+      <p>Sử dụng ổn định tại sân bay, tàu điện, khách sạn.</p>
+    </div>
+  </div>
+
+  <div class="trust-item">
+    <i class="fa-solid fa-headset"></i>
+    <div>
+      <b>Hỗ trợ 24/7</b>
+      <p>Liên hệ Zalo hoặc Messenger bên dưới để được hỗ trợ nhanh.</p>
+    </div>
+  </div>
+</div>
 
 </body>
 </html>
