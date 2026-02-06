@@ -205,7 +205,7 @@ button{
   <option data-price="450000">10 ngày – Không giới hạn</option>
 </select>
 
-<div class="price" id="priceText">Giá: 150.000đ</div>
+<div class="price" id="priceText">Giá: 50.000đ</div>
 
 <input type="email" id="email" name="Email_khach"
  placeholder="Nhập email nhận eSIM"
