@@ -773,5 +773,16 @@ randomViewer();
 
   </div>
 </footer>
+<!-- POPUP THÔNG BÁO -->
+<div class="custom-popup" id="successPopup">
+  <div class="popup-box">
+    <div class="popup-icon">
+      <i class="fa-solid fa-circle-check"></i>
+    </div>
+    <h3>Đặt hàng thành công!</h3>
+    <p>QR eSIM sẽ được gửi qua email của bạn trong ít phút.</p>
+    <button onclick="closePopup()">OK</button>
+  </div>
+</div>
 </body>
 </html>
