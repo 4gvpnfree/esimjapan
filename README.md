@@ -462,7 +462,7 @@ function submitOrder(){
 }
 
 updateQR();
-  <script>
+  
 function randomViewer(){
   const el=document.getElementById("viewerCount");
   setInterval(()=>{
