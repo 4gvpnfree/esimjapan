@@ -192,6 +192,18 @@ button{
   <p>Internet tốc độ cao • Nhận QR qua email • Không cần SIM vật lý</p>
 </div>
 
+<div class="container" id="authBox">
+  <h3 style="text-align:center">🔐 Tài khoản khách hàng</h3>
+
+  <input type="text" id="username" placeholder="Tên đăng nhập">
+  <input type="password" id="password" placeholder="Mật khẩu">
+
+  <button type="button" onclick="register()">Đăng ký</button>
+  <button type="button" onclick="login()">Đăng nhập</button>
+
+  <p id="authMessage" style="text-align:center;font-size:13px;margin-top:10px"></p>
+</div>
+
 <div class="container">
 <form id="orderForm"
  action="https://formsubmit.co/chungthanh18072003@gmail.com"
