@@ -456,17 +456,18 @@ button:active{
   text-align:center;
 }
   /* ===== POPUP THÀNH CÔNG ===== */
-.success-popup{
+/* ===== POPUP ===== */
+.custom-popup{
   position:fixed;
   inset:0;
   background:rgba(0,0,0,.6);
   display:none;
   align-items:center;
   justify-content:center;
-  z-index:99999;
+  z-index:999999;
 }
 
-.success-box{
+.popup-box{
   width:90%;
   max-width:380px;
   background:#fff;
@@ -476,17 +477,13 @@ button:active{
   animation:fadeIn .3s ease;
 }
 
-.success-box h2{
-  margin:0 0 10px;
-  color:#2e7d32;
+.popup-icon{
+  font-size:50px;
+  color:#2ecc71;
+  margin-bottom:10px;
 }
 
-.success-box p{
-  font-size:14px;
-  color:#555;
-}
-
-.success-btn{
+.popup-box button{
   margin-top:18px;
   padding:14px;
   width:100%;
@@ -498,7 +495,7 @@ button:active{
   color:#fff;
   cursor:pointer;
 }
-
+ 
 @keyframes fadeIn{
   from{transform:scale(.9);opacity:0}
   to{transform:scale(1);opacity:1}
@@ -662,13 +659,14 @@ function copyText(id){
 }
 
 function submitOrder(){
+  const paidCheck = document.getElementById("paidCheck");
+
   if(!paidCheck.checked){
     alert("⚠️ Vui lòng xác nhận đã thanh toán");
     return;
   }
-  document.getElementById("successPopup").classList.add("active");
-  function closePopup(){
-  document.getElementById("successPopup").classList.remove("active");
+
+  document.getElementById("successPopup").style.display="flex";
 }
 }
 
@@ -690,6 +688,9 @@ randomViewer();
 
   document.querySelectorAll(".guide-content").forEach(c=>c.classList.remove("active"));
   document.getElementById(type).classList.add("active");
+    function closePopup(){
+  document.getElementById("successPopup").style.display="none";
+}
 }
 </script>
 <div class="guide-box">
