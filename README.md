@@ -668,10 +668,13 @@ function submitOrder(){
 
   document.getElementById("successPopup").style.display="flex";
 }
+
+function closePopup(){
+  document.getElementById("successPopup").style.display="none";
 }
 
 updateQR();
-  
+
 function randomViewer(){
   const el=document.getElementById("viewerCount");
   setInterval(()=>{
@@ -681,13 +684,14 @@ function randomViewer(){
 }
 
 randomViewer();
-  
-  function showGuide(type, btn){
+
+function showGuide(type, btn){
   document.querySelectorAll(".guide-btn").forEach(b=>b.classList.remove("active"));
   btn.classList.add("active");
 
   document.querySelectorAll(".guide-content").forEach(c=>c.classList.remove("active"));
   document.getElementById(type).classList.add("active");
+}
     function closePopup(){
   document.getElementById("successPopup").style.display="none";
 }
