@@ -652,6 +652,14 @@ function randomViewer(){
 }
 
 randomViewer();
+  
+  function showGuide(type, btn){
+  document.querySelectorAll(".guide-btn").forEach(b=>b.classList.remove("active"));
+  btn.classList.add("active");
+
+  document.querySelectorAll(".guide-content").forEach(c=>c.classList.remove("active"));
+  document.getElementById(type).classList.add("active");
+}
 </script>
 <div class="trust-box">
   <h3>🔒 Cam kết - Nhận Esim ngay sau khi thanh toán</h3>
