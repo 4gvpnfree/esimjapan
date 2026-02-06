@@ -86,6 +86,45 @@ button{
   font-size:16px;
   text-align:center;
 }
+  /* ===== TRUST BOX ===== */
+.trust-box{
+  margin-top:20px;
+  padding:16px;
+  border-radius:16px;
+  background:#f9fafc;
+  box-shadow:0 5px 15px rgba(0,0,0,.05);
+}
+
+.trust-box h3{
+  text-align:center;
+  margin-bottom:15px;
+  font-size:16px;
+  color:#333;
+}
+
+.trust-item{
+  display:flex;
+  gap:12px;
+  margin-bottom:14px;
+  align-items:flex-start;
+}
+
+.trust-item i{
+  font-size:22px;
+  color:#e53935;
+  margin-top:3px;
+}
+
+.trust-item b{
+  font-size:14px;
+  color:#222;
+}
+
+.trust-item p{
+  margin:4px 0 0;
+  font-size:12px;
+  color:#666;
+}
 
 .pay-block{margin-bottom:14px}
 .pay-row{font-size:14px;margin-bottom:6px}
