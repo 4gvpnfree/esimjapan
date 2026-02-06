@@ -15,31 +15,7 @@ html,body{
   margin:0;
   padding:0;
   width:100%;
-  overflow-x:hidden;
-  font-family:Arial,sans-serif;
-  background:linear-gradient(180deg,#f0f6ff,#f9f9f9);
-}
-
-/* ẨN HEADER BLOGGER */
-header,.Header,#header,#Header1,.header,.header-wrapper{
-  display:none!important;
-}
-
-/* ===== BANNER ===== */
-.banner{
-  width:100%;
-  height:240px;
-  position:relative;
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  align-items:center;
-  text-align:center;
-  color:#fff;
-  border-radius:0 0 25px 25px;
-  overflow:hidden;
-  background-size:cover;
-  background-positBản</button>
+  oBản</button>
   <button type="button" class="country-btn" onclick="changeCountry('vietnam', this)">🇻🇳 Việt Nam</button>
 </div>
 
