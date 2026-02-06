@@ -513,6 +513,7 @@ if(country==="japan"){
   });
 
   updateQR();
+  changeCountry("japan", document.querySelector(".country-btn"));
 }
 
 function updateQR(){
