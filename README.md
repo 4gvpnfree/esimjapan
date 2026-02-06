@@ -811,7 +811,7 @@ function showGuide(type, btn){
     
     <h3>🏢 Thông tin công ty</h3>
 
-    <p><b>Tên giao dịch:</b> SIM Quốc Tế eSIM Travel</p>
+    <p><b>Tên giao dịch:</b> Chung Thành</p>
     <p><b>Địa chỉ:</b> T11 Time City, Hai Bà Trưng, Hà Nội</p>
     <p><b>Email:</b> dothanhchung@gmail.com</p>
     <p><b>Hotline / Zalo:</b> 0858.7127.45</p>
