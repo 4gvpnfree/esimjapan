@@ -29,7 +29,6 @@ header,.Header,#header,#Header1,.header,.header-wrapper{
 .banner{
   width:100%;
   height:240px;
-  background:url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e") center/cover no-repeat;
   position:relative;
   display:flex;
   flex-direction:column;
@@ -39,14 +38,35 @@ header,.Header,#header,#Header1,.header,.header-wrapper{
   color:#fff;
   border-radius:0 0 25px 25px;
   overflow:hidden;
+  background-size:cover;
+  background-position:center;
+  transition:background-image .5s ease-in-out;
 }
 
-/* Lớp phủ tối giúp chữ nổi bật */
+/* lớp phủ tối */
 .banner::after{
   content:"";
   position:absolute;
   inset:0;
   background:rgba(0,0,0,.45);
+}
+
+.banner h1,
+.banner p{
+  position:relative;
+  z-index:2;
+}
+
+.banner h1{
+  font-size:30px;
+  font-weight:800;
+  margin:0;
+  text-shadow:0 4px 20px rgba(0,0,0,.6);
+}
+
+.banner p{
+  margin-top:8px;
+  font-size:16px;
 }
 .banner h1,
 .banner p{
@@ -362,7 +382,7 @@ button:active{
 
 <body>
 
-<div class="banner">
+<div class="banner" id="mainBanner">
   <h1>🌍 eSIM Du Lịch</h1>
   <p>Chọn quốc gia và gói phù hợp</p>
 </div>
