@@ -188,8 +188,8 @@ button{
 <body>
 
 <div class="banner">
-  <h1>🇯🇵 eSIM Nhật Bản</h1>
-  <p>Internet tốc độ cao • Nhận QR qua email • Không cần SIM vật lý</p>
+  <h1 id="mainTitle">🌍 eSIM Du Lịch Quốc Tế</h1>
+  <p id="subTitle">Chọn quốc gia bên dưới để xem gói cước</p>
 </div>
 
 <div class="container" id="authBox">
