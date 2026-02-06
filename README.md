@@ -46,8 +46,19 @@ header,.Header,#header,#Header1,.header,.header-wrapper{
   left:-50%;
   transform:rotate(25deg);
 }
-.banner h1{margin:0;font-size:26px}
-.banner p{margin-top:6px;font-size:15px;opacity:.95}
+.banner h1{
+  margin:0;
+  font-size:30px;
+  font-weight:800;
+  letter-spacing:1px;
+  text-shadow:0 4px 15px rgba(0,0,0,.3);
+}
+
+.banner p{
+  margin-top:10px;
+  font-size:16px;
+  opacity:.95;
+}
 
 /* ===== CONTAINER ===== */
 .container{
