@@ -529,7 +529,7 @@ randomViewer();
   </div>
 
   <div class="review-text">
-    Hơn 1.200+ khách hàng hài lòng khi sử dụng eSIM tại shop
+    Hơn 19.200+ khách hàng hài lòng khi sử dụng eSIM tại shop
   </div>
 
   <div class="counter-box">
