@@ -393,7 +393,7 @@ button:active{
   <input type="checkbox" id="paidCheck">
   <label for="paidCheck">
     <i class="fa-solid fa-circle-check"></i>
-    Tôi đã thanh toán và đồng ý điều khoản
+    Thanh toán và đồng ý điều khoản!
   </label>
 </div>
 
