@@ -311,6 +311,53 @@ function submitOrder(){
 
 updateQR();
 </script>
+<script>
+function register(){
+  const user=document.getElementById("username").value;
+  const pass=document.getElementById("password").value;
+
+  if(!user || !pass){
+    showMsg("⚠️ Vui lòng nhập đầy đủ thông tin", "red");
+    return;
+  }
+
+  if(localStorage.getItem(user)){
+    showMsg("❌ Tài khoản đã tồn tại", "red");
+    return;
+  }
+
+  localStorage.setItem(user, pass);
+  showMsg("✅ Đăng ký thành công", "green");
+}
+
+function login(){
+  const user=document.getElementById("username").value;
+  const pass=document.getElementById("password").value;
+
+  const savedPass=localStorage.getItem(user);
+
+  if(savedPass===pass){
+    showMsg("✅ Đăng nhập thành công", "green");
+    localStorage.setItem("loggedIn", user);
+
+    document.getElementById("authBox").style.display="none";
+  }else{
+    showMsg("❌ Sai tài khoản hoặc mật khẩu", "red");
+  }
+}
+
+function showMsg(text,color){
+  const msg=document.getElementById("authMessage");
+  msg.innerText=text;
+  msg.style.color=color;
+}
+
+window.onload=function(){
+  if(localStorage.getItem("loggedIn")){
+    document.getElementById("authBox").style.display="none";
+  }
+};
+</script>
 
 </body>
 </html>
