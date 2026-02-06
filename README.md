@@ -60,10 +60,6 @@ select,input{
   background:#fff;
   box-shadow:0 4px 12px rgba(255,112,67,.15); /* Bóng nhẹ */
 }
-input:focus{
-  border-color:#e53935;
-  box-shadow:0 0 0 4px rgba(229,57,53,.2);
-}
 
 button{
   background:linear-gradient(135deg,#e53935,#ff7043);
