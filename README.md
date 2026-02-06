@@ -6,7 +6,38 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-<style>
+.country-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:12px;
+  margin-top:10px;
+}
+
+.country-card{
+  background:#f5f5f5;
+  border-radius:16px;
+  padding:18px 10px;
+  text-align:center;
+  font-size:26px;
+  cursor:pointer;
+  transition:0.2s;
+  font-weight:bold;
+}
+
+.country-card span{
+  display:block;
+  font-size:14px;
+  margin-top:6px;
+}
+
+.country-card.active{
+  background:linear-gradient(135deg,#e53935,#ff7043);
+  color:#fff;
+  transform:scale(1.05);
+  box-shadow:0 6px 18px rgba(0,0,0,.2);
+}
+
+<style> 
 *,
 *::before,
 *::after{box-sizing:border-box}
