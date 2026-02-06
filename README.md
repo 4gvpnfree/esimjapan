@@ -377,6 +377,37 @@ button:active{
   font-weight:bold;
   color:#e53935;
 }
+  /* ===== GUIDE BUTTONS ===== */
+.guide-buttons{
+  display:flex;
+  gap:10px;
+  margin-bottom:15px;
+}
+
+.guide-btn{
+  flex:1;
+  padding:12px;
+  border-radius:12px;
+  border:2px solid #ff7043;
+  background:#fff;
+  font-weight:bold;
+  cursor:pointer;
+  transition:all .3s ease;
+}
+
+.guide-btn.active{
+  background:linear-gradient(135deg,#e53935,#ff7043);
+  color:#fff;
+}
+
+.guide-content{
+  display:none;
+  margin-top:10px;
+}
+
+.guide-content.active{
+  display:block;
+}
 </style>
 </head>
 
