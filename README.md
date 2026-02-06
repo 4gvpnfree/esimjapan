@@ -440,73 +440,6 @@ button:active{
 <input type="email" id="email" name="Email_khach"
  placeholder="Nhập email nhận eSIM"
  required oninput="updateQR()">
-<div class="guide-box">
-  
-  <h3>📲 Hướng dẫn cài đặt eSIM</h3>
-
-  <div class="guide-buttons">
-    <button type="button" class="guide-btn active" onclick="showGuide('iphone', this)">
-      🍎 iPhone
-    </button>
-    <button type="button" class="guide-btn" onclick="showGuide('android', this)">
-      🤖 Android
-    </button>
-  </div>
-
-  <!-- iPhone -->
-  <div id="iphone" class="guide-content active">
-    <div class="guide-step">
-      <i class="fa-solid fa-envelope"></i>
-      <div>
-        <b>Bước 1:</b>
-        <p>Mở email và nhận mã QR eSIM.</p>
-      </div>
-    </div>
-
-    <div class="guide-step">
-      <i class="fa-solid fa-qrcode"></i>
-      <div>
-        <b>Bước 2:</b>
-        <p>Cài đặt → Di động → Thêm eSIM → Quét mã QR.</p>
-      </div>
-    </div>
-
-    <div class="guide-step">
-      <i class="fa-solid fa-wifi"></i>
-      <div>
-        <b>Bước 3:</b>
-        <p>Bật chuyển vùng dữ liệu và bắt đầu sử dụng.</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Android -->
-  <div id="android" class="guide-content">
-    <div class="guide-step">
-      <i class="fa-solid fa-envelope"></i>
-      <div>
-        <b>Bước 1:</b>
-        <p>Mở email nhận mã QR eSIM.</p>
-      </div>
-    </div>
-
-    <div class="guide-step">
-      <i class="fa-solid fa-qrcode"></i>
-      <div>
-        <b>Bước 2:</b>
-        <p>Cài đặt → Kết nối → SIM → Thêm eSIM → Quét mã QR.</p>
-      </div>
-    </div>
-
-    <div class="guide-step">
-      <i class="fa-solid fa-wifi"></i>
-      <div>
-        <b>Bước 3:</b>
-        <p>Bật dữ liệu di động và sử dụng internet.</p>
-      </div>
-    </div>
-  </div>
-</div>
 
 <div class="note">
   <h3>💳 Thanh toán QR MB Bank</h3>
@@ -661,6 +594,72 @@ randomViewer();
   document.getElementById(type).classList.add("active");
 }
 </script>
+<div class="guide-box">
+  <h3>📲 Hướng dẫn cài đặt eSIM</h3>
+
+  <div class="guide-buttons">
+    <button type="button" class="guide-btn active" onclick="showGuide('iphone', this)">
+      🍎 iPhone
+    </button>
+    <button type="button" class="guide-btn" onclick="showGuide('android', this)">
+      🤖 Android
+    </button>
+  </div>
+
+  <!-- iPhone -->
+  <div id="iphone" class="guide-content active">
+    <div class="guide-step">
+      <i class="fa-solid fa-envelope"></i>
+      <div>
+        <b>Bước 1:</b>
+        <p>Mở email và nhận mã QR eSIM.</p>
+      </div>
+    </div>
+
+    <div class="guide-step">
+      <i class="fa-solid fa-qrcode"></i>
+      <div>
+        <b>Bước 2:</b>
+        <p>Cài đặt → Di động → Thêm eSIM → Quét mã QR.</p>
+      </div>
+    </div>
+
+    <div class="guide-step">
+      <i class="fa-solid fa-wifi"></i>
+      <div>
+        <b>Bước 3:</b>
+        <p>Bật chuyển vùng dữ liệu và bắt đầu sử dụng.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Android -->
+  <div id="android" class="guide-content">
+    <div class="guide-step">
+      <i class="fa-solid fa-envelope"></i>
+      <div>
+        <b>Bước 1:</b>
+        <p>Mở email nhận mã QR eSIM.</p>
+      </div>
+    </div>
+
+    <div class="guide-step">
+      <i class="fa-solid fa-qrcode"></i>
+      <div>
+        <b>Bước 2:</b>
+        <p>Cài đặt → Kết nối → SIM → Thêm eSIM → Quét mã QR.</p>
+      </div>
+    </div>
+
+    <div class="guide-step">
+      <i class="fa-solid fa-wifi"></i>
+      <div>
+        <b>Bước 3:</b>
+        <p>Bật dữ liệu di động và sử dụng internet.</p>
+      </div>
+    </div>
+  </div>
+</div>
 <div class="trust-box">
   <h3>🔒 Cam kết - Nhận Esim ngay sau khi thanh toán</h3>
 
