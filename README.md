@@ -813,7 +813,7 @@ function showGuide(type, btn){
 
     <p><b>Tên giao dịch:</b> SIM Quốc Tế eSIM Travel</p>
     <p><b>Địa chỉ:</b> T11 Time City, Hai Bà Trưng, Hà Nội</p>
-    <p><b>Email:</b> cskh@esimtravel.vn</p>
+    <p><b>Email:</b> dothanhchung@gmail.com</p>
     <p><b>Hotline / Zalo:</b> 0858.7127.45</p>
 
   <p style="font-size:13px;color:#666;margin-top:8px">
