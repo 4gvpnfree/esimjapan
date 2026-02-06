@@ -462,6 +462,18 @@ function submitOrder(){
 }
 
 updateQR();
+  <script>
+function randomViewer(){
+  const el=document.getElementById("viewerCount");
+  setInterval(()=>{
+    const random=120+Math.floor(Math.random()*20);
+    el.innerText=random;
+  },3000);
+}
+
+randomViewer();
+</script>
+
 </script>
 <div class="trust-box">
   <h3>🔒 Cam kết - Nhận Esim ngay khi thanh toán</h3>
