@@ -693,10 +693,6 @@ function showGuide(type, btn){
   document.getElementById(type).classList.add("active");
 }
   
-    function closePopup(){
-  document.getElementById("successPopup").style.display="none";
-}
-}
 </script>
 <div class="guide-box">
   <h3>📲 Hướng dẫn cài đặt eSIM</h3>
