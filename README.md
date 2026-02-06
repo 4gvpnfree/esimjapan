@@ -472,7 +472,6 @@ function randomViewer(){
 }
 
 randomViewer();
-
 </script>
 <div class="trust-box">
   <h3>🔒 Cam kết - Nhận Esim ngay khi thanh toán</h3>
