@@ -48,11 +48,26 @@ header,.Header,#header,#Header1,.header,.header-wrapper{
 }
 
 /* ===== FORM ===== */
-select,input,button{
+select,input{
   width:100%;
-  padding:12px;
+  padding:14px;
   margin-top:12px;
   font-size:16px;
+  border-radius:12px;
+  border:2px solid #ddd;
+  outline:none;
+  transition:all .25s ease;
+  background:#fff;
+}
+
+input:focus{
+  border-color:#e53935;
+  box-shadow:0 0 0 4px rgba(229,57,53,.15);
+}
+
+input::placeholder{
+  color:#999;
+  font-weight:500;
 }
 
 button{
@@ -474,7 +489,7 @@ function randomViewer(){
 randomViewer();
 </script>
 <div class="trust-box">
-  <h3>🔒 Cam kết - Nhận Esim ngay khi thanh toán</h3>
+  <h3>🔒 Cam kết - Nhận Esim ngay sau khi thanh toán</h3>
 
   <div class="trust-item">
     <i class="fa-solid fa-shield-halved"></i>
