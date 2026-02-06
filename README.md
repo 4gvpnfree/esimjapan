@@ -473,26 +473,6 @@ updateQR();
   </div>
 
 </div>
-// Giả lập số người đang xem tăng giảm
-setInterval(()=>{
-  let viewer=document.getElementById("viewerCount");
-  let current=parseInt(viewer.innerText);
-  let random=Math.floor(Math.random()*3)-1;
-  let newNumber=current+random;
-
-  if(newNumber<120) newNumber=125;
-  if(newNumber>160) newNumber=140;
-
-  viewer.innerText=newNumber;
-},3000);
-
-// Giả lập tăng đơn bán mỗi 10 giây
-setInterval(()=>{
-  let sale=document.getElementById("saleCount");
-  let current=parseInt(sale.innerText);
-  sale.innerText=current+1;
-},10000);
-
 
 </body>
 </html>
