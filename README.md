@@ -763,10 +763,9 @@ randomViewer();
     <p><b>Email:</b> cskh@esimtravel.vn</p>
     <p><b>Hotline / Zalo:</b> 0866 440 022</p>
 
-    <div class="bo-cong-thuong">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/2/20/Logo_Bo_Cong_Thuong.png" 
-           alt="Đã thông báo Bộ Công Thương">
-    </div>
+  <p style="font-size:13px;color:#666;margin-top:8px">
+  Cam kết hoàn tiền 100% nếu không nhận được eSIM
+</p>
 
     <p class="copyright">
       © 2026 eSIM Travel. All rights reserved.
