@@ -708,6 +708,26 @@ randomViewer();
   </div>
 
 </div>
+<footer class="footer-info">
+  <div class="footer-container">
+    
+    <h3>🏢 Thông tin cửa hàng</h3>
 
+    <p><b>Tên giao dịch:</b> SIM Quốc Tế eSIM Travel</p>
+    <p><b>Địa chỉ:</b> 3/19 Nguyễn Thái Sơn, Phường Hạnh Thông, TP.HCM</p>
+    <p><b>Email:</b> cskh@esimtravel.vn</p>
+    <p><b>Hotline / Zalo:</b> 0866 440 022</p>
+
+    <div class="bo-cong-thuong">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/20/Logo_Bo_Cong_Thuong.png" 
+           alt="Đã thông báo Bộ Công Thương">
+    </div>
+
+    <p class="copyright">
+      © 2026 eSIM Travel. All rights reserved.
+    </p>
+
+  </div>
+</footer>
 </body>
 </html>
