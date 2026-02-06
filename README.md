@@ -260,6 +260,10 @@ button{
   <button type="button" class="copy-btn" onclick="copyText('transferText')">
     Sao chép nội dung chuyển khoản
   </button>
+
+  <p style="margin-top:8px;font-size:12px;color:#c0392b;text-align:center">
+  ⚠️ Vui lòng điền đúng nội dung chuyển khoản để được xử lý nhanh
+</p>
 </div>
 
 <div class="confirm-box">
