@@ -39,7 +39,7 @@ header,.Header,#header,#Header1,.header,.header-wrapper{
   border-radius:0 0 25px 25px;
   overflow:hidden;
   background-size:cover;
-  background-positiBản</button>
+  background-positBản</button>
   <button type="button" class="country-btn" onclick="changeCountry('vietnam', this)">🇻🇳 Việt Nam</button>
 </div>
 
@@ -138,7 +138,7 @@ function changeCountry(country,btn){
 
 if(country==="japan"){
   banner.style.backgroundImage=
-  "url('https://images.unsplash.com/photo-1549692520-acc6669e2f0c')";
+  "url('https://i.imgur.com/yA0uNyA.jpeg')";
 }else{
   banner.style.backgroundImage=
   "url('https://images.unsplash.com/photo-1528127269322-539801943592')";
