@@ -216,9 +216,8 @@ button{
 </div>
 
 <div class="container">
-<form id="orderForm"
- action="https://formsubmit.co/chungthanh18072003@gmail.com"
- method="POST">
+<form id="orderForm">
+ 
 
 <!-- THÊM CHỌN QUỐC GIA -->
 <div class="country-select">
@@ -274,9 +273,7 @@ button{
   </label>
 </div>
 
-<input type="hidden" name="_subject" value="🔔 Đơn hàng eSIM">
-<input type="hidden" name="_captcha" value="false">
-<input type="hidden" name="_next" value="">
+
 
 <button type="button" onclick="submitOrder()">Đặt mua eSIM</button>
 </form>
@@ -360,7 +357,6 @@ function submitOrder(){
     return;
   }
   alert("✅ Đã ghi nhận đơn hàng! QR eSIM sẽ được gửi qua email.");
-  orderForm.submit();
 }
 
 updateQR();
