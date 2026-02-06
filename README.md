@@ -268,6 +268,42 @@ button{
   background:linear-gradient(135deg,#e53935,#ff7043);
   color:#fff;
 }
+/* ===== SOCIAL PROOF ===== */
+.social-proof{
+  margin:20px auto;
+  padding:16px;
+  border-radius:16px;
+  background:#ffffff;
+  box-shadow:0 6px 18px rgba(0,0,0,.06);
+  text-align:center;
+  max-width:600px;
+}
+
+.stars{
+  color:#ff9800;
+  font-size:20px;
+  margin-bottom:8px;
+}
+
+.review-text{
+  font-size:14px;
+  color:#444;
+  margin-bottom:10px;
+}
+
+.counter-box{
+  font-size:14px;
+  color:#2e7d32;
+  font-weight:bold;
+  margin-top:6px;
+}
+
+.big-sale{
+  margin-top:10px;
+  font-size:15px;
+  font-weight:bold;
+  color:#e53935;
+}
 </style>
 </head>
 
