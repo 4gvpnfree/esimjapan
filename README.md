@@ -62,12 +62,28 @@ select,input{
 }
 
 button{
+  display:block;
+  width:85%;
+  margin:20px auto 0;
+  padding:16px;
+  font-size:18px;
+  font-weight:bold;
+  border:none;
+  border-radius:14px;
+  cursor:pointer;
   background:linear-gradient(135deg,#e53935,#ff7043);
   color:#fff;
-  border:none;
-  border-radius:10px;
-  font-weight:bold;
-  cursor:pointer;
+  box-shadow:0 8px 20px rgba(229,57,53,.35);
+  transition:all .25s ease;
+}
+
+button:hover{
+  transform:translateY(-3px);
+  box-shadow:0 12px 25px rgba(229,57,53,.45);
+}
+
+button:active{
+  transform:scale(.97);
 }
 
 .price{
