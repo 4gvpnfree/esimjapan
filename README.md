@@ -692,6 +692,7 @@ function showGuide(type, btn){
   document.querySelectorAll(".guide-content").forEach(c=>c.classList.remove("active"));
   document.getElementById(type).classList.add("active");
 }
+  
     function closePopup(){
   document.getElementById("successPopup").style.display="none";
 }
