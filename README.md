@@ -261,7 +261,10 @@ button{
 
   <div class="qr-box">
     <img id="qrImage" alt="QR Thanh toán">
-    <div class="transfer-content" id="transferText"></div>
+    <div class="transfer-box">
+  <div class="transfer-label">📌 Nội dung chuyển khoản</div>
+  <div class="transfer-content" id="transferText"></div>
+</div>
   </div>
 
   <button type="button" class="copy-btn" onclick="copyText('transferText')">
