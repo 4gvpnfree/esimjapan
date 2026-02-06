@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Admin - Quản lý đơn hàng</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body{
+  font-family:Arial;
+  background:#f4f6f9;
+  margin:0;
+  padding:20px;
+}
+
+.login-box, .dashboard{
+  max-width:600px;
+  margin:auto;
+  background:#fff;
+  padding:20px;
+  border-radius:12px;
+  box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+input,button{
+  width:100%;
+  padding:10px;
+  margin-top:10px;
+  font-size:16px;
+}
+
+button{
+  background:#e53935;
+  color:#fff;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+}
+
+.order{
+  background:#fafafa;
+  padding:10px;
+  margin-top:10px;
+  border-radius:8px;
+  font-size:14px;
+  border:1px solid #ddd;
+}
+
+.delete-btn{
+  background:#333;
+  margin-top:5px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="login-box" id="loginBox">
+  <h2>🔐 Admin Login</h2>
+  <input type="text" id="adminUser" placeholder="Tài khoản">
+  <input type="password" id="adminPass" placeholder="Mật khẩu">
+  <button onclick="adminLogin()">Đăng nhập</button>
+  <p id="loginMsg" style="color:red"></p>
+</div>
+
+<div class="dashboard" id="dashboard" style="display:none;">
+  <h2>📦 Danh sách đơn hàng</h2>
+  <div id="orderList"></div>
+  <button onclick="logout()">Đăng xuất</button>
+</div>
+
+<script>
+const ADMIN_USER="admin";
+const ADMIN_PASS="123456";
+
+function adminLogin(){
+  const u=adminUser.value;
+  const p=adminPass.value;
+
+  if(u===ADMIN_USER && p===ADMIN_PASS){
+    loginBox.style.display="none";
+    dashboard.style.display="block";
+    loadOrders();
+  }else{
+    loginMsg.innerText="Sai tài khoản hoặc mật khẩu";
+  }
+}
+
+function loadOrders(){
+  const orders=JSON.parse(localStorage.getItem("orders")) || [];
+  orderList.innerHTML="";
+
+  if(orders.length===0){
+    orderList.innerHTML="<p>Chưa có đơn hàng</p>";
+    return;
+  }
+
+  orders.forEach((o,index)=>{
+    orderList.innerHTML+=`
+      <div class="order">
+        <b>Gói:</b> ${o.package}<br>
+        <b>Email:</b> ${o.email}<br>
+        <b>Giá:</b> ${Number(o.price).toLocaleString("vi-VN")}đ<br>
+        <button class="delete-btn" onclick="deleteOrder(${index})">Xoá đơn</button>
+      </div>
+    `;
+  });
+}
+
+function deleteOrder(index){
+  let orders=JSON.parse(localStorage.getItem("orders")) || [];
+  orders.splice(index,1);
+  localStorage.setItem("orders",JSON.stringify(orders));
+  loadOrders();
+}
+
+function logout(){
+  dashboard.style.display="none";
+  loginBox.style.display="block";
+}
+</script>
+
+</body>
+</html>
