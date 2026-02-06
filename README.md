@@ -378,26 +378,28 @@ button:active{
   color:#e53935;
 }
   /* ===== GUIDE BUTTONS ===== */
-.guide-buttons{
-  display:flex;
-  gap:10px;
-  margin-bottom:15px;
-}
-
 .guide-btn{
   flex:1;
-  padding:12px;
-  border-radius:12px;
+  padding:14px;
+  border-radius:14px;
   border:2px solid #ff7043;
-  background:#fff;
+  background:#f2f2f2;   /* nền xám nhạt */
+  color:#333;           /* chữ đậm */
   font-weight:bold;
+  font-size:16px;
   cursor:pointer;
   transition:all .3s ease;
+}
+
+.guide-btn:hover{
+  transform:translateY(-2px);
+  box-shadow:0 6px 15px rgba(0,0,0,.08);
 }
 
 .guide-btn.active{
   background:linear-gradient(135deg,#e53935,#ff7043);
   color:#fff;
+  box-shadow:0 8px 20px rgba(229,57,53,.35);
 }
 
 .guide-content{
