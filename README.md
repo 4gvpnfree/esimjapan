@@ -277,6 +277,20 @@ button{
 <button type="button" onclick="submitOrder()">Đặt mua eSIM</button>
 </form>
 </div>
+<!-- NÚT HỖ TRỢ -->
+<div class="support-buttons">
+  <a href="https://zalo.me/0858712745" 
+     class="support-btn support-zalo" 
+     target="_blank">
+    <i class="fa-solid fa-comment-dots"></i>
+  </a>
+
+  <a href="https://www.facebook.com/profile.php?id=100083581842218"
+     class="support-btn support-messenger"
+     target="_blank">
+    <i class="fa-brands fa-facebook-messenger"></i>
+  </a>
+</div>
 
 <script>
 const ACCOUNT="1807200320033";
