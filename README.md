@@ -817,7 +817,7 @@ function showGuide(type, btn){
     <p><b>Hotline / Zalo:</b> 0858.7127.45</p>
 
   <p style="font-size:13px;color:#666;margin-top:8px">
-  Cam kết hoàn tiền 100% nếu không nhận được eSIM
+  Cam kết hoàn tiền 100% nếu Esim bị lỗi!
 </p>
 
     <p class="copyright">
