@@ -666,7 +666,10 @@ function submitOrder(){
     alert("⚠️ Vui lòng xác nhận đã thanh toán");
     return;
   }
-  alert("✅ Đã ghi nhận đơn hàng! QR eSIM sẽ được gửi qua email.");
+  document.getElementById("successPopup").classList.add("active");
+  function closePopup(){
+  document.getElementById("successPopup").classList.remove("active");
+}
 }
 
 updateQR();
