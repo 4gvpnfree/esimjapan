@@ -488,6 +488,15 @@ const japanPackages=[
 
 function changeCountry(country,btn){
   currentCountry=country;
+  const banner=document.getElementById("mainBanner");
+
+if(country==="japan"){
+  banner.style.backgroundImage=
+  "url('https://images.unsplash.com/photo-1549692520-acc6669e2f0c')";
+}else{
+  banner.style.backgroundImage=
+  "url('https://images.unsplash.com/photo-1528127269322-539801943592')";
+}
   document.querySelectorAll(".country-btn").forEach(b=>b.classList.remove("active"));
   btn.classList.add("active");
 
