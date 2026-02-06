@@ -5,51 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-/* ===== FOOTER ===== */
-.footer-info{
-  background:#111;
-  color:#ddd;
-  padding:30px 16px;
-  margin-top:40px;
-}
-
-.footer-container{
-  max-width:600px;
-  margin:auto;
-  font-size:14px;
-  line-height:1.8;
-}
-
-.footer-info h3{
-  color:#fff;
-  margin-bottom:12px;
-}
-
-.footer-info b{
-  color:#ff7043;
-}
-
-.footer-info p{
-  margin:6px 0;
-}
-
-.bo-cong-thuong{
-  margin-top:12px;
-}
-
-.bo-cong-thuong img{
-  width:150px;
-  background:#fff;
-  padding:6px;
-  border-radius:8px;
-}
-
-.copyright{
-  margin-top:20px;
-  font-size:12px;
-  color:#888;
-  text-align:center;
-}
 
 <style>
 *,
@@ -454,6 +409,51 @@ button:active{
 
 .guide-content.active{
   display:block;
+}
+/* ===== FOOTER ===== */
+.footer-info{
+  background:#111;
+  color:#ddd;
+  padding:30px 16px;
+  margin-top:40px;
+}
+
+.footer-container{
+  max-width:600px;
+  margin:auto;
+  font-size:14px;
+  line-height:1.8;
+}
+
+.footer-info h3{
+  color:#fff;
+  margin-bottom:12px;
+}
+
+.footer-info b{
+  color:#ff7043;
+}
+
+.footer-info p{
+  margin:6px 0;
+}
+
+.bo-cong-thuong{
+  margin-top:12px;
+}
+
+.bo-cong-thuong img{
+  width:150px;
+  background:#fff;
+  padding:6px;
+  border-radius:8px;
+}
+
+.copyright{
+  margin-top:20px;
+  font-size:12px;
+  color:#888;
+  text-align:center;
 }
 </style>
 </head>
