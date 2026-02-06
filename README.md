@@ -455,6 +455,54 @@ button:active{
   color:#888;
   text-align:center;
 }
+  /* ===== POPUP THÀNH CÔNG ===== */
+.success-popup{
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,.6);
+  display:none;
+  align-items:center;
+  justify-content:center;
+  z-index:99999;
+}
+
+.success-box{
+  width:90%;
+  max-width:380px;
+  background:#fff;
+  border-radius:18px;
+  padding:25px 20px;
+  text-align:center;
+  animation:fadeIn .3s ease;
+}
+
+.success-box h2{
+  margin:0 0 10px;
+  color:#2e7d32;
+}
+
+.success-box p{
+  font-size:14px;
+  color:#555;
+}
+
+.success-btn{
+  margin-top:18px;
+  padding:14px;
+  width:100%;
+  border:none;
+  border-radius:12px;
+  font-weight:bold;
+  font-size:16px;
+  background:linear-gradient(135deg,#e53935,#ff7043);
+  color:#fff;
+  cursor:pointer;
+}
+
+@keyframes fadeIn{
+  from{transform:scale(.9);opacity:0}
+  to{transform:scale(1);opacity:1}
+}
 </style>
 </head>
 
