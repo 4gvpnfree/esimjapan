@@ -533,11 +533,11 @@ randomViewer();
   </div>
 
   <div class="counter-box">
-    👥 Khách đang xem: <span id="viewerCount">128</span>
+    👥 Khách đang xem: <span id="viewerCount">126</span>
   </div>
 
   <div class="big-sale">
-    🏆 Đã bán <span id="saleCount">1258</span> đơn tháng này
+    🏆 Đã bán <span id="saleCount">1298</span> đơn tháng này
   </div>
 
 </div>
