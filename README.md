@@ -6,38 +6,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-.country-grid{
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  gap:12px;
-  margin-top:10px;
-}
-
-.country-card{
-  background:#f5f5f5;
-  border-radius:16px;
-  padding:18px 10px;
-  text-align:center;
-  font-size:26px;
-  cursor:pointer;
-  transition:0.2s;
-  font-weight:bold;
-}
-
-.country-card span{
-  display:block;
-  font-size:14px;
-  margin-top:6px;
-}
-
-.country-card.active{
-  background:linear-gradient(135deg,#e53935,#ff7043);
-  color:#fff;
-  transform:scale(1.05);
-  box-shadow:0 6px 18px rgba(0,0,0,.2);
-}
-
-<style> 
+<style>
 *,
 *::before,
 *::after{box-sizing:border-box}
@@ -213,48 +182,49 @@ button{
 .support-messenger{
   background:linear-gradient(135deg,#00c6ff,#0072ff);
 }
+
+/* ===== THÊM CHỌN QUỐC GIA ===== */
+.country-select{
+  display:flex;
+  gap:10px;
+  margin-bottom:15px;
+}
+
+.country-btn{
+  flex:1;
+  padding:12px;
+  border-radius:12px;
+  border:none;
+  cursor:pointer;
+  font-weight:bold;
+  font-size:15px;
+  background:#eee;
+}
+
+.country-btn.active{
+  background:linear-gradient(135deg,#e53935,#ff7043);
+  color:#fff;
+}
 </style>
 </head>
 
 <body>
 
 <div class="banner">
-  <h1 id="mainTitle">🌍 eSIM Du Lịch Quốc Tế</h1>
-  <p id="subTitle">Chọn quốc gia bên dưới để xem gói cước</p>
-</div>
-<div class="container">
-  <h3 style="text-align:center;margin-top:0">🌎 Chọn quốc gia</h3>
-
-  <div class="country-grid">
-    <div class="country-card active" onclick="selectCountry('japan', this)">
-      🇯🇵
-      <span>Nhật Bản</span>
-    </div>
-
-    <div class="country-card" onclick="selectCountry('vietnam', this)">
-      🇻🇳
-      <span>Việt Nam</span>
-    </div>
-  </div>
-</div>
-
-
-<div class="container" id="authBox">
-  <h3 style="text-align:center">🔐 Tài khoản khách hàng</h3>
-
-  <input type="text" id="username" placeholder="Tên đăng nhập">
-  <input type="password" id="password" placeholder="Mật khẩu">
-
-  <button type="button" onclick="register()">Đăng ký</button>
-  <button type="button" onclick="login()">Đăng nhập</button>
-
-  <p id="authMessage" style="text-align:center;font-size:13px;margin-top:10px"></p>
+  <h1>🌍 eSIM Du Lịch</h1>
+  <p>Chọn quốc gia và gói phù hợp</p>
 </div>
 
 <div class="container">
 <form id="orderForm"
  action="https://formsubmit.co/chungthanh18072003@gmail.com"
  method="POST">
+
+<!-- THÊM CHỌN QUỐC GIA -->
+<div class="country-select">
+  <button type="button" class="country-btn active" onclick="changeCountry('japan', this)">🇯🇵 Nhật</button>
+  <button type="button" class="country-btn" onclick="changeCountry('vietnam', this)">🇻🇳 Việt Nam</button>
+</div>
 
 <select id="package" name="Goi_eSIM" onchange="updateQR()">
   <option data-price="150000">3 ngày – 1GB/ngày</option>
@@ -290,10 +260,6 @@ button{
   <button type="button" class="copy-btn" onclick="copyText('transferText')">
     Sao chép nội dung chuyển khoản
   </button>
-
-  <p style="margin-top:8px;font-size:12px;color:#c0392b;text-align:center">
-    ⚠️ Vui lòng điền đúng nội dung chuyển khoản để được xử lý nhanh
-  </p>
 </div>
 
 <div class="confirm-box">
@@ -304,7 +270,7 @@ button{
   </label>
 </div>
 
-<input type="hidden" name="_subject" value="🔔 Đơn hàng eSIM Nhật">
+<input type="hidden" name="_subject" value="🔔 Đơn hàng eSIM">
 <input type="hidden" name="_captcha" value="false">
 <input type="hidden" name="_next" value="">
 
@@ -312,35 +278,58 @@ button{
 </form>
 </div>
 
-<!-- NÚT HỖ TRỢ -->
-<div class="support-buttons">
-  <a href="https://zalo.me/0858712745" class="support-btn support-zalo" target="_blank">
-    <i class="fa-solid fa-comment-dots"></i>
-  </a>
-  <a href="https://www.facebook.com/profile.php?id=100083581842218"
-     class="support-btn support-messenger" target="_blank">
-    <i class="fa-brands fa-facebook-messenger"></i>
-  </a>
-</div>
-
 <script>
 const ACCOUNT="1807200320033";
 const emailInput=document.getElementById("email");
+let currentCountry="japan";
+
+const vietnamPackages=[
+  {name:"7 ngày – 4GB/ngày",price:90000},
+  {name:"15 ngày – 6GB/ngày",price:150000},
+  {name:"30 ngày – 8GB/ngày",price:250000}
+];
+
+const japanPackages=[
+  {name:"3 ngày – 1GB/ngày",price:150000},
+  {name:"5 ngày – 2GB/ngày",price:230000},
+  {name:"7 ngày – 5GB",price:320000},
+  {name:"10 ngày – Không giới hạn",price:450000}
+];
+
+function changeCountry(country,btn){
+  currentCountry=country;
+  document.querySelectorAll(".country-btn").forEach(b=>b.classList.remove("active"));
+  btn.classList.add("active");
+
+  const pkgSelect=document.getElementById("package");
+  pkgSelect.innerHTML="";
+
+  const list=country==="japan"?japanPackages:vietnamPackages;
+
+  list.forEach(p=>{
+    const option=document.createElement("option");
+    option.textContent=p.name;
+    option.dataset.price=p.price;
+    pkgSelect.appendChild(option);
+  });
+
+  updateQR();
+}
 
 function updateQR(){
   const pkg=document.getElementById("package");
   const price=pkg.options[pkg.selectedIndex].dataset.price;
-  const email=emailInput.value || "CHUA_CO_EMAIL";
+  const email=emailInput.value||"CHUA_CO_EMAIL";
 
-  const content = `ESIM JAPAN | ${price} | ${email}`;
+  const content=`ESIM ${currentCountry.toUpperCase()} | ${price} | ${email}`;
 
-  document.getElementById("priceText").innerText =
-    "Giá: " + Number(price).toLocaleString("vi-VN") + "đ";
+  document.getElementById("priceText").innerText=
+  "Giá: "+Number(price).toLocaleString("vi-VN")+"đ";
 
-  document.getElementById("transferText").innerText = content;
+  document.getElementById("transferText").innerText=content;
 
-  document.getElementById("qrImage").src =
-    `https://img.vietqr.io/image/MB-${ACCOUNT}-qr_only.png?amount=${price}&addInfo=${encodeURIComponent(content)}`;
+  document.getElementById("qrImage").src=
+  `https://img.vietqr.io/image/MB-${ACCOUNT}-qr_only.png?amount=${price}&addInfo=${encodeURIComponent(content)}`;
 }
 
 function copyText(id){
@@ -357,53 +346,6 @@ function submitOrder(){
 }
 
 updateQR();
-</script>
-<script>
-function register(){
-  const user=document.getElementById("username").value;
-  const pass=document.getElementById("password").value;
-
-  if(!user || !pass){
-    showMsg("⚠️ Vui lòng nhập đầy đủ thông tin", "red");
-    return;
-  }
-
-  if(localStorage.getItem(user)){
-    showMsg("❌ Tài khoản đã tồn tại", "red");
-    return;
-  }
-
-  localStorage.setItem(user, pass);
-  showMsg("✅ Đăng ký thành công", "green");
-}
-
-function login(){
-  const user=document.getElementById("username").value;
-  const pass=document.getElementById("password").value;
-
-  const savedPass=localStorage.getItem(user);
-
-  if(savedPass===pass){
-    showMsg("✅ Đăng nhập thành công", "green");
-    localStorage.setItem("loggedIn", user);
-
-    document.getElementById("authBox").style.display="none";
-  }else{
-    showMsg("❌ Sai tài khoản hoặc mật khẩu", "red");
-  }
-}
-
-function showMsg(text,color){
-  const msg=document.getElementById("authMessage");
-  msg.innerText=text;
-  msg.style.color=color;
-}
-
-window.onload=function(){
-  if(localStorage.getItem("loggedIn")){
-    document.getElementById("authBox").style.display="none";
-  }
-};
 </script>
 
 </body>
