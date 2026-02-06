@@ -393,7 +393,7 @@ button:active{
 
 <!-- THÊM CHỌN QUỐC GIA -->
 <div class="country-select">
-  <button type="button" class="country-btn active" onclick="changeCountry('japan', this)">🇯🇵 Nhật</button>
+  <button type="button" class="country-btn active" onclick="changeCountry('japan', this)">🇯🇵 Nhật Bản</button>
   <button type="button" class="country-btn" onclick="changeCountry('vietnam', this)">🇻🇳 Việt Nam</button>
 </div>
 
@@ -492,7 +492,7 @@ function changeCountry(country,btn){
 
 if(country==="japan"){
   banner.style.backgroundImage=
-  "url('https://images.unsplash.com/photo-1549692520-acc6669e2f0c')";
+  "url('https://i.imgur.com/yA0uNyA.jpeg')";
 }else{
   banner.style.backgroundImage=
   "url('https://images.unsplash.com/photo-1528127269322-539801943592')";
