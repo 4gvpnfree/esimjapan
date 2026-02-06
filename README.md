@@ -21,174 +21,7 @@ html,body{
 }
 
 /* ẨN HEADER BLOGGER */
-header,.Header,#header,#Header1,.header,.header-wrapper{
-  display:none!important;
-}
-
-/* ===== BANNER ===== */
-.banner{
-  width:100%;
-  background:linear-gradient(135deg,#d32f2f,#ff7043);
-  color:#fff;
-  padding:26px 16px 40px;
-  text-align:center;
-}
-.banner h1{margin:0;font-size:26px}
-.banner p{margin-top:6px;font-size:15px;opacity:.95}
-
-/* ===== CONTAINER ===== */
-.container{
-  width:100%;
-  max-width:600px;
-  margin:0 auto 28px;
-  background:#fff;
-  padding:16px;
-  border-radius:16px;
-  box-shadow:0 10px 25px rgba(0,0,0,.12);
-}
-
-/* ===== FORM ===== */
-select,input,button{
-  width:100%;
-  padding:12px;
-  margin-top:12px;
-  font-size:16px;
-}
-
-button{
-  background:linear-gradient(135deg,#e53935,#ff7043);
-  color:#fff;
-  border:none;
-  border-radius:10px;
-  font-weight:bold;
-  cursor:pointer;
-}
-
-.price{
-  text-align:center;
-  font-size:19px;
-  font-weight:bold;
-  color:#e53935;
-  margin-top:10px;
-}
-
-/* ===== THANH TOÁN ===== */
-.note{
-  background:#fff7d6;
-  padding:16px;
-  border-radius:16px;
-  margin-top:18px;
-  font-size:13px;
-}
-
-.note h3{
-  margin:0 0 14px;
-  font-size:16px;
-  text-align:center;
-}
-
-.pay-block{margin-bottom:14px}
-.pay-row{font-size:14px;margin-bottom:6px}
-
-.copy-btn{
-  width:100%;
-  background:#ff7043;
-  color:#fff;
-  border:none;
-  padding:11px;
-  border-radius:10px;
-  font-size:14px;
-  font-weight:bold;
-  cursor:pointer;
-}
-.copy-btn:active{transform:scale(0.97)}
-
-.qr-box{
-  margin:16px auto 12px;
-  background:#fff;
-  padding:14px;
-  border-radius:16px;
-  width:100%;
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-}
-
-.qr-box img{
-  width:100%;
-  max-width:220px;
-  display:block;
-}
-
-.transfer-content{
-  margin-top:10px;
-  width:100%;
-  background:#f1f1f1;
-  padding:8px;
-  border-radius:8px;
-  font-size:12px;
-  text-align:center;
-}
-
-/* ===== CHECKBOX ===== */
-.confirm-box{margin-top:16px}
-.confirm-box input{display:none}
-
-.confirm-box label{
-  display:flex;
-  align-items:center;
-  gap:10px;
-  padding:12px;
-  border:2px dashed #ccc;
-  border-radius:12px;
-  cursor:pointer;
-  font-weight:bold;
-  color:#555;
-}
-
-.confirm-box input:checked+label{
-  border-color:#4caf50;
-  background:#e8f5e9;
-  color:#2e7d32;
-}
-
-.confirm-box i{font-size:22px}
-
-/* ===== NÚT HỖ TRỢ ===== */
-.support-buttons{
-  position:fixed;
-  right:16px;
-  bottom:16px;
-  z-index:9999;
-  display:flex;
-  flex-direction:column;
-  gap:10px;
-}
-
-.support-btn{
-  width:48px;
-  height:48px;
-  border-radius:50%;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  color:#fff;
-  font-size:22px;
-  text-decoration:none;
-  box-shadow:0 6px 15px rgba(0,0,0,.35);
-}
-
-.support-zalo{background:#0068ff}
-.support-messenger{
-  background:linear-gradient(135deg,#00c6ff,#0072ff);
-}
-</style>
-</head>
-
-<body>
-
-<div class="banner">
-  <h1>🇯🇵 eSIM Nhật Bản</h1>
+header,.Header,#header,#Header1,.header,.header-wrSoftbank Nhật Bản</h1>
   <p>Internet tốc độ cao • Nhận QR qua email • Không cần SIM vật lý</p>
 </div>
 
@@ -198,10 +31,13 @@ button{
  method="POST">
 
 <select id="package" name="Goi_eSIM" onchange="updateQR()">
-  <option data-price="150000">3 ngày – 1GB/ngày</option>
-  <option data-price="230000">5 ngày – 2GB/ngày</option>
-  <option data-price="320000">7 ngày – 5GB</option>
-  <option data-price="450000">10 ngày – Không giới hạn</option>
+  <option data-price="150000">3 ngày – 3GB/ngày</option>
+  <option data-price="230000">5 ngày – 5GB/ngày</option>
+  <option data-price="320000">7 ngày – 7GB</option>
+  <option data-price="150000">10 ngày – 10GB/ngày</option>
+  <option data-price="230000">15 ngày – 15GB/ngày</option>
+  <option data-price="320000">20 ngày – 20GB</option>
+  <option data-price="450000">30 ngày – Không giới hạn</option>
 </select>
 
 <div class="price" id="priceText">Giá: 150.000đ</div>
