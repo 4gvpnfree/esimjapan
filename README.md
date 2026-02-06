@@ -389,7 +389,7 @@ function submitOrder(){
 updateQR();
 </script>
 <div class="trust-box">
-  <h3>🔒 Cam kết & Uy tín- Nhận Esim ngay khi thanh toán</h3>
+  <h3>🔒 Cam kết - Nhận Esim ngay khi thanh toán</h3>
 
   <div class="trust-item">
     <i class="fa-solid fa-shield-halved"></i>
