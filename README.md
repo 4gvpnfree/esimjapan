@@ -120,15 +120,31 @@ button{
   display:block;
 }
 
-.transfer-content{
-  margin-top:10px;
+.transfer-box{
   width:100%;
-  background:#f1f1f1;
-  padding:8px;
-  border-radius:8px;
-  font-size:12px;
+  margin-top:12px;
+  padding:14px;
+  border-radius:14px;
+  background:#fff8e1;
+  border:2px dashed #ff9800;
   text-align:center;
 }
+
+.transfer-label{
+  font-size:13px;
+  font-weight:bold;
+  color:#e65100;
+  margin-bottom:6px;
+}
+
+.transfer-content{
+  font-size:14px;
+  font-weight:bold;
+  letter-spacing:0.5px;
+  color:#d84315;
+  word-break:break-word;
+}
+
 
 /* ===== CHECKBOX ===== */
 .confirm-box{margin-top:16px}
