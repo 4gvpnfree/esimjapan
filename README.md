@@ -66,10 +66,6 @@ input:focus{
   box-shadow:0 0 0 4px rgba(229,57,53,.15);
 }
 
-input::placeholder{
-  color:#999;
-  font-weight:500;
-}
 
 button{
   background:linear-gradient(135deg,#e53935,#ff7043);
