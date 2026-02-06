@@ -28,34 +28,41 @@ header,.Header,#header,#Header1,.header,.header-wrapper{
 /* ===== BANNER ===== */
 .banner{
   width:100%;
-  background:linear-gradient(135deg,#d32f2f,#ff7043,#ff8a65);
-  color:#fff;
-  padding:40px 20px 60px;
-  text-align:center;
+  height:240px;
+  background:url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e") center/cover no-repeat;
   position:relative;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  color:#fff;
+  border-radius:0 0 25px 25px;
   overflow:hidden;
 }
 
-.banner::before{
+/* Lớp phủ tối giúp chữ nổi bật */
+.banner::after{
   content:"";
   position:absolute;
-  width:200%;
-  height:200%;
-  background:radial-gradient(circle at top left, rgba(255,255,255,.15), transparent 60%);
-  top:-50%;
-  left:-50%;
-  transform:rotate(25deg);
+  inset:0;
+  background:rgba(0,0,0,.45);
 }
+.banner h1,
+.banner p{
+  position:relative;
+  z-index:2;
+}
+
 .banner h1{
-  margin:0;
   font-size:30px;
   font-weight:800;
-  letter-spacing:1px;
-  text-shadow:0 4px 15px rgba(0,0,0,.3);
+  margin:0;
+  text-shadow:0 4px 20px rgba(0,0,0,.6);
 }
 
 .banner p{
-  margin-top:10px;
+  margin-top:8px;
   font-size:16px;
   opacity:.95;
 }
