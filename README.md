@@ -191,6 +191,22 @@ button{
   <h1 id="mainTitle">🌍 eSIM Du Lịch Quốc Tế</h1>
   <p id="subTitle">Chọn quốc gia bên dưới để xem gói cước</p>
 </div>
+<div class="container">
+  <h3 style="text-align:center;margin-top:0">🌎 Chọn quốc gia</h3>
+
+  <div class="country-grid">
+    <div class="country-card active" onclick="selectCountry('japan', this)">
+      🇯🇵
+      <span>Nhật Bản</span>
+    </div>
+
+    <div class="country-card" onclick="selectCountry('vietnam', this)">
+      🇻🇳
+      <span>Việt Nam</span>
+    </div>
+  </div>
+</div>
+
 
 <div class="container" id="authBox">
   <h3 style="text-align:center">🔐 Tài khoản khách hàng</h3>
