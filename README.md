@@ -54,10 +54,11 @@ select,input{
   margin-top:12px;
   font-size:16px;
   border-radius:12px;
-  border:2px solid #ddd;
+  border:2px solid #ff7043;   /* Viền cam nổi bật */
   outline:none;
   transition:all .25s ease;
   background:#fff;
+  box-shadow:0 4px 12px rgba(255,112,67,.15); /* Bóng nhẹ */
 }
 
 input:focus{
