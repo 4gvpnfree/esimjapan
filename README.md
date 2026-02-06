@@ -492,7 +492,7 @@ function changeCountry(country,btn){
 
 if(country==="japan"){
   banner.style.backgroundImage=
-  "url('https://images.unsplash.com/photo-1549692520-acc6669e2f0c')";
+  "url('(https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=1600&auto=format&fit=crop)')";
 }else{
   banner.style.backgroundImage=
   "url('https://images.unsplash.com/photo-1528127269322-539801943592')";
