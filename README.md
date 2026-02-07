@@ -564,6 +564,28 @@ button:active{
   from{transform:scale(.9);opacity:0}
   to{transform:scale(1);opacity:1}
 }
+  /* ===== HOA RƠI ===== */
+.falling-flowers{
+  position:fixed;
+  inset:0;
+  pointer-events:none;
+  overflow:hidden;
+  z-index:9999;
+}
+
+.flower{
+  position:absolute;
+  top:-20px;
+  font-size:20px;
+  animation:fall linear forwards;
+}
+
+@keyframes fall{
+  to{
+    transform:translateY(110vh) rotate(360deg);
+    opacity:0.7;
+  }
+}
 </style>
 </head>
 
