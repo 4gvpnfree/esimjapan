@@ -643,7 +643,7 @@ button:active{
 <!-- CHỌN QUỐC GIA DROPDOWN -->
 <div class="country-dropdown">
   <div class="country-selected" onclick="toggleCountryList()">
-    🌍 <span id="selectedCountryText">Nhật Bản - SoftBank</span>
+    🌍 <span id="selectedCountryText">Chọn quốc gia bạn muốn đến</span>
     <i class="fa-solid fa-chevron-down"></i>
   </div>
 
@@ -730,7 +730,7 @@ button:active{
 <script>
 const ACCOUNT="1807200320033";
 const emailInput=document.getElementById("email");
-let currentCountry="japan";
+let currentCountry="";
 
 const vietnamPackages=[
   {name:"7 ngày – 4GB/ngày",price:90000},
@@ -874,8 +874,9 @@ function toggleCountryList(){
 }
 
 function selectCountry(code,text){
-  document.getElementById("selectedCountryText").innerText=text;
-  document.getElementById("countryList").style.display="none";
+  currentCountry = code;
+  document.getElementById("selectedCountryText").innerText = text;
+  document.getElementById("countryList").style.display = "none";
   changeCountry(code);
 }
 </script>
