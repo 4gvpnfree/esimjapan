@@ -455,6 +455,70 @@ button:active{
   color:#888;
   text-align:center;
 }
+  /* ===== POPUP THÔNG BÁO ĐẦU TRANG ===== */
+.welcome-popup{
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,.65);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  z-index:9999999;
+}
+
+.welcome-box{
+  width:92%;
+  max-width:400px;
+  background:#fff;
+  border-radius:18px;
+  padding:22px;
+  animation:fadeIn .3s ease;
+  position:relative;
+}
+
+.welcome-box h3{
+  margin:0 0 12px;
+  font-size:18px;
+}
+
+.welcome-box p{
+  font-size:14px;
+  margin:6px 0;
+  line-height:1.6;
+}
+
+.close-welcome{
+  position:absolute;
+  top:10px;
+  right:14px;
+  font-size:18px;
+  cursor:pointer;
+  color:#999;
+}
+
+.welcome-actions{
+  display:flex;
+  justify-content:space-between;
+  margin-top:18px;
+}
+
+.btn-later{
+  background:none;
+  border:none;
+  color:#6c2bd9;
+  font-weight:bold;
+  cursor:pointer;
+}
+
+.btn-ok{
+  background:linear-gradient(135deg,#e53935,#ff7043);
+  color:#fff;
+  border:none;
+  padding:10px 18px;
+  border-radius:10px;
+  font-weight:bold;
+  cursor:pointer;
+}
   /* ===== POPUP THÀNH CÔNG ===== */
 /* ===== POPUP ===== */
 .custom-popup{
@@ -692,6 +756,25 @@ function showGuide(type, btn){
   document.querySelectorAll(".guide-content").forEach(c=>c.classList.remove("active"));
   document.getElementById(type).classList.add("active");
 }
+  // ===== POPUP CHÀO MỪNG =====
+function closeWelcome(){
+  document.getElementById("welcomePopup").style.display="none";
+}
+
+function hide15Minutes(){
+  localStorage.setItem("hideWelcome", Date.now());
+  closeWelcome();
+}
+
+window.addEventListener("load",function(){
+  const hideTime = localStorage.getItem("hideWelcome");
+  if(hideTime){
+    const diff = Date.now() - hideTime;
+    if(diff < 15 * 60 * 1000){
+      document.getElementById("welcomePopup").style.display="none";
+    }
+  }
+});
   
 </script>
 <div class="guide-box">
@@ -826,6 +909,30 @@ function showGuide(type, btn){
 
   </div>
 </footer>
+<!-- POPUP THÔNG BÁO KHI VÀO WEB -->
+<div class="welcome-popup" id="welcomePopup">
+  <div class="welcome-box">
+    <div class="close-welcome" onclick="closeWelcome()">✕</div>
+
+    <h3>🔔 Thông báo từ hệ thống</h3>
+
+    <p>Xin chào quý anh/chị,</p>
+    <p>Nếu cần hỗ trợ hoặc tư vấn eSIM vui lòng liên hệ:</p>
+
+    <p><b>Zalo:</b> 0858.7127.45</p>
+    <p><b>Nhóm Zalo:</b> 
+      <a href="https://zalo.me/0858712745" target="_blank">
+        Tham gia tại đây
+      </a>
+    </p>
+
+    <div class="welcome-actions">
+      <button class="btn-later" onclick="hide15Minutes()">Tắt 15 phút</button>
+      <button class="btn-ok" onclick="closeWelcome()">Đã hiểu</button>
+    </div>
+  </div>
+</div>
+
 <!-- POPUP THÔNG BÁO -->
 <div class="custom-popup" id="successPopup">
   <div class="popup-box">
