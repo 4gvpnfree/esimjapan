@@ -669,7 +669,7 @@ function submitOrder(){
   document.getElementById("successPopup").style.display="flex";
 }
 
-function closePopup(){
+function closeSuccessPopup(){
   document.getElementById("successPopup").style.display="none";
 }
 
@@ -834,7 +834,7 @@ function showGuide(type, btn){
     </div>
     <h3>Đặt hàng thành công!</h3>
     <p>QR eSIM sẽ được gửi qua email của bạn trong ít phút.</p>
-    <button onclick="closePopup()">OK</button>
+    <button onclick="closeSuccessPopup()">OK</button>
   </div>
 </div>
 </body>
