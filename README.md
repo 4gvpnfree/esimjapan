@@ -463,7 +463,7 @@ button:active{
   position:fixed;
   inset:0;
   background:rgba(0,0,0,.65);
-  display:flex;
+  display:none;
   align-items:center;
   justify-content:center;
   z-index:9999999;
