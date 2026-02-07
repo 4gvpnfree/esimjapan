@@ -821,6 +821,12 @@ function updateQR(){
 
   document.getElementById("qrImage").src=
   `https://img.vietqr.io/image/MB-${ACCOUNT}-qr_only.png?amount=${price}&addInfo=${encodeURIComponent(content)}`;
+  const payBtn = document.querySelector(".pay-btn");
+if(currentCountry && pkg.value){
+  payBtn.style.display="block";
+}else{
+  payBtn.style.display="none";
+}
 }
 
 function copyText(id){
@@ -841,12 +847,7 @@ function submitOrder(){
 function closeSuccessPopup(){
   document.getElementById("successPopup").style.display="none";
 }
-  if(currentCountry && pkg.value){
-   document.getElementById("payBtn").style.display="block";
-}else{
-   document.getElementById("payBtn").style.display="none";
-}
-
+  
 updateQR();
 
 function randomViewer(){
