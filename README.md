@@ -792,18 +792,27 @@ body.dark-mode .country-list div{
 </button>
 
 <div id="paymentSection" style="display:none;">
-<div class="note">
-  <h3>💳 Thanh toán QR MB Bank</h3>
+  <div class="note">
+    <h3>💳 Thanh toán QR MB Bank</h3>
 
-  <div class="pay-block">
-    <div class="pay-row"><b>Số TK:</b> <span id="stkText">1807200320033</span></div>
-    <button type="button" class="copy-btn" onclick="copyText('stkText')">Sao chép số TK</button>
-  </div>
-  </div>
+    <div class="pay-block">
+      <div class="pay-row">
+        <b>Số TK:</b> <span id="stkText">1807200320033</span>
+      </div>
+      <button type="button" class="copy-btn" onclick="copyText('stkText')">
+        Sao chép số TK
+      </button>
+    </div>
 
-  <div class="pay-block">
-    <div class="pay-row"><b>Chủ TK:</b> <span id="ctkText">DO THANH CHUNG</span></div>
-    <button type="button" class="copy-btn" onclick="copyText('ctkText')">Sao chép chủ TK</button>
+    <div class="pay-block">
+      <div class="pay-row">
+        <b>Chủ TK:</b> <span id="ctkText">DO THANH CHUNG</span>
+      </div>
+      <button type="button" class="copy-btn" onclick="copyText('ctkText')">
+        Sao chép chủ TK
+      </button>
+    </div>
+
   </div>
 
   <div class="qr-box">
