@@ -1018,7 +1018,6 @@ if(code === "japan"){
   document.getElementById("paymentSection").style.display="block";
   document.getElementById("paymentSection").scrollIntoView({behavior:"smooth"});
 }
-  <script>
 const toggleBtn = document.getElementById("themeToggle");
 
 // Load trạng thái cũ
