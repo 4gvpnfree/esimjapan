@@ -686,6 +686,23 @@ body.dark-mode select{
   color:#fff !important;
   border:1px solid #444 !important;
 }
+  /* ===== FIX POPUP KHI DARK MODE ===== */
+body.dark-mode .welcome-box,
+body.dark-mode .popup-box{
+  background:#1f1f1f !important;
+  color:#ffffff !important;
+}
+
+body.dark-mode .welcome-box p,
+body.dark-mode .welcome-box h3,
+body.dark-mode .popup-box p,
+body.dark-mode .popup-box h3{
+  color:#ffffff !important;
+}
+
+body.dark-mode .close-welcome{
+  color:#ccc !important;
+}
   body.dark-mode .country-selected{
   background:#2a2a2a !important;
   color:#fff !important;
