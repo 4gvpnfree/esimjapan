@@ -38,6 +38,9 @@ header,.Header,#header,#Header1,.header,.header-wrapper{
   color:#fff;
   border-radius:0 0 25px 25px;
   overflow:hidden;
+
+  background-image:url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80');
+
   background-size:cover;
   background-position:center;
   transition:background-image .5s ease-in-out;
