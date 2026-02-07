@@ -586,6 +586,46 @@ button:active{
     opacity:0.7;
   }
 }
+  /* ===== COUNTRY DROPDOWN ===== */
+.country-dropdown{
+  position:relative;
+  margin-bottom:15px;
+}
+
+.country-selected{
+  padding:14px;
+  border-radius:14px;
+  border:2px solid #ff7043;
+  font-weight:bold;
+  background:#fff;
+  cursor:pointer;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  box-shadow:0 6px 15px rgba(0,0,0,.08);
+}
+
+.country-list{
+  position:absolute;
+  width:100%;
+  background:#fff;
+  border-radius:14px;
+  box-shadow:0 10px 25px rgba(0,0,0,.15);
+  margin-top:8px;
+  display:none;
+  z-index:999;
+  overflow:hidden;
+}
+
+.country-list div{
+  padding:12px;
+  cursor:pointer;
+  transition:.2s;
+}
+
+.country-list div:hover{
+  background:#fff3e0;
+}
 </style>
 </head>
 
@@ -600,12 +640,22 @@ button:active{
 <form id="orderForm">
  
 
-<!-- THÊM CHỌN QUỐC GIA -->
-<div class="country-select">
-  <button type="button" class="country-btn active" onclick="changeCountry('japan', this)">🇯🇵 Nhật Bản - SoftBank</button>
-  <button type="button" class="country-btn" onclick="changeCountry('vietnam', this)">🇻🇳 Việt Nam</button>
-</div>
+<!-- CHỌN QUỐC GIA DROPDOWN -->
+<div class="country-dropdown">
+  <div class="country-selected" onclick="toggleCountryList()">
+    🌍 <span id="selectedCountryText">Nhật Bản - SoftBank</span>
+    <i class="fa-solid fa-chevron-down"></i>
+  </div>
 
+  <div class="country-list" id="countryList">
+    <div onclick="selectCountry('japan','🇯🇵 Nhật Bản - SoftBank')">
+      🇯🇵 Nhật Bản - SoftBank
+    </div>
+    <div onclick="selectCountry('vietnam','🇻🇳 Việt Nam')">
+      🇻🇳 Việt Nam
+    </div>
+  </div>
+</div>
 <select id="package" name="Goi_eSIM" onchange="updateQR()">
   <option data-price="150000">3 ngày – 1GB/ngày</option>
   <option data-price="230000">5 ngày – 2GB/ngày</option>
@@ -818,6 +868,16 @@ function createFlower(){
 
 setInterval(createFlower, 500);
   
+function toggleCountryList(){
+  const list=document.getElementById("countryList");
+  list.style.display=list.style.display==="block"?"none":"block";
+}
+
+function selectCountry(code,text){
+  document.getElementById("selectedCountryText").innerText=text;
+  document.getElementById("countryList").style.display="none";
+  changeCountry(code);
+}
 </script>
 <div class="guide-box">
   <h3>📲 Hướng dẫn cài đặt eSIM</h3>
