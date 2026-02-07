@@ -656,11 +656,8 @@ button:active{
     </div>
   </div>
 </div>
-<select id="package" name="Goi_eSIM" onchange="updateQR()">
-  <option data-price="150000">3 ngày – 1GB/ngày</option>
-  <option data-price="230000">5 ngày – 2GB/ngày</option>
-  <option data-price="320000">7 ngày – 5GB</option>
-  <option data-price="450000">10 ngày – Không giới hạn</option>
+<select id="package" name="Goi_eSIM" onchange="updateQR()" disabled>
+  <option value="">Chọn thời gian sử dụng eSIM</option>
 </select>
 
 <div class="price" id="priceText">Giá: 150.000đ</div>
@@ -773,9 +770,22 @@ if(country==="japan"){
 
   updateQR();
 }
-
 function updateQR(){
+
+  if(!currentCountry){
+    document.getElementById("priceText").innerText = "Vui lòng chọn quốc gia trước";
+    document.getElementById("transferText").innerText = "";
+    document.getElementById("qrImage").src = "";
+    return;
+  }
+
   const pkg=document.getElementById("package");
+
+  if(!pkg.value){
+    document.getElementById("priceText").innerText = "Chọn thời gian sử dụng eSIM";
+    return;
+  }
+
   const price=pkg.options[pkg.selectedIndex].dataset.price;
   const email=emailInput.value||"CHUA_CO_EMAIL";
 
@@ -875,9 +885,29 @@ function toggleCountryList(){
 
 function selectCountry(code,text){
   currentCountry = code;
+
   document.getElementById("selectedCountryText").innerText = text;
   document.getElementById("countryList").style.display = "none";
-  changeCountry(code);
+
+  const pkgSelect = document.getElementById("package");
+  pkgSelect.innerHTML = "";
+  pkgSelect.disabled = false;
+
+  const list = code === "japan" ? japanPackages : vietnamPackages;
+
+  const defaultOption = document.createElement("option");
+  defaultOption.textContent = "Chọn thời gian sử dụng eSIM";
+  defaultOption.value = "";
+  pkgSelect.appendChild(defaultOption);
+
+  list.forEach(p => {
+    const option = document.createElement("option");
+    option.textContent = p.name;
+    option.dataset.price = p.price;
+    pkgSelect.appendChild(option);
+  });
+
+  updateQR();
 }
 </script>
 <div class="guide-box">
