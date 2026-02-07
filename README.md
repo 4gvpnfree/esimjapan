@@ -916,8 +916,28 @@ function showGuide(type, btn){
 }
   // ===== POPUP CHÀO MỪNG =====
 function closeWelcome(){
-  document.getElementById("welcomePopup").style.display="none";
+  const popup = document.getElementById("welcomePopup");
+  if(popup){
+    popup.style.display = "none";
+  }
 }
+
+function hide15Minutes(){
+  localStorage.setItem("hideWelcome", Date.now());
+  closeWelcome();
+}
+
+window.addEventListener("DOMContentLoaded", function(){
+  const popup = document.getElementById("welcomePopup");
+  const hideTime = localStorage.getItem("hideWelcome");
+
+  if(hideTime){
+    const diff = Date.now() - hideTime;
+    if(diff < 15 * 60 * 1000){
+      popup.style.display = "none";
+    }
+  }
+});
 
 function hide15Minutes(){
   localStorage.setItem("hideWelcome", Date.now());
