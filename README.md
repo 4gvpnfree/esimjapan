@@ -914,6 +914,15 @@ function toggleCountryList(){
 
 function selectCountry(code,text){
   currentCountry = code;
+  const banner = document.getElementById("mainBanner");
+
+if(code === "japan"){
+  banner.style.backgroundImage =
+  "url('https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1920&q=80')";
+}else if(code === "vietnam"){
+  banner.style.backgroundImage =
+  "url('https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1920&q=80')";
+}
 
   document.getElementById("selectedCountryText").innerText = text;
   document.getElementById("countryList").style.display = "none";
