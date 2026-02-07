@@ -156,6 +156,32 @@ button:active{
   margin-top:18px;
   font-size:13px;
 }
+  /* ===== FIX PAYMENT DARK MODE ===== */
+body.dark-mode .note{
+  background:#1e1e1e !important;
+  color:#ffffff !important;
+  border:1px solid rgba(255,255,255,0.1);
+}
+
+body.dark-mode .note h3,
+body.dark-mode .note p,
+body.dark-mode .note span,
+body.dark-mode .note b{
+  color:#ffffff !important;
+}
+
+body.dark-mode .transfer-box{
+  background:#2a2a2a !important;
+  border:1px dashed #ff7043 !important;
+}
+
+body.dark-mode .transfer-label{
+  color:#ff7043 !important;
+}
+
+body.dark-mode .transfer-content{
+  color:#ffffff !important;
+}
 
 .note h3{
   margin:0 0 14px;
