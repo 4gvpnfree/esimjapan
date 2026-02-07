@@ -686,6 +686,20 @@ body.dark-mode select{
   color:#fff !important;
   border:1px solid #444 !important;
 }
+  body.dark-mode .country-selected{
+  background:#2a2a2a !important;
+  color:#fff !important;
+  border:1px solid #444 !important;
+}
+
+body.dark-mode .country-list{
+  background:#2a2a2a !important;
+  color:#fff !important;
+}
+
+body.dark-mode .country-list div{
+  color:#fff !important;
+}
 </style>
 </head>
 
