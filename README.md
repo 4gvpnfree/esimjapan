@@ -676,17 +676,25 @@ body.dark-mode .transfer-content{
   /* ===== DARK MODE ===== */
 .theme-btn{
   position:fixed;
-  top:20px;
-  right:20px;
-  background:#fff;
+  top:15px;
+  right:15px;
+  width:42px;
+  height:42px;
+  border-radius:50%;
   border:none;
-  padding:10px 14px;
-  border-radius:30px;
-  cursor:pointer;
+  background:#ffffff;
   font-size:18px;
-  box-shadow:0 4px 10px rgba(0,0,0,0.2);
+  cursor:pointer;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  box-shadow:0 4px 12px rgba(0,0,0,0.25);
   z-index:9999;
   transition:0.3s;
+}
+
+.theme-btn:hover{
+  transform:scale(1.1);
 }
 
 .theme-btn:hover{
