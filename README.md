@@ -797,6 +797,26 @@ window.addEventListener("load",function(){
     }
   }
 });
+// ===== HIỆU ỨNG HOA RƠI =====
+function createFlower(){
+  const container = document.getElementById("flowerContainer");
+  const flower = document.createElement("div");
+
+  flower.classList.add("flower");
+  flower.innerHTML = "🌸";
+
+  flower.style.left = Math.random() * 100 + "vw";
+  flower.style.animationDuration = (4 + Math.random() * 5) + "s";
+  flower.style.fontSize = (16 + Math.random() * 20) + "px";
+
+  container.appendChild(flower);
+
+  setTimeout(() => {
+    flower.remove();
+  }, 9000);
+}
+
+setInterval(createFlower, 500);
   
 </script>
 <div class="guide-box">
@@ -967,25 +987,5 @@ window.addEventListener("load",function(){
   </div>
 </div>
 <div class="falling-flowers" id="flowerContainer"></div>
-// ===== HIỆU ỨNG HOA RƠI =====
-function createFlower(){
-  const container = document.getElementById("flowerContainer");
-  const flower = document.createElement("div");
-
-  flower.classList.add("flower");
-  flower.innerHTML = "🌸";
-
-  flower.style.left = Math.random() * 100 + "vw";
-  flower.style.animationDuration = (4 + Math.random() * 5) + "s";
-  flower.style.fontSize = (16 + Math.random() * 20) + "px";
-
-  container.appendChild(flower);
-
-  setTimeout(() => {
-    flower.remove();
-  }, 9000);
-}
-
-setInterval(createFlower, 500);
 </body>
 </html>
