@@ -647,10 +647,54 @@ button:active{
 .pay-btn:hover{
   transform:translateY(-2px);
 }
+  /* ===== DARK MODE ===== */
+.theme-btn{
+  position:fixed;
+  top:20px;
+  right:20px;
+  background:#fff;
+  border:none;
+  padding:10px 14px;
+  border-radius:30px;
+  cursor:pointer;
+  font-size:18px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.2);
+  z-index:9999;
+  transition:0.3s;
+}
+
+.theme-btn:hover{
+  transform:scale(1.1);
+}
+
+/* Khi bật dark */
+body.dark-mode{
+  background:#121212 !important;
+  color:#f1f1f1 !important;
+}
+
+body.dark-mode .card,
+body.dark-mode .payment-box,
+body.dark-mode .container{
+  background:#1e1e1e !important;
+  color:#fff !important;
+}
+
+body.dark-mode input,
+body.dark-mode select{
+  background:#2a2a2a !important;
+  color:#fff !important;
+  border:1px solid #444 !important;
+}
 </style>
 </head>
 
 <body>
+
+<!-- NÚT BẬT TỐI SÁNG -->
+<button id="themeToggle" class="theme-btn">
+  🌙
+</button>
 
 <div class="banner" id="mainBanner">
   <h1>🌍 eSIM Du Lịch</h1>
@@ -954,6 +998,26 @@ if(code === "japan"){
   document.getElementById("paymentSection").style.display="block";
   document.getElementById("paymentSection").scrollIntoView({behavior:"smooth"});
 }
+  <script>
+const toggleBtn = document.getElementById("themeToggle");
+
+// Load trạng thái cũ
+if(localStorage.getItem("theme") === "dark"){
+  document.body.classList.add("dark-mode");
+  toggleBtn.innerText = "☀️";
+}
+
+toggleBtn.onclick = function(){
+  document.body.classList.toggle("dark-mode");
+
+  if(document.body.classList.contains("dark-mode")){
+    toggleBtn.innerText = "☀️";
+    localStorage.setItem("theme","dark");
+  }else{
+    toggleBtn.innerText = "🌙";
+    localStorage.setItem("theme","light");
+  }
+};
 </script>
 <div class="guide-box">
   <h3>📲 Hướng dẫn cài đặt eSIM</h3>
