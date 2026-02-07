@@ -516,7 +516,7 @@ button:active{
 
 <!-- THÊM CHỌN QUỐC GIA -->
 <div class="country-select">
-  <button type="button" class="country-btn active" onclick="changeCountry('japan', this)">🇯🇵 Nhật Bản</button>
+  <button type="button" class="country-btn active" onclick="changeCountry('japan', this)">🇯🇵 Nhật Bản - SoftBankSoftBank</button>
   <button type="button" class="country-btn" onclick="changeCountry('vietnam', this)">🇻🇳 Việt Nam</button>
 </div>
 
