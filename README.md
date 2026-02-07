@@ -680,7 +680,7 @@ button:active{
 
 <div class="price" id="priceText">Giá: 150.000đ</div>
 
-<input type="email" id="email" name="Email_khach"
+<input type="email" id="emailInput" name="Email_khach"
  placeholder="Nhập email nhận eSIM"
  required oninput="updateQR()">
  <button type="button" onclick="showPayment()" style="margin-top:15px;">
@@ -939,6 +939,14 @@ function selectCountry(code,text){
   updateQR();
 }
   function showPayment(){
+  var email = document.getElementById("emailInput").value.trim();
+
+  if(email === ""){
+    alert("⚠️ Vui lòng nhập Gmail nhận eSIM trước khi thanh toán!");
+    document.getElementById("emailInput").focus();
+    return;
+  }
+
   document.getElementById("paymentSection").style.display="block";
   document.getElementById("paymentSection").scrollIntoView({behavior:"smooth"});
 }
