@@ -626,6 +626,24 @@ button:active{
 .country-list div:hover{
   background:#fff3e0;
 }
+  .pay-btn{
+  width:100%;
+  padding:15px;
+  border:none;
+  border-radius:14px;
+  background:linear-gradient(45deg,#ff512f,#dd2476);
+  color:#fff;
+  font-size:16px;
+  font-weight:bold;
+  margin-top:15px;
+  cursor:pointer;
+  box-shadow:0 5px 15px rgba(0,0,0,0.2);
+  transition:0.3s;
+}
+
+.pay-btn:hover{
+  transform:translateY(-2px);
+}
 </style>
 </head>
 
@@ -665,13 +683,18 @@ button:active{
 <input type="email" id="email" name="Email_khach"
  placeholder="Nhập email nhận eSIM"
  required oninput="updateQR()">
+ <button type="button" onclick="showPayment()" style="margin-top:15px;">
+  💳 Thanh toán ngay
+</button>
 
+<div id="paymentSection" style="display:none;">
 <div class="note">
   <h3>💳 Thanh toán QR MB Bank</h3>
 
   <div class="pay-block">
     <div class="pay-row"><b>Số TK:</b> <span id="stkText">1807200320033</span></div>
     <button type="button" class="copy-btn" onclick="copyText('stkText')">Sao chép số TK</button>
+  </div>
   </div>
 
   <div class="pay-block">
@@ -818,6 +841,11 @@ function submitOrder(){
 function closeSuccessPopup(){
   document.getElementById("successPopup").style.display="none";
 }
+  if(currentCountry && pkg.value){
+   document.getElementById("payBtn").style.display="block";
+}else{
+   document.getElementById("payBtn").style.display="none";
+}
 
 updateQR();
 
@@ -908,6 +936,10 @@ function selectCountry(code,text){
   });
 
   updateQR();
+}
+  function showPayment(){
+  document.getElementById("paymentSection").style.display="block";
+  document.getElementById("paymentSection").scrollIntoView({behavior:"smooth"});
 }
 </script>
 <div class="guide-box">
