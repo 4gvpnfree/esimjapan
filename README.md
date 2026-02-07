@@ -931,10 +931,12 @@ window.addEventListener("DOMContentLoaded", function(){
   const popup = document.getElementById("welcomePopup");
   const hideTime = localStorage.getItem("hideWelcome");
 
-  if(hideTime){
+  if(!hideTime){
+    popup.style.display = "flex";
+  } else {
     const diff = Date.now() - hideTime;
-    if(diff < 15 * 60 * 1000){
-      popup.style.display = "none";
+    if(diff > 15 * 60 * 1000){
+      popup.style.display = "flex";
     }
   }
 });
