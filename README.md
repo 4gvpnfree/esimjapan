@@ -1,297 +1,1916 @@
-Vợ Linh thúi
-<html lang="vi">
+
+<!DOCTYPE html>
+<!--[if IE 9 ]> <html lang="vi" class="ie9 loading-site no-js"> <![endif]-->
+<!--[if IE 8 ]> <html lang="vi" class="ie8 loading-site no-js"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="vi" class="loading-site no-js"> <!--<![endif]-->
 <head>
-<meta charset="UTF-8">
-<title>Shop Quần Áo</title>
+	<meta charset="UTF-8" />
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="https://hyperx.mauthemewp.com/xmlrpc.php" />
 
-<style>
-body { margin:0; font-family: Arial; }
-
-/* TOP BAR */
-.topbar {
-  background: black;
-  color: white;
-  padding: 5px 20px;
-  font-size: 13px;
-  display:flex;
-  justify-content: space-between;
-}
-
-/* HEADER */
-.header {
-  display:flex;
-  align-items:center;
-  justify-content: space-between;
-  padding:15px 20px;
-  border-bottom:1px solid #ddd;
-}
-
-.logo { font-size:24px; font-weight:bold; }
-
-.menu a {
-  margin:0 10px;
-  text-decoration:none;
-  color:black;
-}
-
-.search input {
-  padding:8px;
-  border-radius:20px;
-  border:1px solid #ccc;
-}
-
-/* CART */
-.cart {
-  position:relative;
-  cursor:pointer;
-}
-.cart span {
-  position:absolute;
-  top:-5px;
-  right:-10px;
-  background:red;
-  color:white;
-  border-radius:50%;
-  padding:2px 6px;
-}
-
-/* BANNER */
-.banner {
-  height:300px;
-  background:url('https://images.unsplash.com/photo-1521334884684-d80222895322') center/cover;
-  color:white;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  font-size:30px;
-  font-weight:bold;
-}
-
-/* GRID */
-.grid {
-  display:grid;
-  grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
-  gap:20px;
-  padding:20px;
-}
-
-.product {
-  text-align:center;
-}
-
-.product img {
-  width:100%;
-  border-radius:10px;
-  transition:0.3s;
-}
-.product img:hover {
-  transform:scale(1.05);
-}
-
-button {
-  margin-top:10px;
-  padding:8px;
-  background:black;
-  color:white;
-  border:none;
-  cursor:pointer;
-}
-
-/* CART BOX */
-.cart-box {
-  position:fixed;
-  right:20px;
-  top:70px;
-  width:300px;
-  background:white;
-  border:1px solid #ddd;
-  padding:10px;
-  display:none;
-}
-
-/* CHAT BUTTON */
-.chat {
-  position:fixed;
-  left:20px;
-  bottom:20px;
-}
-
-.chat button {
-  display:block;
-  margin:5px 0;
-  border-radius:20px;
+	<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<title>Hyperx &#8211; Fashion for Men</title>
+<meta name='robots' content='noindex, nofollow' />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /><link rel='dns-prefetch' href='//cdn.jsdelivr.net' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Dòng thông tin Hyperx &raquo;" href="https://hyperx.mauthemewp.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Dòng phản hồi Hyperx &raquo;" href="https://hyperx.mauthemewp.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Hyperx &raquo; Home Dòng phản hồi" href="https://hyperx.mauthemewp.com/home/feed/" />
+<link rel="prefetch" href="https://hyperx.mauthemewp.com/wp-content/themes/flatsome/assets/js/chunk.countup.fe2c1016.js" />
+<link rel="prefetch" href="https://hyperx.mauthemewp.com/wp-content/themes/flatsome/assets/js/chunk.sticky-sidebar.a58a6557.js" />
+<link rel="prefetch" href="https://hyperx.mauthemewp.com/wp-content/themes/flatsome/assets/js/chunk.tooltips.29144c1c.js" />
+<link rel="prefetch" href="https://hyperx.mauthemewp.com/wp-content/themes/flatsome/assets/js/chunk.vendors-popups.947eca5c.js" />
+<link rel="prefetch" href="https://hyperx.mauthemewp.com/wp-content/themes/flatsome/assets/js/chunk.vendors-slider.f0d2cbc9.js" />
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/hyperx.mauthemewp.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.9.5"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
 }
 </style>
-</head>
+	<style id='wp-block-library-inline-css' type='text/css'>
+:root{--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,161;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip:rect(1px,1px,1px,1px);-webkit-clip-path:inset(50%);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#ddd;clip:auto!important;-webkit-clip-path:none;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(img[class*=wp-image-]){height:auto;max-width:100%}
+</style>
+<link rel='stylesheet' id='contact-form-7-css'  href='https://hyperx.mauthemewp.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.5.6' type='text/css' media='all' />
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='flatsome-swatches-frontend-css'  href='https://hyperx.mauthemewp.com/wp-content/themes/flatsome/assets/css/extensions/flatsome-swatches-frontend.css?ver=3.15.4' type='text/css' media='all' />
+<link rel='stylesheet' id='flatsome-main-css'  href='https://hyperx.mauthemewp.com/wp-content/themes/flatsome/assets/css/flatsome.css?ver=3.15.4' type='text/css' media='all' />
+<style id='flatsome-main-inline-css' type='text/css'>
+@font-face {
+				font-family: "fl-icons";
+				font-display: block;
+				src: url(https://hyperx.mauthemewp.com/wp-content/themes/flatsome/assets/css/icons/fl-icons.eot?v=3.15.4);
+				src:
+					url(https://hyperx.mauthemewp.com/wp-content/themes/flatsome/assets/css/icons/fl-icons.eot#iefix?v=3.15.4) format("embedded-opentype"),
+					url(https://hyperx.mauthemewp.com/wp-content/themes/flatsome/assets/css/icons/fl-icons.woff2?v=3.15.4) format("woff2"),
+					url(https://hyperx.mauthemewp.com/wp-content/themes/flatsome/assets/css/icons/fl-icons.ttf?v=3.15.4) format("truetype"),
+					url(https://hyperx.mauthemewp.com/wp-content/themes/flatsome/assets/css/icons/fl-icons.woff?v=3.15.4) format("woff"),
+					url(https://hyperx.mauthemewp.com/wp-content/themes/flatsome/assets/css/icons/fl-icons.svg?v=3.15.4#fl-icons) format("svg");
+			}
+</style>
+<link rel='stylesheet' id='flatsome-shop-css'  href='https://hyperx.mauthemewp.com/wp-content/themes/flatsome/assets/css/flatsome-shop.css?ver=3.15.4' type='text/css' media='all' />
+<link rel='stylesheet' id='flatsome-style-css'  href='https://hyperx.mauthemewp.com/wp-content/themes/ninh-binh-web/style.css?ver=3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='flatsome-googlefonts-css'  href='//fonts.googleapis.com/css?family=Josefin+Sans%3Aregular%2C700%2C600%7COpen+Sans%3Aregular%2Cregular%7CDancing+Script%3Aregular%2C400&#038;display=swap&#038;ver=3.9' type='text/css' media='all' />
+<script type='text/javascript' src='https://hyperx.mauthemewp.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://hyperx.mauthemewp.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<link rel="https://api.w.org/" href="https://hyperx.mauthemewp.com/wp-json/" /><link rel="alternate" type="application/json" href="https://hyperx.mauthemewp.com/wp-json/wp/v2/pages/2" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://hyperx.mauthemewp.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://hyperx.mauthemewp.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.9.5" />
+<meta name="generator" content="WooCommerce 6.4.1" />
+<link rel="canonical" href="https://hyperx.mauthemewp.com/" />
+<link rel='shortlink' href='https://hyperx.mauthemewp.com/' />
+<link rel="alternate" type="application/json+oembed" href="https://hyperx.mauthemewp.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhyperx.mauthemewp.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://hyperx.mauthemewp.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhyperx.mauthemewp.com%2F&#038;format=xml" />
+<style>.bg{opacity: 0; transition: opacity 1s; -webkit-transition: opacity 1s;} .bg-loaded{opacity: 1;}</style><!--[if IE]><link rel="stylesheet" type="text/css" href="https://hyperx.mauthemewp.com/wp-content/themes/flatsome/assets/css/ie-fallback.css"><script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js"></script><script>var head = document.getElementsByTagName('head')[0],style = document.createElement('style');style.type = 'text/css';style.styleSheet.cssText = ':before,:after{content:none !important';head.appendChild(style);setTimeout(function(){head.removeChild(style);}, 0);</script><script src="https://hyperx.mauthemewp.com/wp-content/themes/flatsome/assets/libs/ie-flexibility.js"></script><![endif]-->	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<link rel="icon" href="https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/cropped-logo-hyper-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/cropped-logo-hyper-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/cropped-logo-hyper-180x180.png" />
+<meta name="msapplication-TileImage" content="https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/cropped-logo-hyper-270x270.png" />
+<style id="custom-css" type="text/css">:root {--primary-color: #0a0a0a;}.container-width, .full-width .ubermenu-nav, .container, .row{max-width: 1540px}.row.row-collapse{max-width: 1510px}.row.row-small{max-width: 1532.5px}.row.row-large{max-width: 1570px}.header-main{height: 94px}#logo img{max-height: 94px}#logo{width:166px;}#logo img{padding:5px 0;}.header-bottom{min-height: 43px}.header-top{min-height: 38px}.transparent .header-main{height: 265px}.transparent #logo img{max-height: 265px}.has-transparent + .page-title:first-of-type,.has-transparent + #main > .page-title,.has-transparent + #main > div > .page-title,.has-transparent + #main .page-header-wrapper:first-of-type .page-title{padding-top: 295px;}.header.show-on-scroll,.stuck .header-main{height:70px!important}.stuck #logo img{max-height: 70px!important}.search-form{ width: 30%;}.header-bg-color {background-color: rgba(255,255,255,0.9)}.header-bottom {background-color: #ffffff}.header-main .nav > li > a{line-height: 16px }.stuck .header-main .nav > li > a{line-height: 50px }.header-bottom-nav > li > a{line-height: 16px }@media (max-width: 549px) {.header-main{height: 70px}#logo img{max-height: 70px}}.header-top{background-color:#0a0a0a!important;}/* Color */.accordion-title.active, .has-icon-bg .icon .icon-inner,.logo a, .primary.is-underline, .primary.is-link, .badge-outline .badge-inner, .nav-outline > li.active> a,.nav-outline >li.active > a, .cart-icon strong,[data-color='primary'], .is-outline.primary{color: #0a0a0a;}/* Color !important */[data-text-color="primary"]{color: #0a0a0a!important;}/* Background Color */[data-text-bg="primary"]{background-color: #0a0a0a;}/* Background */.scroll-to-bullets a,.featured-title, .label-new.menu-item > a:after, .nav-pagination > li > .current,.nav-pagination > li > span:hover,.nav-pagination > li > a:hover,.has-hover:hover .badge-outline .badge-inner,button[type="submit"], .button.wc-forward:not(.checkout):not(.checkout-button), .button.submit-button, .button.primary:not(.is-outline),.featured-table .title,.is-outline:hover, .has-icon:hover .icon-label,.nav-dropdown-bold .nav-column li > a:hover, .nav-dropdown.nav-dropdown-bold > li > a:hover, .nav-dropdown-bold.dark .nav-column li > a:hover, .nav-dropdown.nav-dropdown-bold.dark > li > a:hover, .header-vertical-menu__opener ,.is-outline:hover, .tagcloud a:hover,.grid-tools a, input[type='submit']:not(.is-form), .box-badge:hover .box-text, input.button.alt,.nav-box > li > a:hover,.nav-box > li.active > a,.nav-pills > li.active > a ,.current-dropdown .cart-icon strong, .cart-icon:hover strong, .nav-line-bottom > li > a:before, .nav-line-grow > li > a:before, .nav-line > li > a:before,.banner, .header-top, .slider-nav-circle .flickity-prev-next-button:hover svg, .slider-nav-circle .flickity-prev-next-button:hover .arrow, .primary.is-outline:hover, .button.primary:not(.is-outline), input[type='submit'].primary, input[type='submit'].primary, input[type='reset'].button, input[type='button'].primary, .badge-inner{background-color: #0a0a0a;}/* Border */.nav-vertical.nav-tabs > li.active > a,.scroll-to-bullets a.active,.nav-pagination > li > .current,.nav-pagination > li > span:hover,.nav-pagination > li > a:hover,.has-hover:hover .badge-outline .badge-inner,.accordion-title.active,.featured-table,.is-outline:hover, .tagcloud a:hover,blockquote, .has-border, .cart-icon strong:after,.cart-icon strong,.blockUI:before, .processing:before,.loading-spin, .slider-nav-circle .flickity-prev-next-button:hover svg, .slider-nav-circle .flickity-prev-next-button:hover .arrow, .primary.is-outline:hover{border-color: #0a0a0a}.nav-tabs > li.active > a{border-top-color: #0a0a0a}.widget_shopping_cart_content .blockUI.blockOverlay:before { border-left-color: #0a0a0a }.woocommerce-checkout-review-order .blockUI.blockOverlay:before { border-left-color: #0a0a0a }/* Fill */.slider .flickity-prev-next-button:hover svg,.slider .flickity-prev-next-button:hover .arrow{fill: #0a0a0a;}/* Background Color */[data-icon-label]:after, .secondary.is-underline:hover,.secondary.is-outline:hover,.icon-label,.button.secondary:not(.is-outline),.button.alt:not(.is-outline), .badge-inner.on-sale, .button.checkout, .single_add_to_cart_button, .current .breadcrumb-step{ background-color:#0a0a0a; }[data-text-bg="secondary"]{background-color: #0a0a0a;}/* Color */.secondary.is-underline,.secondary.is-link, .secondary.is-outline,.stars a.active, .star-rating:before, .woocommerce-page .star-rating:before,.star-rating span:before, .color-secondary{color: #0a0a0a}/* Color !important */[data-text-color="secondary"]{color: #0a0a0a!important;}/* Border */.secondary.is-outline:hover{border-color:#0a0a0a}body{font-size: 100%;}@media screen and (max-width: 549px){body{font-size: 100%;}}body{font-family:"Open Sans", sans-serif}body{font-weight: 0}body{color: #262626}.nav > li > a {font-family:"Josefin Sans", sans-serif;}.mobile-sidebar-levels-2 .nav > li > ul > li > a {font-family:"Josefin Sans", sans-serif;}.nav > li > a {font-weight: 600;}.mobile-sidebar-levels-2 .nav > li > ul > li > a {font-weight: 600;}h1,h2,h3,h4,h5,h6,.heading-font, .off-canvas-center .nav-sidebar.nav-vertical > li > a{font-family: "Josefin Sans", sans-serif;}h1,h2,h3,h4,h5,h6,.heading-font,.banner h1,.banner h2{font-weight: 700;}h1,h2,h3,h4,h5,h6,.heading-font{color: #0a0a0a;}.alt-font{font-family: "Dancing Script", sans-serif;}.alt-font{font-weight: 400!important;}.header:not(.transparent) .header-nav-main.nav > li > a:hover,.header:not(.transparent) .header-nav-main.nav > li.active > a,.header:not(.transparent) .header-nav-main.nav > li.current > a,.header:not(.transparent) .header-nav-main.nav > li > a.active,.header:not(.transparent) .header-nav-main.nav > li > a.current{color: #0a0a0a;}.header-nav-main.nav-line-bottom > li > a:before,.header-nav-main.nav-line-grow > li > a:before,.header-nav-main.nav-line > li > a:before,.header-nav-main.nav-box > li > a:hover,.header-nav-main.nav-box > li.active > a,.header-nav-main.nav-pills > li > a:hover,.header-nav-main.nav-pills > li.active > a{color:#FFF!important;background-color: #0a0a0a;}.header:not(.transparent) .header-bottom-nav.nav > li > a{color: #0a0a0a;}a{color: #0a0a0a;}a:hover{color: #f67445;}.tagcloud a:hover{border-color: #f67445;background-color: #f67445;}.widget a{color: #0a0a0a;}.widget a:hover{color: #0a0a0a;}.widget .tagcloud a:hover{border-color: #0a0a0a; background-color: #0a0a0a;}.has-equal-box-heights .box-image {padding-top: 99%;}.shop-page-title.featured-title .title-bg{background-image: url(http://hyperx.com.vn/wp-content/uploads/2019/07/banner-02.jpg);}@media screen and (min-width: 550px){.products .box-vertical .box-image{min-width: 600px!important;width: 600px!important;}}.absolute-footer, html{background-color: #262626}/* Custom CSS */#top-bar .header-contact li a{text-transform:none; font-family: "Open Sans", sans-serif;}.lightbox-content .product-gallery-slider img{border-top-left-radius:15px; border-bottom-left-radius:15px}.lightbox-content{border-radius:15px}.product-lightbox .price .amount{color:red; font-size:20px;}.stuck .header-main{background:white}h1.entry-title.mb {margin-bottom: 15px;letter-spacing: -1px;}.blog-archive .page-title{letter-spacing: -1px;font-size: 25px;}.xem-them .tieu-de-xem-them {font-family: "Josefin Sans", sans-serif;font-weight: 700;display: block;margin-bottom: 10px;font-size: 19px;color: black;text-transform:uppercase; letter-spacing:-1px}.xem-them ul li {margin-bottom: 3px;}.xem-them ul li a {font-weight: 600;font-size: 15px;color: black;}.xem-them ul li a:hover {text-decoration: underline;}.page-right-sidebar .page-inner ul{margin-left:20px}.blog-single .entry-meta {text-transform: none;font-size: 14px;letter-spacing: 0;color: gray;border-top: 1px solid #e2e2e2;border-bottom: 1px solid #e2e2e2;padding: 10px;background: #f9f9f9;}.danh-muc {margin-bottom: 15px;}.danh-muc span.title, .the-tim-kiem span.title {border-radius: 4px;background: #126e32;padding: 4px 10px;color: white;margin-right: 5px;}.danh-muc a, .the-tim-kiem a {line-height:32px;border-radius: 4px;margin-bottom: 10px;padding: 4px 10px;background: #dedede;color: #464646;}.danh-muc a:hover, .the-tim-kiem a:hover {background: #6dca19;color: white;}.bai-viet-lien-quan {margin-top: 15px;}.bai-viet-lien-quan h3 {font-size: 21px;color: black;text-transform: uppercase;letter-spacing: -1px;}.bai-viet-lien-quan ul {margin-bottom: 0;display: inline-block;width: 100%;}.bai-viet-lien-quan ul li {list-style: none;width: 25%;color: graytext;float: left;padding-left: 4px;padding-right: 5px;}.bai-viet-lien-quan ul li .box-image img {height: 160px;border-radius: 0px;object-fit: cover;object-position: center;}.bai-viet-lien-quan h4 {color: white;line-height: 19px;min-height: 57px;overflow: hidden;background: black;padding: 10px;font-weight: 600;font-size: 14px;}.blog-single .blog-share{text-align:left}.blog-archive .post-item a:hover{color:black}.blog-archive .post-item .post-title:hover{text-decoration:underline}.single-product .product-info.summary .product-title{font-family: "Open Sans", sans-serif;font-size: 24px;}.product-lightbox .price del span{color:gray !important; font-size:16px !important;}a.added_to_cart{padding:8px 15px; color:white}.related .product-small .product-title{font-size:15px !important}.variations td {padding: 0;vertical-align: top; font-size: 16px;}table.variations tr:last-child .alg-wc-civs-attribute {margin-bottom: 0;}.alg-wc-civs-term:not(.disabled).active {color: #e51313;border-color: #e51313;box-shadow:none; margin:0}.variations td .label{margin:0 4px}.star-rating:before, .star-rating span:before{color: #FFC107 !important;}.header-nav li a{font-size: 18px;font-weight: 500;color: black;}.icon-search:before {color: #676767;}.category-section .col.large-12{padding-bottom:0}.list-product .product-small .box-text, .archive .product-small .box-text{padding-bottom:0}.cart-item .header-button a{color:white; padding-left:10px !important; padding-right:10px !important}.header-button a{font-size:14px !important}.searchform-wrapper input:not([type="submit"]){font-size: 13px;height: 40px;border: 1px solid #c1c1c1;}#top-bar .nav>li.html{font-size:13px; color:rgba(255,255,255,0.8)}.section-title-center span:after {content: "";display: table;clear: both;background: url(/wp-content/uploads/2019/07/line.png);width: 100%;height: 20px;background-repeat: no-repeat;background-position-x: center;background-position-y: bottom;padding-top: 0px;}.section-title b{background:#00000000}.list-product .product-small .box-text, .archive .product-small .box-text{padding-left:0;padding-right:0}.list-product .product-small .price, .archive .product-small {font-family:"oswald", sans-serif}.list-product .product-small:hover .add-to-cart-button a, .archive .product-small:hover .add-to-cart-button a{background:rgb(202, 0, 0)}.nhan-xet .icon-box h5{ letter-spacing:0; font-size: 19px;color:#000000}.section-title-center span{letter-spacing:-1px; color: #000000 !important}.nut-xem-them{font-size: 15px;font-weight: normal;letter-spacing: 0;}.nhan-xet .icon-box .icon-box-img img{border-radius: 99%;padding-top: 0;}.nhan-xet .col, .tieu-chi .col, .footer-section .col{padding-bottom:0}.tieu-chi h3{margin-bottom:0}.tieu-chi p{margin-bottom:0; font-size:15px}.archive .product-small .product-title{height:auto !important}.list-product .product-small .price, .archive .product-small .price{margin-bottom:10px}.cart_totals .product-name{text-transform:none; letter-spacing:0; font-weight:normal; color:black; font-size:15px}.woocommerce-checkout .col{padding-bottom:0}.woocommerce-cart .cart-container, .woocommerce-checkout .cart-container{padding-bottom:0; padding:20px; background: white;box-shadow: 2px 2px 80px #0000001f;margin-bottom: 30px;border-radius: 15px;max-width: 1100px;}a.remove, a.icon-remove{color: #ababab;border: 1px solid currentColor;}.shop_table button{margin-left:10px !important; text-transform:none; border-radius:4px; font-weight:normal; letter-spacing:0}.coupon input[type='submit']{margin-bottom: 0;border-radius: 5px;font-size: 15px;letter-spacing: 0;}.coupon input[type='text']{border-radius:5px; font-size:15px}.cart_item .product-name a{color:black}.woocommerce-Price-amount {font-weight:normal !important; font-size:16px}.order-total span{color:red; font-weight:bold; font-size:20px}.product-subtotal span{color:red}.shop_table thead th{text-transform: none;font-weight: normal;letter-spacing: 0;color: black;font-size: 15px;}.list-product .product-small .add-to-cart-button a, .archive .product-small .add-to-cart-button a{margin:0; font-family:"open sans",sans-serif;background: #676767; border-radius: 20px;text-transform: none;font-size: 13px;font-weight: normal;letter-spacing: 0;}.list-product .product-small .price .amount, .archive .product-small .price .amount{color:#000000; font-size:17px; font-weight:normal}.list-product .product-small .price del span, .archive .product-small .price del span{color:gray !important; font-size:15px !important}.list-product .badge-container .badge-inner{border-radius: 99%;background: #e51313;font-weight: normal;font-size: 14px;}.banner-section .col{padding-bottom:0}.widget .is-divider, .related .badge-container{display:none}.related .product-small .box-image{height: 200px !important;}.widget_shopping_cart .button {width: 100%;margin: .5em 0 0;color: white;text-transform: none;border-radius: 5px;}p.form-row-first, p.form-row-last {width: 100%;float: left;}.grid-tools a{display: inline-block;padding: 8px 25px !important;border-radius: 20px;width: auto;background-color: #7d7d7d;text-transform: none;font-weight: normal;font-size: 13px;}.product-lightbox .badge-container .badge-inner{border-radius:99%; }.product-lightbox .badge-container{margin:10px}.product-small:hover .grid-tools a{background:black}.archive .product-small .image-tools{margin-top: 4px !important}.product-small .image-tools{margin-top: 4px;position: inherit;display: inline-block;opacity: 1;transform: translateY(0%) translateZ(0);text-align: center;}.button-continue-shopping, .cart_totals .button, #place_order{width: 100%;background: #e51313; border-radius:5px; text-transform: none;letter-spacing: 0;font-weight: normal;}.woocommerce-notice {font-size:15px}.woocommerce-input-wrapper input{font-size:15px; border-radius:5px; box-shadow:none}.related .product-small .price del span{font-size:16px !important}.single-product .accordion-inner {padding: 20px 0;}.nav-dropdown{padding:20px; border:none !important}span.widget-title {font-size: 19px;text-transform: none;letter-spacing: 0;font-weight: normal;display: block;color: #c30000;margin-bottom: 10px;}.nav-dropdown li a{font-size:15px}.nav-dropdown li a:hover{color:#e51313}.list-product .badge-container, .archive .badge-container{margin:10px; display:none}.widget .product-categories li a{font-size:15px}.off-canvas-right .mfp-content, .off-canvas-left .mfp-content{width:300px}.product_list_widget li a{font-size:14px}.single-product .product-main .badge-container .badge-inner{background:#e51313; border-radius:99%; font-weight:normal}.product-section .large-2, .product-section .large-10{flex-basis:100%; max-width:100%}.single_add_to_cart_button{background: black !important;border-radius: 20px;font-weight: normal;text-transform: none;letter-spacing: 0;}.product-short-description p{margin-bottom:5px}.product-short-description{margin-bottom:20px}.single-product .cart{margin-bottom:0}.product_meta>span { font-size: 15px;}.related .product-small .product-title a{color: black;}.related .product-small .add-to-cart-button a{margin: 0;border-radius: 20px;text-transform: none;font-weight: normal;letter-spacing: 0;background: gray;}.related .product-small .box-text{padding-left:0; padding-right:0}.single-product .share-icons a{border:none !important; min-width:24px }.related .product-small .price .amount{font-size:16px !important}.related h3, .product-section h5{letter-spacing:-1px}.single-product .price del span{font-size:20px !important; color:gray !important}.single-product .product-short-description li{margin-bottom:4px}.single-product .product-short-description{font-size:15px}.single-product .product-info .price .amount{color:black; font-size:30px;font-family: "Josefin Sans", sans-serif; font-weight:normal}.single-product .product-main .badge-container{margin:10px;}.single-product .product-gallery .is-sticky-column {border: 1px solid #dddddd;border-radius: 5px;}.archive .nav-pagination>li>a{background: black;color: white;border: 2px solid black;}.widget_price_filter .price_slider_amount .button { font-size: 15px;text-transform: none;font-weight: normal;}.list-product .product-small .box-image, .archive .product-small .box-image {border: 1px solid #e6e6e6;}.list-product .product-small .product-title a, .archive .product-small .product-title a{font-family:"open sans", sans-serif !important; font-size: 15px;color: #2f2f2f;margin-bottom: 5px;}.section-title-center span{font-weight:bold}.product-small .box-image:hover::before{-webkit-animation:shine .75s;animation:shine .75s}@-webkit-keyframes shine{100%{left:125%}}@keyframes shine{100%{left:125%}}.product-small .box-image::before{position:absolute;top:0;left:-75%;z-index:2;display:block;content:'';width:50%;height:100%;background:-webkit-linear-gradient(left,rgba(255,255,255,0) 0,rgba(255,255,255,.3) 100%);-webkit-transform:skewX(-25deg);transform:skewX(-25deg)}.footer-section .button.youtube:not(.is-outline){color: #c33223 !important;margin-bottom: 13px;}.footer-secondary {padding: 0;}.footer-section input[type='submit']{margin: 0;text-transform: none;font-weight: normal;letter-spacing: 0;font-size: 14px;}.blog-archive .post-item .post-title{font-size: 19px; margin-bottom:8px;font-weight: normal;font-family: "open sans", sans-serif;}.box-blog-post .is-divider, .is-divider{display:none}.entry-header-text {padding: 0;}.absolute-footer{font-size:13px}.footer-section input[type='email']{font-size:14px !important}.blog-archive .badge{display:none}.woo-variation-swatches-stylesheet-enabled .variable-items-wrapper .variable-item:not(.radio-variable-item).selected, .woo-variation-swatches-stylesheet-enabled .variable-items-wrapper .variable-item:not(.radio-variable-item).selected:hover {box-shadow: 0 0 0 2px rgb(229, 19, 19);}.variable-item:not(.radio-variable-item) {width: 40px;height: 30px;}.woo-variation-swatches-style-squared .button-variable-item {min-width: 30px;}.bo-suu-tap{padding-top:0 !important}.list-post .post-item .post-title{font-weight:normal}.category-2{padding-bottom:0 !important}.woo-variation-swatches-stylesheet-enabled .variable-items-wrapper .variable-item:not(.radio-variable-item).selected{color: #e51313;box-shadow: 0 0 0 2px rgb(229, 19, 19);}.list-product .product-small .price{color: gray !important;}/* Custom CSS Mobile */@media (max-width: 549px){.banner-section{display:none}.list-product .product-small .product-title a, .archive .product-small .product-title a, .list-product .product-small .add-to-cart-button a, .archive .product-small .add-to-cart-button a{font-size:13px}.nhan-xet .icon-box {margin-bottom:20px}.has-border {padding: 15px;}.bai-viet-lien-quan ul li {width: 50%;}.bai-viet-lien-quan ul li .box-image img {height: 90px;}.tieu-chi .col{padding-bottom:15px}.footer-section .col{flex-basis:100%; max-width:100%}.related .product-small .box-image {height: 170px !important;}.product-gallery{padding-bottom:15px !important}.single-product .product-info.summary .product-title {font-size: 21px;}.product-lightbox .cart{margin-bottom:0 !important}.product-lightbox-inner{padding:15px !important}.lightbox-content .product-gallery-slider img{border-bottom-left-radius:0; border-top-left-radius:15px; border-top-right-radius:15px}.product-small .image-tools{display:block !important}#top-bar .nav>li.html{text-align:center}}.label-new.menu-item > a:after{content:"New";}.label-hot.menu-item > a:after{content:"Hot";}.label-sale.menu-item > a:after{content:"Sale";}.label-popular.menu-item > a:after{content:"Popular";}</style><style id="flatsome-swatches-css" type="text/css"></style></head>
 
-<body>
+<body class="home page-template page-template-page-blank page-template-page-blank-php page page-id-2 theme-flatsome woocommerce-no-js header-shadow lightbox nav-dropdown-has-arrow nav-dropdown-has-shadow nav-dropdown-has-border">
 
-<!-- TOP -->
-<div class="topbar">
-  <div>Miễn phí ship đơn > 500k</div>
-  <div>📞 099999999</div>
-</div>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg>
+<a class="skip-link screen-reader-text" href="#main">Skip to content</a>
 
-<!-- HEADER -->
-<div class="header">
-  <div class="logo">HYPERX</div>
+<div id="wrapper">
 
-  <div class="menu">
-    <a href="#">Trang chủ</a>
-    <a href="#">Sản phẩm</a>
-    <a href="#">Tin tức</a>
-    <a href="#">Liên hệ</a>
-  </div>
-
-  <div class="search">
-    <input placeholder="Tìm sản phẩm...">
-  </div>
-
-  <div class="cart" onclick="toggleCart()">
-    🛒 <span id="count">0</span>
-  </div>
-</div>
-
-<!-- BANNER -->
-<div class="banner">
-  HYPEBEAST & LUXURY
-</div>
-
-<!-- PRODUCTS -->
-<div class="grid" id="products"></div>
-
-<!-- CART -->
-<div class="cart-box" id="cartBox">
-  <h3>Giỏ hàng</h3>
-  <div id="cart"></div>
-  <h4 id="total"></h4>
-</div>
-
-<!-- CHAT -->
-<div class="chat">
-  <button style="background:#0a8f3c">Chat Zalo</button>
-  <button style="background:#1877f2">Chat Facebook</button>
-  <button style="background:red">Hotline</button>
-</div>
-
-<script>
-const products = [
-  {id:1,name:"Áo thun đen",price:300000,img:"https://picsum.photos/300?1"},
-  {id:2,name:"Áo trắng",price:320000,img:"https://picsum.photos/300?2"},
-  {id:3,name:"Áo nâu",price:350000,img:"https://picsum.photos/300?3"},
-  {id:4,name:"Áo form rộng",price:280000,img:"https://picsum.photos/300?4"}
-];
-
-let cart = JSON.parse(localStorage.getItem("cart")) || [];
-
-function renderProducts(){
-  const el = document.getElementById("products");
-  el.innerHTML="";
-  products.forEach(p=>{
-    el.innerHTML += `
-      <div class="product">
-        <img src="${p.img}">
-        <p>${p.name}</p>
-        <b>${p.price.toLocaleString()}đ</b><br>
-        <button onclick="openPopup(${p.id})">Thêm</button>
+	
+	<header id="header" class="header has-sticky sticky-jump">
+		<div class="header-wrapper">
+			<div id="top-bar" class="header-top hide-for-sticky nav-dark">
+    <div class="flex-row container">
+      <div class="flex-col hide-for-medium flex-left">
+          <ul class="nav nav-left medium-nav-center nav-small  nav-divided">
+              <li class="html custom html_topbar_left">Miễn Phí Giao Hàng Tiêu Chuẩn [Nội thành Hà Nội từ 1.000.000đ - Khu Vực khác từ 1.100.000đ]
+</li>          </ul>
       </div>
-    `;
-  });
-}
 
-function addToCart(id){
-  const p = products.find(x=>x.id===id);
-  cart.push(p);
-  save();
-  renderCart();
-}
+      <div class="flex-col hide-for-medium flex-center">
+          <ul class="nav nav-center nav-small  nav-divided">
+                        </ul>
+      </div>
 
-function renderCart(){
-  const el=document.getElementById("cart");
-  const totalEl=document.getElementById("total");
-  const countEl=document.getElementById("count");
+      <div class="flex-col hide-for-medium flex-right">
+         <ul class="nav top-bar-nav nav-right nav-small  nav-divided">
+              <li class="header-contact-wrapper">
+		<ul id="header-contact" class="nav nav-divided nav-uppercase header-contact">
+					<li class="">
+			  <a target="_blank" rel="noopener noreferrer" href="https://maps.google.com/?q=Hưng Lộc, Vinh, Nghệ An" title="Hưng Lộc, Vinh, Nghệ An" class="tooltip">
+			  	 <i class="icon-map-pin-fill" style="font-size:16px;"></i>			     <span>
+			     	Hưng Lộc, Vinh, Nghệ An			     </span>
+			  </a>
+			</li>
+			
+						<li class="">
+			  <a href="mailto:099999999@gmail.com" class="tooltip" title="099999999@gmail.com">
+				  <i class="icon-envelop" style="font-size:16px;"></i>			       <span>
+			       	099999999@gmail.com			       </span>
+			  </a>
+			</li>
+					
+			
+						<li class="">
+			  <a href="tel:099999999" class="tooltip" title="099999999">
+			     <i class="icon-phone" style="font-size:16px;"></i>			      <span>099999999</span>
+			  </a>
+			</li>
+				</ul>
+</li>          </ul>
+      </div>
 
-  el.innerHTML="";
-  cart.forEach((c,i)=>{
-    el.innerHTML += `<p>${c.name} <button onclick="removeItem(${i})">x</button></p>`;
-  });
-
-  const total = cart.reduce((s,i)=>s+i.price,0);
-  totalEl.innerText="Tổng: "+total.toLocaleString()+"đ";
-  countEl.innerText=cart.length;
-}
-
-function removeItem(i){
-  cart.splice(i,1);
-  save();
-  renderCart();
-}
-
-function save(){
-  localStorage.setItem("cart",JSON.stringify(cart));
-}
-
-function toggleCart(){
-  const box=document.getElementById("cartBox");
-  box.style.display = box.style.display==="block"?"none":"block";
-}
-
-renderProducts();
-renderCart();
-  let currentProduct = null;
-let quantity = 1;
-
-function openPopup(id){
-  const p = products.find(x => x.id === id);
-  currentProduct = p;
-  quantity = 1;
-
-  document.getElementById("pImg").src = p.img;
-  document.getElementById("pName").innerText = p.name;
-  document.getElementById("pPrice").innerText = p.price.toLocaleString()+"đ";
-  document.getElementById("qty").innerText = quantity;
-
-  document.getElementById("popup").style.display = "block";
-}
-
-function closePopup(){
-  document.getElementById("popup").style.display = "none";
-}
-
-function changeQty(n){
-  quantity += n;
-  if(quantity < 1) quantity = 1;
-  document.getElementById("qty").innerText = quantity;
-}
-
-function confirmAdd(){
-  for(let i=0;i<quantity;i++){
-    cart.push(currentProduct);
-  }
-  save();
-  renderCart();
-  closePopup();
-}
-</script>
-<!-- POPUP -->
-<div id="popup" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5);">
-  <div style="background:white; width:400px; margin:100px auto; padding:20px; border-radius:10px;">
-    
-    <img id="pImg" style="width:100%">
-    <h3 id="pName"></h3>
-    <p id="pPrice"></p>
-
-    <div>
-      <button onclick="changeQty(-1)">-</button>
-      <span id="qty">1</span>
-      <button onclick="changeQty(1)">+</button>
+            <div class="flex-col show-for-medium flex-grow">
+          <ul class="nav nav-center nav-small mobile-nav  nav-divided">
+              <li class="html custom html_topbar_left">Miễn Phí Giao Hàng Tiêu Chuẩn [Nội thành Hà Nội từ 1.000.000đ - Khu Vực khác từ 1.100.000đ]
+</li>          </ul>
+      </div>
+      
     </div>
+</div>
+<div id="masthead" class="header-main ">
+      <div class="header-inner flex-row container logo-left medium-logo-center" role="navigation">
 
-    <br>
-    <button onclick="confirmAdd()">Thêm vào giỏ</button>
-    <button onclick="closePopup()">Đóng</button>
+          <!-- Logo -->
+          <div id="logo" class="flex-col logo">
+            
+<!-- Header logo -->
+<a href="https://hyperx.mauthemewp.com/" title="Hyperx - Fashion for Men" rel="home">
+		<img width="300" height="212" src="https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/logo-hyper.png" class="header_logo header-logo" alt="Hyperx"/><img  width="300" height="212" src="https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/logo-hyper.png" class="header-logo-dark" alt="Hyperx"/></a>
+          </div>
+
+          <!-- Mobile Left Elements -->
+          <div class="flex-col show-for-medium flex-left">
+            <ul class="mobile-nav nav nav-left ">
+              <li class="nav-icon has-icon">
+  <div class="header-button">		<a href="#" data-open="#main-menu" data-pos="left" data-bg="main-menu-overlay" data-color="" class="icon primary button circle is-small" aria-label="Menu" aria-controls="main-menu" aria-expanded="false">
+		
+		  <i class="icon-menu" ></i>
+		  		</a>
+	 </div> </li>            </ul>
+          </div>
+
+          <!-- Left Elements -->
+          <div class="flex-col hide-for-medium flex-left
+            flex-grow">
+            <ul class="header-nav header-nav-main nav nav-left  nav-size-large nav-spacing-xlarge" >
+              <li id="menu-item-40" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-40 active menu-item-design-default"><a href="https://hyperx.mauthemewp.com/" aria-current="page" class="nav-top-link">Trang chủ</a></li>
+<li id="menu-item-564" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-564 menu-item-design-default"><a href="https://hyperx.mauthemewp.com/gioi-thieu/" class="nav-top-link">Giới thiệu</a></li>
+<li id="menu-item-548" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-548 menu-item-design-default has-dropdown"><a href="https://hyperx.mauthemewp.com/shop/" class="nav-top-link">Sản phẩm<i class="icon-angle-down" ></i></a>
+<ul class="sub-menu nav-dropdown nav-dropdown-default">
+	<li id="menu-item-41" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-41"><a href="https://hyperx.mauthemewp.com/product-categories/ao-phong/">Áo phông</a></li>
+	<li id="menu-item-550" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-550"><a href="https://hyperx.mauthemewp.com/product-categories/quan-ao/">Quần áo</a></li>
+	<li id="menu-item-551" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-551"><a href="https://hyperx.mauthemewp.com/product-categories/quan-jeans/">Quần Jeans</a></li>
+	<li id="menu-item-552" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-552"><a href="https://hyperx.mauthemewp.com/product-categories/quan-short/">Quần Short</a></li>
+	<li id="menu-item-549" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-549"><a href="https://hyperx.mauthemewp.com/product-categories/giay/">Giày dép</a></li>
+</ul>
+</li>
+<li id="menu-item-553" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-553 menu-item-design-default has-dropdown"><a href="#" class="nav-top-link">Hỗ trợ khách hàng<i class="icon-angle-down" ></i></a>
+<ul class="sub-menu nav-dropdown nav-dropdown-default">
+	<li id="menu-item-556" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-556"><a href="https://hyperx.mauthemewp.com/quy-dinh-doi-tra-hang/">Quy định đổi trả hàng</a></li>
+	<li id="menu-item-555" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-555"><a href="https://hyperx.mauthemewp.com/huong-dan-thanh-toan/">Hướng dẫn thanh toán</a></li>
+	<li id="menu-item-554" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-554"><a href="https://hyperx.mauthemewp.com/huong-dan-mua-hang/">Hướng dẫn mua hàng</a></li>
+	<li id="menu-item-39" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39"><a href="https://hyperx.mauthemewp.com/faqs/">Hỏi đáp</a></li>
+</ul>
+</li>
+<li id="menu-item-560" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-560 menu-item-design-default"><a href="https://hyperx.mauthemewp.com/category/tin-tuc/" class="nav-top-link">Tin tức</a></li>
+<li id="menu-item-38" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38 menu-item-design-default"><a href="https://hyperx.mauthemewp.com/lien-he/" class="nav-top-link">Liên hệ</a></li>
+<li id="menu-item-557" class="menu-order menu-item menu-item-type-post_type menu-item-object-page menu-item-557 menu-item-design-default"><a href="https://hyperx.mauthemewp.com/order-hang/" class="nav-top-link">Hàng Order</a></li>
+<li class="header-search-form search-form html relative has-icon">
+	<div class="header-search-form-wrapper">
+		<div class="searchform-wrapper ux-search-box relative form-flat is-normal"><form role="search" method="get" class="searchform" action="https://hyperx.mauthemewp.com/">
+	<div class="flex-row relative">
+						<div class="flex-col flex-grow">
+			<label class="screen-reader-text" for="woocommerce-product-search-field-0">Tìm kiếm:</label>
+			<input type="search" id="woocommerce-product-search-field-0" class="search-field mb-0" placeholder="Nhập từ khóa sản phẩm..." value="" name="s" />
+			<input type="hidden" name="post_type" value="product" />
+					</div>
+		<div class="flex-col">
+			<button type="submit" value="Tìm kiếm" class="ux-search-submit submit-button secondary button icon mb-0" aria-label="Submit">
+				<i class="icon-search" ></i>			</button>
+		</div>
+	</div>
+	<div class="live-search-results text-left z-top"></div>
+</form>
+</div>	</div>
+</li>            </ul>
+          </div>
+
+          <!-- Right Elements -->
+          <div class="flex-col hide-for-medium flex-right">
+            <ul class="header-nav header-nav-main nav nav-right  nav-size-large nav-spacing-xlarge">
+              <li class="cart-item has-icon has-dropdown">
+<div class="header-button">
+<a href="https://hyperx.mauthemewp.com/cart/" title="Giỏ hàng" class="header-cart-link icon primary button circle is-small">
+
+
+<span class="header-cart-title">
+   Giỏ hàng     </span>
+
+    <i class="icon-shopping-basket"
+    data-icon-label="0">
+  </i>
+  </a>
+</div>
+ <ul class="nav-dropdown nav-dropdown-default">
+    <li class="html widget_shopping_cart">
+      <div class="widget_shopping_cart_content">
+        
+
+	<p class="woocommerce-mini-cart__empty-message">Chưa có sản phẩm trong giỏ hàng.</p>
+
+
+      </div>
+    </li>
+     </ul>
+
+</li>
+            </ul>
+          </div>
+
+          <!-- Mobile Right Elements -->
+          <div class="flex-col show-for-medium flex-right">
+            <ul class="mobile-nav nav nav-right ">
+              <li class="cart-item has-icon">
+
+<div class="header-button">      <a href="https://hyperx.mauthemewp.com/cart/" class="header-cart-link off-canvas-toggle nav-top-link icon primary button circle is-small" data-open="#cart-popup" data-class="off-canvas-cart" title="Giỏ hàng" data-pos="right">
+  
+    <i class="icon-shopping-basket"
+    data-icon-label="0">
+  </i>
+  </a>
+</div>
+
+  <!-- Cart Sidebar Popup -->
+  <div id="cart-popup" class="mfp-hide widget_shopping_cart">
+  <div class="cart-popup-inner inner-padding">
+      <div class="cart-popup-title text-center">
+          <h4 class="uppercase">Giỏ hàng</h4>
+          <div class="is-divider"></div>
+      </div>
+      <div class="widget_shopping_cart_content">
+          
+
+	<p class="woocommerce-mini-cart__empty-message">Chưa có sản phẩm trong giỏ hàng.</p>
+
+
+      </div>
+             <div class="cart-sidebar-content relative"></div>  </div>
+  </div>
+
+</li>
+            </ul>
+          </div>
+
+      </div>
+     
+      </div>
+<div class="header-bg-container fill"><div class="header-bg-image fill"></div><div class="header-bg-color fill"></div></div>		</div>
+	</header>
+
+	
+	<main id="main" class="">
+
+
+<div id="content" role="main" class="content-area">
+
+		
+			<div class="slider-wrapper relative" id="slider-1108944233" style="background-color:rgb(0, 0, 0);">
+    <div class="slider slider-nav-dots-simple slider-nav-simple slider-nav-normal slider-nav-light slider-style-normal"
+        data-flickity-options='{
+            "cellAlign": "center",
+            "imagesLoaded": true,
+            "lazyLoad": 1,
+            "freeScroll": false,
+            "wrapAround": true,
+            "autoPlay": 6000,
+            "pauseAutoPlayOnHover" : true,
+            "prevNextButtons": true,
+            "contain" : true,
+            "adaptiveHeight" : true,
+            "dragThreshold" : 10,
+            "percentPosition": true,
+            "pageDots": true,
+            "rightToLeft": false,
+            "draggable": true,
+            "selectedAttraction": 0.1,
+            "parallax" : 0,
+            "friction": 0.6        }'
+        >
+        
+	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1503513682">
+						<div data-animate="flipInY">		<div class="img-inner dark" >
+			<img width="1920" height="596" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%201920%20596%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/BANNER01.jpg" class="lazy-load attachment-original size-original" alt="" loading="lazy" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/BANNER01.jpg 1920w, https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/BANNER01-300x93.jpg 300w, https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/BANNER01-1024x318.jpg 1024w, https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/BANNER01-768x238.jpg 768w, https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/BANNER01-1536x477.jpg 1536w, https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/BANNER01-600x186.jpg 600w" sizes="(max-width: 1920px) 100vw, 1920px" />						
+					</div>
+		</div>						
+<style>
+#image_1503513682 {
+  width: 100%;
+}
+</style>
+	</div>
+	
+	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_39073628">
+						<div data-animate="flipInX">		<div class="img-inner dark" >
+			<img width="1920" height="596" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%201920%20596%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/slider2.jpg" class="lazy-load attachment-original size-original" alt="" loading="lazy" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/slider2.jpg 1920w, https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/slider2-300x93.jpg 300w, https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/slider2-1024x318.jpg 1024w, https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/slider2-768x238.jpg 768w, https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/slider2-1536x477.jpg 1536w, https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/slider2-600x186.jpg 600w" sizes="(max-width: 1920px) 100vw, 1920px" />						
+					</div>
+		</div>						
+<style>
+#image_39073628 {
+  width: 100%;
+}
+</style>
+	</div>
+	
+     </div>
+
+     <div class="loading-spin dark large centered"></div>
+
+     	</div>
+
+
+	<section class="section banner-section" id="section_66918044">
+		<div class="bg section-bg fill bg-fill  bg-loaded" >
+
+			
+			
+			
+
+		</div>
+
+		
+
+		<div class="section-content relative">
+			
+<div class="row"  id="row-860419556">
+
+	<div id="col-1554743310" class="col medium-4 small-12 large-4"  >
+				<div class="col-inner"  >
+			
+			
+	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_2055282057">
+		<a class="" href="http://hyperx.com.vn/product-categories/giay/"  >						<div class="img-inner image-zoom dark" >
+			<img width="500" height="333" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20500%20333%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/GIAY-DEP.jpg" class="lazy-load attachment-original size-original" alt="" loading="lazy" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/GIAY-DEP.jpg 500w, https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/GIAY-DEP-300x200.jpg 300w" sizes="(max-width: 500px) 100vw, 500px" />						
+					</div>
+						</a>		
+<style>
+#image_2055282057 {
+  width: 100%;
+}
+</style>
+	</div>
+	
+		</div>
+					</div>
+
+	
+
+	<div id="col-1932391240" class="col medium-4 small-12 large-4"  >
+				<div class="col-inner"  >
+			
+			
+	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1772234824">
+		<a class="" href="http://hyperx.com.vn/product-categories/ao-phong/"  >						<div class="img-inner image-zoom dark" >
+			<img width="500" height="333" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20500%20333%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/SHIRT.jpg" class="lazy-load attachment-original size-original" alt="" loading="lazy" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/SHIRT.jpg 500w, https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/SHIRT-300x200.jpg 300w" sizes="(max-width: 500px) 100vw, 500px" />						
+					</div>
+						</a>		
+<style>
+#image_1772234824 {
+  width: 100%;
+}
+</style>
+	</div>
+	
+		</div>
+					</div>
+
+	
+
+	<div id="col-162301379" class="col medium-4 small-12 large-4"  >
+				<div class="col-inner"  >
+			
+			
+	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_511778927">
+		<a class="" href="http://hyperx.com.vn/product-categories/quan-jeans/"  >						<div class="img-inner image-zoom dark" >
+			<img width="500" height="333" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20500%20333%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/JEAN.jpg" class="lazy-load attachment-original size-original" alt="" loading="lazy" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/JEAN.jpg 500w, https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/JEAN-300x200.jpg 300w" sizes="(max-width: 500px) 100vw, 500px" />						
+					</div>
+						</a>		
+<style>
+#image_511778927 {
+  width: 100%;
+}
+</style>
+	</div>
+	
+		</div>
+					</div>
+
+	
+</div>
+		</div>
+
+		
+<style>
+#section_66918044 {
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+#section_66918044 .ux-shape-divider--top svg {
+  height: 150px;
+  --divider-top-width: 100%;
+}
+#section_66918044 .ux-shape-divider--bottom svg {
+  height: 150px;
+  --divider-width: 100%;
+}
+</style>
+	</section>
+	
+	<section class="section category-section" id="section_143172841">
+		<div class="bg section-bg fill bg-fill  bg-loaded" >
+
+			
+			
+			
+
+		</div>
+
+		
+
+		<div class="section-content relative">
+			
+<div class="row"  id="row-503485256">
+
+	<div id="col-1686110247" class="col small-12 large-12"  >
+				<div class="col-inner"  >
+			
+			
+<div class="container section-title-container" ><h2 class="section-title section-title-center"><b></b><span class="section-title-main" style="font-size:120%;color:rgb(202, 0, 0);">BEST SELLING PRODUCTS</span><b></b></h2></div>
+
+  
+    <div class="row list-product large-columns-5 medium-columns-3 small-columns-2 row-small">
+  	
+	     
+						            	
+	            	<div class="col" >
+						<div class="col-inner">
+						
+<div class="badge-container absolute left top z-1">
+</div>
+						<div class="product-small box list-product has-hover box-normal box-text-bottom">
+							<div class="box-image" style="border-radius:2%;">
+								<div class="image-cover" style="padding-top:100%;">
+									<a href="https://hyperx.mauthemewp.com/product/balenciaga-tee-ao-blcg-simpsons-print-cotton-black-mirror-quality/">
+										<img width="600" height="600" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20600%20600%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3027709980768_5044141642003b8990bc31b8a38a734e_4b2744ffa96a4b4db8dc8bb29f1c9133_master-600x600.webp" class="lazy-load show-on-hover absolute fill hide-for-small back-image" alt="" loading="lazy" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3027709980768_5044141642003b8990bc31b8a38a734e_4b2744ffa96a4b4db8dc8bb29f1c9133_master-600x600.webp 600w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3027709980768_5044141642003b8990bc31b8a38a734e_4b2744ffa96a4b4db8dc8bb29f1c9133_master-300x300.webp 300w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3027709980768_5044141642003b8990bc31b8a38a734e_4b2744ffa96a4b4db8dc8bb29f1c9133_master-1024x1024.webp 1024w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3027709980768_5044141642003b8990bc31b8a38a734e_4b2744ffa96a4b4db8dc8bb29f1c9133_master-150x150.webp 150w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3027709980768_5044141642003b8990bc31b8a38a734e_4b2744ffa96a4b4db8dc8bb29f1c9133_master-768x768.webp 768w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3027709980768_5044141642003b8990bc31b8a38a734e_4b2744ffa96a4b4db8dc8bb29f1c9133_master-1536x1536.webp 1536w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3027709980768_5044141642003b8990bc31b8a38a734e_4b2744ffa96a4b4db8dc8bb29f1c9133_master-100x100.webp 100w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3027709980768_5044141642003b8990bc31b8a38a734e_4b2744ffa96a4b4db8dc8bb29f1c9133_master.webp 1734w" sizes="(max-width: 600px) 100vw, 600px" /><img width="1734" height="1734" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%201734%201734%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3027709980768_5044141642003b8990bc31b8a38a734e_4b2744ffa96a4b4db8dc8bb29f1c9133_master.webp" class="lazy-load attachment-original size-original" alt="" loading="lazy" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3027709980768_5044141642003b8990bc31b8a38a734e_4b2744ffa96a4b4db8dc8bb29f1c9133_master.webp 1734w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3027709980768_5044141642003b8990bc31b8a38a734e_4b2744ffa96a4b4db8dc8bb29f1c9133_master-300x300.webp 300w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3027709980768_5044141642003b8990bc31b8a38a734e_4b2744ffa96a4b4db8dc8bb29f1c9133_master-1024x1024.webp 1024w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3027709980768_5044141642003b8990bc31b8a38a734e_4b2744ffa96a4b4db8dc8bb29f1c9133_master-150x150.webp 150w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3027709980768_5044141642003b8990bc31b8a38a734e_4b2744ffa96a4b4db8dc8bb29f1c9133_master-768x768.webp 768w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3027709980768_5044141642003b8990bc31b8a38a734e_4b2744ffa96a4b4db8dc8bb29f1c9133_master-1536x1536.webp 1536w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3027709980768_5044141642003b8990bc31b8a38a734e_4b2744ffa96a4b4db8dc8bb29f1c9133_master-600x600.webp 600w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3027709980768_5044141642003b8990bc31b8a38a734e_4b2744ffa96a4b4db8dc8bb29f1c9133_master-100x100.webp 100w" sizes="(max-width: 1734px) 100vw, 1734px" />									</a>
+																		 								</div>
+							
+																	
+																							</div><!-- box-image -->
+
+							<div class="box-text text-center" >
+								<div class="title-wrapper"><p class="name product-title woocommerce-loop-product__title"><a href="https://hyperx.mauthemewp.com/product/balenciaga-tee-ao-blcg-simpsons-print-cotton-black-mirror-quality/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">BALENCIAGA TEE &#8211; Áo Blcg Simpsons Print Cotton (Black)</a></p></div><div class="price-wrapper">
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>1.300.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
+</div>								<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+										  <a class="quick-view" data-prod="145" href="#quick-view">Add to Cart</a>									</div>
+							</div><!-- box-text -->
+						</div><!-- box -->
+						</div><!-- .col-inner -->
+					</div><!-- col -->
+						            
+						            	
+	            	<div class="col" >
+						<div class="col-inner">
+						
+<div class="badge-container absolute left top z-1">
+		<div class="callout badge badge-square"><div class="badge-inner secondary on-sale"><span class="onsale">-34%</span></div></div>
+</div>
+						<div class="product-small box list-product has-hover box-normal box-text-bottom">
+							<div class="box-image" style="border-radius:2%;">
+								<div class="image-cover" style="padding-top:100%;">
+									<a href="https://hyperx.mauthemewp.com/product/2nd-amendment-usa-limited-edition/">
+										<img width="600" height="600" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20600%20600%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3166818397660_d96b0f9b2bb0cc05e7c16317e589012f_f13d6b2106a44d6a978702b944ca3bf3_master-600x600.webp" class="lazy-load show-on-hover absolute fill hide-for-small back-image" alt="" loading="lazy" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3166818397660_d96b0f9b2bb0cc05e7c16317e589012f_f13d6b2106a44d6a978702b944ca3bf3_master-600x600.webp 600w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3166818397660_d96b0f9b2bb0cc05e7c16317e589012f_f13d6b2106a44d6a978702b944ca3bf3_master-150x150.webp 150w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3166818397660_d96b0f9b2bb0cc05e7c16317e589012f_f13d6b2106a44d6a978702b944ca3bf3_master-100x100.webp 100w" sizes="(max-width: 600px) 100vw, 600px" /><img width="510" height="510" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20510%20510%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/b5LyhyC-510x510.jpg" class="lazy-load attachment-original size-original" alt="" loading="lazy" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/b5LyhyC-510x510.jpg 510w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/b5LyhyC-510x510-150x150.jpg 150w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/b5LyhyC-510x510-300x300.jpg 300w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/b5LyhyC-510x510-100x100.jpg 100w" sizes="(max-width: 510px) 100vw, 510px" />									</a>
+																		 								</div>
+							
+																	
+																							</div><!-- box-image -->
+
+							<div class="box-text text-center" >
+								<div class="title-wrapper"><p class="name product-title woocommerce-loop-product__title"><a href="https://hyperx.mauthemewp.com/product/2nd-amendment-usa-limited-edition/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">2nd Amendment USA Limited Edition</a></p></div><div class="price-wrapper">
+	<span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>680.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi>450.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></ins></span>
+</div>								<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+										  <a class="quick-view" data-prod="118" href="#quick-view">Add to Cart</a>									</div>
+							</div><!-- box-text -->
+						</div><!-- box -->
+						</div><!-- .col-inner -->
+					</div><!-- col -->
+						            
+						            	
+	            	<div class="col" >
+						<div class="col-inner">
+						
+<div class="badge-container absolute left top z-1">
+		<div class="callout badge badge-square"><div class="badge-inner secondary on-sale"><span class="onsale">-13%</span></div></div>
+</div>
+						<div class="product-small box list-product has-hover box-normal box-text-bottom">
+							<div class="box-image" style="border-radius:2%;">
+								<div class="image-cover" style="padding-top:100%;">
+									<a href="https://hyperx.mauthemewp.com/product/louis-vuitton-tee-ao-lv-graffiti-white-mirror-quality/">
+										<img width="600" height="600" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20600%20600%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3250345024367_c6b23b7c4096692176d6dac671df0cd9_962a2f1b538341ff95e353388eb10540_master-600x600.webp" class="lazy-load show-on-hover absolute fill hide-for-small back-image" alt="" loading="lazy" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3250345024367_c6b23b7c4096692176d6dac671df0cd9_962a2f1b538341ff95e353388eb10540_master-600x600.webp 600w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3250345024367_c6b23b7c4096692176d6dac671df0cd9_962a2f1b538341ff95e353388eb10540_master-150x150.webp 150w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3250345024367_c6b23b7c4096692176d6dac671df0cd9_962a2f1b538341ff95e353388eb10540_master-100x100.webp 100w" sizes="(max-width: 600px) 100vw, 600px" /><img width="2048" height="2048" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%202048%202048%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3250341758969_0cad6c3960407cbfc4389e317d97006c_e296d6afba214caeb440551763fc2b38_master.webp" class="lazy-load attachment-original size-original" alt="" loading="lazy" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3250341758969_0cad6c3960407cbfc4389e317d97006c_e296d6afba214caeb440551763fc2b38_master.webp 2048w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3250341758969_0cad6c3960407cbfc4389e317d97006c_e296d6afba214caeb440551763fc2b38_master-300x300.webp 300w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3250341758969_0cad6c3960407cbfc4389e317d97006c_e296d6afba214caeb440551763fc2b38_master-1024x1024.webp 1024w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3250341758969_0cad6c3960407cbfc4389e317d97006c_e296d6afba214caeb440551763fc2b38_master-150x150.webp 150w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3250341758969_0cad6c3960407cbfc4389e317d97006c_e296d6afba214caeb440551763fc2b38_master-768x768.webp 768w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3250341758969_0cad6c3960407cbfc4389e317d97006c_e296d6afba214caeb440551763fc2b38_master-1536x1536.webp 1536w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3250341758969_0cad6c3960407cbfc4389e317d97006c_e296d6afba214caeb440551763fc2b38_master-600x600.webp 600w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3250341758969_0cad6c3960407cbfc4389e317d97006c_e296d6afba214caeb440551763fc2b38_master-100x100.webp 100w" sizes="(max-width: 2048px) 100vw, 2048px" />									</a>
+																		 								</div>
+							
+																	
+																							</div><!-- box-image -->
+
+							<div class="box-text text-center" >
+								<div class="title-wrapper"><p class="name product-title woocommerce-loop-product__title"><a href="https://hyperx.mauthemewp.com/product/louis-vuitton-tee-ao-lv-graffiti-white-mirror-quality/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">LOUIS VUITTON TEE &#8211; Áo LV Graffiti (White) [Mirror Quality]</a></p></div><div class="price-wrapper">
+	<span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>900.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi>780.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></ins></span>
+</div>								<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+										  <a class="quick-view" data-prod="148" href="#quick-view">Add to Cart</a>									</div>
+							</div><!-- box-text -->
+						</div><!-- box -->
+						</div><!-- .col-inner -->
+					</div><!-- col -->
+						            
+						            	
+	            	<div class="col" >
+						<div class="col-inner">
+						
+<div class="badge-container absolute left top z-1">
+		<div class="callout badge badge-square"><div class="badge-inner secondary on-sale"><span class="onsale">-49%</span></div></div>
+</div>
+						<div class="product-small box list-product has-hover box-normal box-text-bottom">
+							<div class="box-image" style="border-radius:2%;">
+								<div class="image-cover" style="padding-top:100%;">
+									<a href="https://hyperx.mauthemewp.com/product/fog-shorts-quan-shorts-union-black-mirror-quality/">
+										<img width="247" height="296" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20247%20296%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/qPOvvuQ-247x296.jpg" class="lazy-load show-on-hover absolute fill hide-for-small back-image" alt="" loading="lazy" /><img width="1024" height="1024" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%201024%201024%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3362888306785_f76a5874d4dca34073a2c42db4d93af8_a5a92f126a2146d79425140e0ad096c1_1024x1024.webp" class="lazy-load attachment-original size-original" alt="" loading="lazy" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3362888306785_f76a5874d4dca34073a2c42db4d93af8_a5a92f126a2146d79425140e0ad096c1_1024x1024.webp 1024w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3362888306785_f76a5874d4dca34073a2c42db4d93af8_a5a92f126a2146d79425140e0ad096c1_1024x1024-300x300.webp 300w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3362888306785_f76a5874d4dca34073a2c42db4d93af8_a5a92f126a2146d79425140e0ad096c1_1024x1024-150x150.webp 150w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3362888306785_f76a5874d4dca34073a2c42db4d93af8_a5a92f126a2146d79425140e0ad096c1_1024x1024-768x768.webp 768w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3362888306785_f76a5874d4dca34073a2c42db4d93af8_a5a92f126a2146d79425140e0ad096c1_1024x1024-600x600.webp 600w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3362888306785_f76a5874d4dca34073a2c42db4d93af8_a5a92f126a2146d79425140e0ad096c1_1024x1024-100x100.webp 100w" sizes="(max-width: 1024px) 100vw, 1024px" />									</a>
+																		 								</div>
+							
+																	
+																							</div><!-- box-image -->
+
+							<div class="box-text text-center" >
+								<div class="title-wrapper"><p class="name product-title woocommerce-loop-product__title"><a href="https://hyperx.mauthemewp.com/product/fog-shorts-quan-shorts-union-black-mirror-quality/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">FOG SHORTS &#8211; Quần Shorts Union (Black) [Mirror Quality]</a></p></div><div class="price-wrapper">
+	<span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>890.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi>450.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></ins></span>
+</div>								<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+										  <a class="quick-view" data-prod="122" href="#quick-view">Add to Cart</a>									</div>
+							</div><!-- box-text -->
+						</div><!-- box -->
+						</div><!-- .col-inner -->
+					</div><!-- col -->
+						            
+						            	
+	            	<div class="col" >
+						<div class="col-inner">
+						
+<div class="badge-container absolute left top z-1">
+		<div class="callout badge badge-square"><div class="badge-inner secondary on-sale"><span class="onsale">-20%</span></div></div>
+</div>
+						<div class="product-small box list-product has-hover box-normal box-text-bottom">
+							<div class="box-image" style="border-radius:2%;">
+								<div class="image-cover" style="padding-top:100%;">
+									<a href="https://hyperx.mauthemewp.com/product/burberry-tee-ao-bbr-pocket-check-black-mirror-quality/">
+										<img width="600" height="600" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20600%20600%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3166824450635_f339e20598cb80696142f4b43cb0134d_8970b49692a64ccd8fd63ecc344d07fe_master-600x600.webp" class="lazy-load show-on-hover absolute fill hide-for-small back-image" alt="" loading="lazy" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3166824450635_f339e20598cb80696142f4b43cb0134d_8970b49692a64ccd8fd63ecc344d07fe_master-600x600.webp 600w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3166824450635_f339e20598cb80696142f4b43cb0134d_8970b49692a64ccd8fd63ecc344d07fe_master-300x300.webp 300w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3166824450635_f339e20598cb80696142f4b43cb0134d_8970b49692a64ccd8fd63ecc344d07fe_master-1024x1024.webp 1024w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3166824450635_f339e20598cb80696142f4b43cb0134d_8970b49692a64ccd8fd63ecc344d07fe_master-150x150.webp 150w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3166824450635_f339e20598cb80696142f4b43cb0134d_8970b49692a64ccd8fd63ecc344d07fe_master-768x768.webp 768w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3166824450635_f339e20598cb80696142f4b43cb0134d_8970b49692a64ccd8fd63ecc344d07fe_master-100x100.webp 100w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3166824450635_f339e20598cb80696142f4b43cb0134d_8970b49692a64ccd8fd63ecc344d07fe_master.webp 1440w" sizes="(max-width: 600px) 100vw, 600px" /><img width="1440" height="1800" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%201440%201800%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3166818397660_d96b0f9b2bb0cc05e7c16317e589012f_f13d6b2106a44d6a978702b944ca3bf3_master.webp" class="lazy-load attachment-original size-original" alt="" loading="lazy" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3166818397660_d96b0f9b2bb0cc05e7c16317e589012f_f13d6b2106a44d6a978702b944ca3bf3_master.webp 1440w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3166818397660_d96b0f9b2bb0cc05e7c16317e589012f_f13d6b2106a44d6a978702b944ca3bf3_master-240x300.webp 240w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3166818397660_d96b0f9b2bb0cc05e7c16317e589012f_f13d6b2106a44d6a978702b944ca3bf3_master-819x1024.webp 819w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3166818397660_d96b0f9b2bb0cc05e7c16317e589012f_f13d6b2106a44d6a978702b944ca3bf3_master-768x960.webp 768w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3166818397660_d96b0f9b2bb0cc05e7c16317e589012f_f13d6b2106a44d6a978702b944ca3bf3_master-1229x1536.webp 1229w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3166818397660_d96b0f9b2bb0cc05e7c16317e589012f_f13d6b2106a44d6a978702b944ca3bf3_master-600x750.webp 600w" sizes="(max-width: 1440px) 100vw, 1440px" />									</a>
+																		 								</div>
+							
+																	
+																							</div><!-- box-image -->
+
+							<div class="box-text text-center" >
+								<div class="title-wrapper"><p class="name product-title woocommerce-loop-product__title"><a href="https://hyperx.mauthemewp.com/product/burberry-tee-ao-bbr-pocket-check-black-mirror-quality/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">BURBERRY TEE &#8211; Áo BBR Pocket Check (Black) [Mirror Quality]</a></p></div><div class="price-wrapper">
+	<span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>1.500.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi>1.200.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></ins></span>
+</div>								<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+										  <a class="quick-view" data-prod="150" href="#quick-view">Add to Cart</a>									</div>
+							</div><!-- box-text -->
+						</div><!-- box -->
+						</div><!-- .col-inner -->
+					</div><!-- col -->
+						            
+						            	
+	            	<div class="col" >
+						<div class="col-inner">
+						
+<div class="badge-container absolute left top z-1">
+		<div class="callout badge badge-square"><div class="badge-inner secondary on-sale"><span class="onsale">-8%</span></div></div>
+</div>
+						<div class="product-small box list-product has-hover box-normal box-text-bottom">
+							<div class="box-image" style="border-radius:2%;">
+								<div class="image-cover" style="padding-top:100%;">
+									<a href="https://hyperx.mauthemewp.com/product/drew-tee-ao-thun-drew-joy-ss-cloud-white-blue-mirror-quality/">
+										<img width="510" height="510" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20510%20510%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/3MeYqRT-510x510.jpg" class="lazy-load show-on-hover absolute fill hide-for-small back-image" alt="" loading="lazy" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/3MeYqRT-510x510.jpg 510w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/3MeYqRT-510x510-150x150.jpg 150w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/3MeYqRT-510x510-300x300.jpg 300w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/3MeYqRT-510x510-100x100.jpg 100w" sizes="(max-width: 510px) 100vw, 510px" /><img width="600" height="600" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20600%20600%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/booauthenticsneaker-drew-house-joy-ss-tee-cloud-b_c1bf4d237af24f90978633fe2731e74e_master.webp" class="lazy-load attachment-original size-original" alt="" loading="lazy" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/booauthenticsneaker-drew-house-joy-ss-tee-cloud-b_c1bf4d237af24f90978633fe2731e74e_master.webp 600w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/booauthenticsneaker-drew-house-joy-ss-tee-cloud-b_c1bf4d237af24f90978633fe2731e74e_master-300x300.webp 300w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/booauthenticsneaker-drew-house-joy-ss-tee-cloud-b_c1bf4d237af24f90978633fe2731e74e_master-150x150.webp 150w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/booauthenticsneaker-drew-house-joy-ss-tee-cloud-b_c1bf4d237af24f90978633fe2731e74e_master-100x100.webp 100w" sizes="(max-width: 600px) 100vw, 600px" />									</a>
+																		 								</div>
+							
+																	
+																							</div><!-- box-image -->
+
+							<div class="box-text text-center" >
+								<div class="title-wrapper"><p class="name product-title woocommerce-loop-product__title"><a href="https://hyperx.mauthemewp.com/product/drew-tee-ao-thun-drew-joy-ss-cloud-white-blue-mirror-quality/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">DREW TEE &#8211; Áo thun Drew Joy ss Cloud (White Blue) [Mirror Quality]</a></p></div><div class="price-wrapper">
+	<span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>1.200.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi>1.100.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></ins></span>
+</div>								<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+										  <a class="quick-view" data-prod="129" href="#quick-view">Add to Cart</a>									</div>
+							</div><!-- box-text -->
+						</div><!-- box -->
+						</div><!-- .col-inner -->
+					</div><!-- col -->
+						            
+						            	
+	            	<div class="col" >
+						<div class="col-inner">
+						
+<div class="badge-container absolute left top z-1">
+</div>
+						<div class="product-small box list-product has-hover box-normal box-text-bottom">
+							<div class="box-image" style="border-radius:2%;">
+								<div class="image-cover" style="padding-top:100%;">
+									<a href="https://hyperx.mauthemewp.com/product/drew-tee-ao-drew-hearty-white-mirror-quality/">
+										<img width="510" height="600" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20510%20600%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/2Xf8LRZ-510x638-1-510x600.jpg" class="lazy-load show-on-hover absolute fill hide-for-small back-image" alt="" loading="lazy" /><img width="1024" height="1024" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%201024%201024%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z2495545928874_abd428ba3a0203ad2b5dcfed4ec04495_9fd78450b4f44da8a1c97ad4faeeef9c_master.jpg" class="lazy-load attachment-original size-original" alt="" loading="lazy" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z2495545928874_abd428ba3a0203ad2b5dcfed4ec04495_9fd78450b4f44da8a1c97ad4faeeef9c_master.jpg 1024w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z2495545928874_abd428ba3a0203ad2b5dcfed4ec04495_9fd78450b4f44da8a1c97ad4faeeef9c_master-300x300.jpg 300w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z2495545928874_abd428ba3a0203ad2b5dcfed4ec04495_9fd78450b4f44da8a1c97ad4faeeef9c_master-150x150.jpg 150w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z2495545928874_abd428ba3a0203ad2b5dcfed4ec04495_9fd78450b4f44da8a1c97ad4faeeef9c_master-768x768.jpg 768w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z2495545928874_abd428ba3a0203ad2b5dcfed4ec04495_9fd78450b4f44da8a1c97ad4faeeef9c_master-600x600.jpg 600w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z2495545928874_abd428ba3a0203ad2b5dcfed4ec04495_9fd78450b4f44da8a1c97ad4faeeef9c_master-100x100.jpg 100w" sizes="(max-width: 1024px) 100vw, 1024px" />									</a>
+																		 								</div>
+							
+																	
+																							</div><!-- box-image -->
+
+							<div class="box-text text-center" >
+								<div class="title-wrapper"><p class="name product-title woocommerce-loop-product__title"><a href="https://hyperx.mauthemewp.com/product/drew-tee-ao-drew-hearty-white-mirror-quality/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">DREW TEE &#8211; Áo Drew Hearty (White) [Mirror Quality]</a></p></div><div class="price-wrapper">
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>450.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
+</div>								<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+										  <a class="quick-view" data-prod="153" href="#quick-view">Add to Cart</a>									</div>
+							</div><!-- box-text -->
+						</div><!-- box -->
+						</div><!-- .col-inner -->
+					</div><!-- col -->
+						            
+						            	
+	            	<div class="col" >
+						<div class="col-inner">
+						
+<div class="badge-container absolute left top z-1">
+</div>
+						<div class="product-small box list-product has-hover box-normal box-text-bottom">
+							<div class="box-image" style="border-radius:2%;">
+								<div class="image-cover" style="padding-top:100%;">
+									<a href="https://hyperx.mauthemewp.com/product/trump-45-limited-edtion/">
+										<img width="600" height="600" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20600%20600%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3135118035116_b0eaad641d9f060f67dcfce316e79129_b69bde0daf5a4a0ca1006f9a7964c163_master-600x600.webp" class="lazy-load show-on-hover absolute fill hide-for-small back-image" alt="" loading="lazy" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3135118035116_b0eaad641d9f060f67dcfce316e79129_b69bde0daf5a4a0ca1006f9a7964c163_master-600x600.webp 600w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3135118035116_b0eaad641d9f060f67dcfce316e79129_b69bde0daf5a4a0ca1006f9a7964c163_master-300x300.webp 300w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3135118035116_b0eaad641d9f060f67dcfce316e79129_b69bde0daf5a4a0ca1006f9a7964c163_master-1024x1024.webp 1024w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3135118035116_b0eaad641d9f060f67dcfce316e79129_b69bde0daf5a4a0ca1006f9a7964c163_master-150x150.webp 150w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3135118035116_b0eaad641d9f060f67dcfce316e79129_b69bde0daf5a4a0ca1006f9a7964c163_master-768x768.webp 768w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3135118035116_b0eaad641d9f060f67dcfce316e79129_b69bde0daf5a4a0ca1006f9a7964c163_master-1536x1536.webp 1536w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3135118035116_b0eaad641d9f060f67dcfce316e79129_b69bde0daf5a4a0ca1006f9a7964c163_master.webp 2048w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3135118035116_b0eaad641d9f060f67dcfce316e79129_b69bde0daf5a4a0ca1006f9a7964c163_master-100x100.webp 100w" sizes="(max-width: 600px) 100vw, 600px" /><img width="1536" height="2048" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%201536%202048%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3250341726478_b63583710958c03e686f70c62498d64b_6c576ba17b8e46678d28761fcc80f1a1_master.webp" class="lazy-load attachment-original size-original" alt="" loading="lazy" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3250341726478_b63583710958c03e686f70c62498d64b_6c576ba17b8e46678d28761fcc80f1a1_master.webp 1536w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3250341726478_b63583710958c03e686f70c62498d64b_6c576ba17b8e46678d28761fcc80f1a1_master-225x300.webp 225w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3250341726478_b63583710958c03e686f70c62498d64b_6c576ba17b8e46678d28761fcc80f1a1_master-768x1024.webp 768w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3250341726478_b63583710958c03e686f70c62498d64b_6c576ba17b8e46678d28761fcc80f1a1_master-1152x1536.webp 1152w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3250341726478_b63583710958c03e686f70c62498d64b_6c576ba17b8e46678d28761fcc80f1a1_master-600x800.webp 600w" sizes="(max-width: 1536px) 100vw, 1536px" />									</a>
+																		 								</div>
+							
+																	
+																							</div><!-- box-image -->
+
+							<div class="box-text text-center" >
+								<div class="title-wrapper"><p class="name product-title woocommerce-loop-product__title"><a href="https://hyperx.mauthemewp.com/product/trump-45-limited-edtion/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Trump 45 Limited Edtion</a></p></div><div class="price-wrapper">
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>350.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
+</div>								<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+										  <a class="quick-view" data-prod="131" href="#quick-view">Add to Cart</a>									</div>
+							</div><!-- box-text -->
+						</div><!-- box -->
+						</div><!-- .col-inner -->
+					</div><!-- col -->
+						            
+						            	
+	            	<div class="col" >
+						<div class="col-inner">
+						
+<div class="badge-container absolute left top z-1">
+		<div class="callout badge badge-square"><div class="badge-inner secondary on-sale"><span class="onsale">-2%</span></div></div>
+</div>
+						<div class="product-small box list-product has-hover box-normal box-text-bottom">
+							<div class="box-image" style="border-radius:2%;">
+								<div class="image-cover" style="padding-top:100%;">
+									<a href="https://hyperx.mauthemewp.com/product/confederate-sneakers/">
+										<img width="510" height="510" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20510%20510%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/2gTvFhf-510x510.jpg" class="lazy-load show-on-hover absolute fill hide-for-small back-image" alt="" loading="lazy" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/2gTvFhf-510x510.jpg 510w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/2gTvFhf-510x510-150x150.jpg 150w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/2gTvFhf-510x510-300x300.jpg 300w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/2gTvFhf-510x510-100x100.jpg 100w" sizes="(max-width: 510px) 100vw, 510px" /><img width="510" height="510" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20510%20510%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/j0U0gMX-510x510.jpg" class="lazy-load attachment-original size-original" alt="" loading="lazy" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/j0U0gMX-510x510.jpg 510w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/j0U0gMX-510x510-150x150.jpg 150w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/j0U0gMX-510x510-300x300.jpg 300w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/j0U0gMX-510x510-100x100.jpg 100w" sizes="(max-width: 510px) 100vw, 510px" />									</a>
+																		 								</div>
+							
+																	
+																							</div><!-- box-image -->
+
+							<div class="box-text text-center" >
+								<div class="title-wrapper"><p class="name product-title woocommerce-loop-product__title"><a href="https://hyperx.mauthemewp.com/product/confederate-sneakers/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Confederate Sneakers</a></p></div><div class="price-wrapper">
+	<span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>1.250.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi>1.230.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></ins></span>
+</div>								<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+										  <a class="quick-view" data-prod="156" href="#quick-view">Add to Cart</a>									</div>
+							</div><!-- box-text -->
+						</div><!-- box -->
+						</div><!-- .col-inner -->
+					</div><!-- col -->
+						            
+						            	
+	            	<div class="col" >
+						<div class="col-inner">
+						
+<div class="badge-container absolute left top z-1">
+		<div class="callout badge badge-square"><div class="badge-inner secondary on-sale"><span class="onsale">-19%</span></div></div>
+</div>
+						<div class="product-small box list-product has-hover box-normal box-text-bottom">
+							<div class="box-image" style="border-radius:2%;">
+								<div class="image-cover" style="padding-top:100%;">
+									<a href="https://hyperx.mauthemewp.com/product/george-washington-limited-edtion/">
+										<img width="510" height="510" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20510%20510%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/aZ18gGy-510x510.jpg" class="lazy-load show-on-hover absolute fill hide-for-small back-image" alt="" loading="lazy" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/aZ18gGy-510x510.jpg 510w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/aZ18gGy-510x510-150x150.jpg 150w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/aZ18gGy-510x510-300x300.jpg 300w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/aZ18gGy-510x510-100x100.jpg 100w" sizes="(max-width: 510px) 100vw, 510px" /><img width="510" height="510" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20510%20510%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/aZ18gGy-510x510.jpg" class="lazy-load attachment-original size-original" alt="" loading="lazy" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/aZ18gGy-510x510.jpg 510w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/aZ18gGy-510x510-150x150.jpg 150w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/aZ18gGy-510x510-300x300.jpg 300w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/aZ18gGy-510x510-100x100.jpg 100w" sizes="(max-width: 510px) 100vw, 510px" />									</a>
+																		 								</div>
+							
+																	
+																							</div><!-- box-image -->
+
+							<div class="box-text text-center" >
+								<div class="title-wrapper"><p class="name product-title woocommerce-loop-product__title"><a href="https://hyperx.mauthemewp.com/product/george-washington-limited-edtion/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">George Washington Limited Edtion</a></p></div><div class="price-wrapper">
+	<span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>560.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi>456.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></ins></span>
+</div>								<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+										  <a class="quick-view" data-prod="133" href="#quick-view">Add to Cart</a>									</div>
+							</div><!-- box-text -->
+						</div><!-- box -->
+						</div><!-- .col-inner -->
+					</div><!-- col -->
+						            
+	        </div>
+		</div>
+					</div>
+
+	
+</div>
+		</div>
+
+		
+<style>
+#section_143172841 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#section_143172841 .ux-shape-divider--top svg {
+  height: 150px;
+  --divider-top-width: 100%;
+}
+#section_143172841 .ux-shape-divider--bottom svg {
+  height: 150px;
+  --divider-width: 100%;
+}
+</style>
+	</section>
+	
+	<section class="section banner-section" id="section_629655304">
+		<div class="bg section-bg fill bg-fill  bg-loaded" >
+
+			
+			
+			
+
+		</div>
+
+		
+
+		<div class="section-content relative">
+			
+<div class="row"  id="row-832231070">
+
+	<div id="col-1486357994" class="col small-12 large-12"  >
+				<div class="col-inner"  >
+			
+			
+	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_666855344">
+								<div class="img-inner dark" >
+			<img width="1920" height="89" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%201920%2089%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/BANNER-NGANG.jpg" class="lazy-load attachment-original size-original" alt="" loading="lazy" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/BANNER-NGANG.jpg 1920w, https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/BANNER-NGANG-300x14.jpg 300w, https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/BANNER-NGANG-1024x47.jpg 1024w, https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/BANNER-NGANG-768x36.jpg 768w, https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/BANNER-NGANG-1536x71.jpg 1536w, https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/BANNER-NGANG-600x28.jpg 600w" sizes="(max-width: 1920px) 100vw, 1920px" />						
+					</div>
+								
+<style>
+#image_666855344 {
+  width: 100%;
+}
+</style>
+	</div>
+	
+		</div>
+					</div>
+
+	
+</div>
+		</div>
+
+		
+<style>
+#section_629655304 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+#section_629655304 .ux-shape-divider--top svg {
+  height: 150px;
+  --divider-top-width: 100%;
+}
+#section_629655304 .ux-shape-divider--bottom svg {
+  height: 150px;
+  --divider-width: 100%;
+}
+</style>
+	</section>
+	
+	<section class="section category-section category-2" id="section_12720709">
+		<div class="bg section-bg fill bg-fill  bg-loaded" >
+
+			
+			
+			
+
+		</div>
+
+		
+
+		<div class="section-content relative">
+			
+<div class="row"  id="row-2135527912">
+
+	<div id="col-1198851840" class="col small-12 large-12"  >
+				<div class="col-inner"  >
+			
+			
+<div class="container section-title-container" ><h2 class="section-title section-title-center"><b></b><span class="section-title-main" style="font-size:120%;color:rgb(202, 0, 0);">HÀNG MỚI VỀ</span><b></b></h2></div>
+
+  
+    <div class="row list-product large-columns-5 medium-columns-3 small-columns-2 row-small slider row-slider slider-nav-simple slider-nav-outside slider-nav-push"  data-flickity-options='{"imagesLoaded": true, "groupCells": "100%", "dragThreshold" : 5, "cellAlign": "left","wrapAround": true,"prevNextButtons": true,"percentPosition": true,"pageDots": false, "rightToLeft": false, "autoPlay" : false}'>
+
+  	
+	     
+						            	
+	            	<div class="col" >
+						<div class="col-inner">
+						
+<div class="badge-container absolute left top z-1">
+		<div class="callout badge badge-square"><div class="badge-inner secondary on-sale"><span class="onsale">-13%</span></div></div>
+</div>
+						<div class="product-small box list-product has-hover box-normal box-text-bottom">
+							<div class="box-image" style="border-radius:2%;">
+								<div class="image-cover" style="padding-top:100%;">
+									<a href="https://hyperx.mauthemewp.com/product/louis-vuitton-tee-ao-lv-graffiti-white-mirror-quality/">
+										<img width="600" height="600" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20600%20600%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3250345024367_c6b23b7c4096692176d6dac671df0cd9_962a2f1b538341ff95e353388eb10540_master-600x600.webp" class="lazy-load show-on-hover absolute fill hide-for-small back-image" alt="" loading="lazy" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3250345024367_c6b23b7c4096692176d6dac671df0cd9_962a2f1b538341ff95e353388eb10540_master-600x600.webp 600w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3250345024367_c6b23b7c4096692176d6dac671df0cd9_962a2f1b538341ff95e353388eb10540_master-150x150.webp 150w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3250345024367_c6b23b7c4096692176d6dac671df0cd9_962a2f1b538341ff95e353388eb10540_master-100x100.webp 100w" sizes="(max-width: 600px) 100vw, 600px" /><img width="2048" height="2048" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%202048%202048%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3250341758969_0cad6c3960407cbfc4389e317d97006c_e296d6afba214caeb440551763fc2b38_master.webp" class="lazy-load attachment-original size-original" alt="" loading="lazy" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3250341758969_0cad6c3960407cbfc4389e317d97006c_e296d6afba214caeb440551763fc2b38_master.webp 2048w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3250341758969_0cad6c3960407cbfc4389e317d97006c_e296d6afba214caeb440551763fc2b38_master-300x300.webp 300w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3250341758969_0cad6c3960407cbfc4389e317d97006c_e296d6afba214caeb440551763fc2b38_master-1024x1024.webp 1024w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3250341758969_0cad6c3960407cbfc4389e317d97006c_e296d6afba214caeb440551763fc2b38_master-150x150.webp 150w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3250341758969_0cad6c3960407cbfc4389e317d97006c_e296d6afba214caeb440551763fc2b38_master-768x768.webp 768w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3250341758969_0cad6c3960407cbfc4389e317d97006c_e296d6afba214caeb440551763fc2b38_master-1536x1536.webp 1536w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3250341758969_0cad6c3960407cbfc4389e317d97006c_e296d6afba214caeb440551763fc2b38_master-600x600.webp 600w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3250341758969_0cad6c3960407cbfc4389e317d97006c_e296d6afba214caeb440551763fc2b38_master-100x100.webp 100w" sizes="(max-width: 2048px) 100vw, 2048px" />									</a>
+																		 								</div>
+							
+																	
+																							</div><!-- box-image -->
+
+							<div class="box-text text-center" >
+								<div class="title-wrapper"><p class="name product-title woocommerce-loop-product__title"><a href="https://hyperx.mauthemewp.com/product/louis-vuitton-tee-ao-lv-graffiti-white-mirror-quality/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">LOUIS VUITTON TEE &#8211; Áo LV Graffiti (White) [Mirror Quality]</a></p></div><div class="price-wrapper">
+	<span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>900.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi>780.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></ins></span>
+</div>								<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+										  <a class="quick-view" data-prod="148" href="#quick-view">Add to Cart</a>									</div>
+							</div><!-- box-text -->
+						</div><!-- box -->
+						</div><!-- .col-inner -->
+					</div><!-- col -->
+						            
+						            	
+	            	<div class="col" >
+						<div class="col-inner">
+						
+<div class="badge-container absolute left top z-1">
+		<div class="callout badge badge-square"><div class="badge-inner secondary on-sale"><span class="onsale">-34%</span></div></div>
+</div>
+						<div class="product-small box list-product has-hover box-normal box-text-bottom">
+							<div class="box-image" style="border-radius:2%;">
+								<div class="image-cover" style="padding-top:100%;">
+									<a href="https://hyperx.mauthemewp.com/product/2nd-amendment-usa-limited-edition/">
+										<img width="600" height="600" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20600%20600%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3166818397660_d96b0f9b2bb0cc05e7c16317e589012f_f13d6b2106a44d6a978702b944ca3bf3_master-600x600.webp" class="lazy-load show-on-hover absolute fill hide-for-small back-image" alt="" loading="lazy" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3166818397660_d96b0f9b2bb0cc05e7c16317e589012f_f13d6b2106a44d6a978702b944ca3bf3_master-600x600.webp 600w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3166818397660_d96b0f9b2bb0cc05e7c16317e589012f_f13d6b2106a44d6a978702b944ca3bf3_master-150x150.webp 150w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3166818397660_d96b0f9b2bb0cc05e7c16317e589012f_f13d6b2106a44d6a978702b944ca3bf3_master-100x100.webp 100w" sizes="(max-width: 600px) 100vw, 600px" /><img width="510" height="510" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20510%20510%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/b5LyhyC-510x510.jpg" class="lazy-load attachment-original size-original" alt="" loading="lazy" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/b5LyhyC-510x510.jpg 510w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/b5LyhyC-510x510-150x150.jpg 150w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/b5LyhyC-510x510-300x300.jpg 300w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/b5LyhyC-510x510-100x100.jpg 100w" sizes="(max-width: 510px) 100vw, 510px" />									</a>
+																		 								</div>
+							
+																	
+																							</div><!-- box-image -->
+
+							<div class="box-text text-center" >
+								<div class="title-wrapper"><p class="name product-title woocommerce-loop-product__title"><a href="https://hyperx.mauthemewp.com/product/2nd-amendment-usa-limited-edition/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">2nd Amendment USA Limited Edition</a></p></div><div class="price-wrapper">
+	<span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>680.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi>450.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></ins></span>
+</div>								<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+										  <a class="quick-view" data-prod="118" href="#quick-view">Add to Cart</a>									</div>
+							</div><!-- box-text -->
+						</div><!-- box -->
+						</div><!-- .col-inner -->
+					</div><!-- col -->
+						            
+						            	
+	            	<div class="col" >
+						<div class="col-inner">
+						
+<div class="badge-container absolute left top z-1">
+		<div class="callout badge badge-square"><div class="badge-inner secondary on-sale"><span class="onsale">-20%</span></div></div>
+</div>
+						<div class="product-small box list-product has-hover box-normal box-text-bottom">
+							<div class="box-image" style="border-radius:2%;">
+								<div class="image-cover" style="padding-top:100%;">
+									<a href="https://hyperx.mauthemewp.com/product/burberry-tee-ao-bbr-pocket-check-black-mirror-quality/">
+										<img width="600" height="600" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20600%20600%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3166824450635_f339e20598cb80696142f4b43cb0134d_8970b49692a64ccd8fd63ecc344d07fe_master-600x600.webp" class="lazy-load show-on-hover absolute fill hide-for-small back-image" alt="" loading="lazy" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3166824450635_f339e20598cb80696142f4b43cb0134d_8970b49692a64ccd8fd63ecc344d07fe_master-600x600.webp 600w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3166824450635_f339e20598cb80696142f4b43cb0134d_8970b49692a64ccd8fd63ecc344d07fe_master-300x300.webp 300w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3166824450635_f339e20598cb80696142f4b43cb0134d_8970b49692a64ccd8fd63ecc344d07fe_master-1024x1024.webp 1024w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3166824450635_f339e20598cb80696142f4b43cb0134d_8970b49692a64ccd8fd63ecc344d07fe_master-150x150.webp 150w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3166824450635_f339e20598cb80696142f4b43cb0134d_8970b49692a64ccd8fd63ecc344d07fe_master-768x768.webp 768w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3166824450635_f339e20598cb80696142f4b43cb0134d_8970b49692a64ccd8fd63ecc344d07fe_master-100x100.webp 100w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3166824450635_f339e20598cb80696142f4b43cb0134d_8970b49692a64ccd8fd63ecc344d07fe_master.webp 1440w" sizes="(max-width: 600px) 100vw, 600px" /><img width="1440" height="1800" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%201440%201800%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3166818397660_d96b0f9b2bb0cc05e7c16317e589012f_f13d6b2106a44d6a978702b944ca3bf3_master.webp" class="lazy-load attachment-original size-original" alt="" loading="lazy" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3166818397660_d96b0f9b2bb0cc05e7c16317e589012f_f13d6b2106a44d6a978702b944ca3bf3_master.webp 1440w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3166818397660_d96b0f9b2bb0cc05e7c16317e589012f_f13d6b2106a44d6a978702b944ca3bf3_master-240x300.webp 240w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3166818397660_d96b0f9b2bb0cc05e7c16317e589012f_f13d6b2106a44d6a978702b944ca3bf3_master-819x1024.webp 819w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3166818397660_d96b0f9b2bb0cc05e7c16317e589012f_f13d6b2106a44d6a978702b944ca3bf3_master-768x960.webp 768w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3166818397660_d96b0f9b2bb0cc05e7c16317e589012f_f13d6b2106a44d6a978702b944ca3bf3_master-1229x1536.webp 1229w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3166818397660_d96b0f9b2bb0cc05e7c16317e589012f_f13d6b2106a44d6a978702b944ca3bf3_master-600x750.webp 600w" sizes="(max-width: 1440px) 100vw, 1440px" />									</a>
+																		 								</div>
+							
+																	
+																							</div><!-- box-image -->
+
+							<div class="box-text text-center" >
+								<div class="title-wrapper"><p class="name product-title woocommerce-loop-product__title"><a href="https://hyperx.mauthemewp.com/product/burberry-tee-ao-bbr-pocket-check-black-mirror-quality/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">BURBERRY TEE &#8211; Áo BBR Pocket Check (Black) [Mirror Quality]</a></p></div><div class="price-wrapper">
+	<span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>1.500.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi>1.200.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></ins></span>
+</div>								<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+										  <a class="quick-view" data-prod="150" href="#quick-view">Add to Cart</a>									</div>
+							</div><!-- box-text -->
+						</div><!-- box -->
+						</div><!-- .col-inner -->
+					</div><!-- col -->
+						            
+						            	
+	            	<div class="col" >
+						<div class="col-inner">
+						
+<div class="badge-container absolute left top z-1">
+		<div class="callout badge badge-square"><div class="badge-inner secondary on-sale"><span class="onsale">-8%</span></div></div>
+</div>
+						<div class="product-small box list-product has-hover box-normal box-text-bottom">
+							<div class="box-image" style="border-radius:2%;">
+								<div class="image-cover" style="padding-top:100%;">
+									<a href="https://hyperx.mauthemewp.com/product/drew-tee-ao-thun-drew-joy-ss-cloud-white-blue-mirror-quality/">
+										<img width="510" height="510" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20510%20510%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/3MeYqRT-510x510.jpg" class="lazy-load show-on-hover absolute fill hide-for-small back-image" alt="" loading="lazy" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/3MeYqRT-510x510.jpg 510w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/3MeYqRT-510x510-150x150.jpg 150w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/3MeYqRT-510x510-300x300.jpg 300w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/3MeYqRT-510x510-100x100.jpg 100w" sizes="(max-width: 510px) 100vw, 510px" /><img width="600" height="600" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20600%20600%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/booauthenticsneaker-drew-house-joy-ss-tee-cloud-b_c1bf4d237af24f90978633fe2731e74e_master.webp" class="lazy-load attachment-original size-original" alt="" loading="lazy" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/booauthenticsneaker-drew-house-joy-ss-tee-cloud-b_c1bf4d237af24f90978633fe2731e74e_master.webp 600w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/booauthenticsneaker-drew-house-joy-ss-tee-cloud-b_c1bf4d237af24f90978633fe2731e74e_master-300x300.webp 300w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/booauthenticsneaker-drew-house-joy-ss-tee-cloud-b_c1bf4d237af24f90978633fe2731e74e_master-150x150.webp 150w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/booauthenticsneaker-drew-house-joy-ss-tee-cloud-b_c1bf4d237af24f90978633fe2731e74e_master-100x100.webp 100w" sizes="(max-width: 600px) 100vw, 600px" />									</a>
+																		 								</div>
+							
+																	
+																							</div><!-- box-image -->
+
+							<div class="box-text text-center" >
+								<div class="title-wrapper"><p class="name product-title woocommerce-loop-product__title"><a href="https://hyperx.mauthemewp.com/product/drew-tee-ao-thun-drew-joy-ss-cloud-white-blue-mirror-quality/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">DREW TEE &#8211; Áo thun Drew Joy ss Cloud (White Blue) [Mirror Quality]</a></p></div><div class="price-wrapper">
+	<span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>1.200.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi>1.100.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></ins></span>
+</div>								<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+										  <a class="quick-view" data-prod="129" href="#quick-view">Add to Cart</a>									</div>
+							</div><!-- box-text -->
+						</div><!-- box -->
+						</div><!-- .col-inner -->
+					</div><!-- col -->
+						            
+						            	
+	            	<div class="col" >
+						<div class="col-inner">
+						
+<div class="badge-container absolute left top z-1">
+</div>
+						<div class="product-small box list-product has-hover box-normal box-text-bottom">
+							<div class="box-image" style="border-radius:2%;">
+								<div class="image-cover" style="padding-top:100%;">
+									<a href="https://hyperx.mauthemewp.com/product/drew-tee-ao-drew-hearty-white-mirror-quality/">
+										<img width="510" height="600" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20510%20600%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/2Xf8LRZ-510x638-1-510x600.jpg" class="lazy-load show-on-hover absolute fill hide-for-small back-image" alt="" loading="lazy" /><img width="1024" height="1024" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%201024%201024%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z2495545928874_abd428ba3a0203ad2b5dcfed4ec04495_9fd78450b4f44da8a1c97ad4faeeef9c_master.jpg" class="lazy-load attachment-original size-original" alt="" loading="lazy" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z2495545928874_abd428ba3a0203ad2b5dcfed4ec04495_9fd78450b4f44da8a1c97ad4faeeef9c_master.jpg 1024w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z2495545928874_abd428ba3a0203ad2b5dcfed4ec04495_9fd78450b4f44da8a1c97ad4faeeef9c_master-300x300.jpg 300w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z2495545928874_abd428ba3a0203ad2b5dcfed4ec04495_9fd78450b4f44da8a1c97ad4faeeef9c_master-150x150.jpg 150w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z2495545928874_abd428ba3a0203ad2b5dcfed4ec04495_9fd78450b4f44da8a1c97ad4faeeef9c_master-768x768.jpg 768w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z2495545928874_abd428ba3a0203ad2b5dcfed4ec04495_9fd78450b4f44da8a1c97ad4faeeef9c_master-600x600.jpg 600w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z2495545928874_abd428ba3a0203ad2b5dcfed4ec04495_9fd78450b4f44da8a1c97ad4faeeef9c_master-100x100.jpg 100w" sizes="(max-width: 1024px) 100vw, 1024px" />									</a>
+																		 								</div>
+							
+																	
+																							</div><!-- box-image -->
+
+							<div class="box-text text-center" >
+								<div class="title-wrapper"><p class="name product-title woocommerce-loop-product__title"><a href="https://hyperx.mauthemewp.com/product/drew-tee-ao-drew-hearty-white-mirror-quality/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">DREW TEE &#8211; Áo Drew Hearty (White) [Mirror Quality]</a></p></div><div class="price-wrapper">
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>450.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
+</div>								<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+										  <a class="quick-view" data-prod="153" href="#quick-view">Add to Cart</a>									</div>
+							</div><!-- box-text -->
+						</div><!-- box -->
+						</div><!-- .col-inner -->
+					</div><!-- col -->
+						            
+						            	
+	            	<div class="col" >
+						<div class="col-inner">
+						
+<div class="badge-container absolute left top z-1">
+</div>
+						<div class="product-small box list-product has-hover box-normal box-text-bottom">
+							<div class="box-image" style="border-radius:2%;">
+								<div class="image-cover" style="padding-top:100%;">
+									<a href="https://hyperx.mauthemewp.com/product/trump-45-limited-edtion/">
+										<img width="600" height="600" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20600%20600%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3135118035116_b0eaad641d9f060f67dcfce316e79129_b69bde0daf5a4a0ca1006f9a7964c163_master-600x600.webp" class="lazy-load show-on-hover absolute fill hide-for-small back-image" alt="" loading="lazy" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3135118035116_b0eaad641d9f060f67dcfce316e79129_b69bde0daf5a4a0ca1006f9a7964c163_master-600x600.webp 600w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3135118035116_b0eaad641d9f060f67dcfce316e79129_b69bde0daf5a4a0ca1006f9a7964c163_master-300x300.webp 300w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3135118035116_b0eaad641d9f060f67dcfce316e79129_b69bde0daf5a4a0ca1006f9a7964c163_master-1024x1024.webp 1024w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3135118035116_b0eaad641d9f060f67dcfce316e79129_b69bde0daf5a4a0ca1006f9a7964c163_master-150x150.webp 150w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3135118035116_b0eaad641d9f060f67dcfce316e79129_b69bde0daf5a4a0ca1006f9a7964c163_master-768x768.webp 768w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3135118035116_b0eaad641d9f060f67dcfce316e79129_b69bde0daf5a4a0ca1006f9a7964c163_master-1536x1536.webp 1536w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3135118035116_b0eaad641d9f060f67dcfce316e79129_b69bde0daf5a4a0ca1006f9a7964c163_master.webp 2048w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3135118035116_b0eaad641d9f060f67dcfce316e79129_b69bde0daf5a4a0ca1006f9a7964c163_master-100x100.webp 100w" sizes="(max-width: 600px) 100vw, 600px" /><img width="1536" height="2048" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%201536%202048%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3250341726478_b63583710958c03e686f70c62498d64b_6c576ba17b8e46678d28761fcc80f1a1_master.webp" class="lazy-load attachment-original size-original" alt="" loading="lazy" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3250341726478_b63583710958c03e686f70c62498d64b_6c576ba17b8e46678d28761fcc80f1a1_master.webp 1536w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3250341726478_b63583710958c03e686f70c62498d64b_6c576ba17b8e46678d28761fcc80f1a1_master-225x300.webp 225w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3250341726478_b63583710958c03e686f70c62498d64b_6c576ba17b8e46678d28761fcc80f1a1_master-768x1024.webp 768w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3250341726478_b63583710958c03e686f70c62498d64b_6c576ba17b8e46678d28761fcc80f1a1_master-1152x1536.webp 1152w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/z3250341726478_b63583710958c03e686f70c62498d64b_6c576ba17b8e46678d28761fcc80f1a1_master-600x800.webp 600w" sizes="(max-width: 1536px) 100vw, 1536px" />									</a>
+																		 								</div>
+							
+																	
+																							</div><!-- box-image -->
+
+							<div class="box-text text-center" >
+								<div class="title-wrapper"><p class="name product-title woocommerce-loop-product__title"><a href="https://hyperx.mauthemewp.com/product/trump-45-limited-edtion/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Trump 45 Limited Edtion</a></p></div><div class="price-wrapper">
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>350.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
+</div>								<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+										  <a class="quick-view" data-prod="131" href="#quick-view">Add to Cart</a>									</div>
+							</div><!-- box-text -->
+						</div><!-- box -->
+						</div><!-- .col-inner -->
+					</div><!-- col -->
+						            
+						            	
+	            	<div class="col" >
+						<div class="col-inner">
+						
+<div class="badge-container absolute left top z-1">
+		<div class="callout badge badge-square"><div class="badge-inner secondary on-sale"><span class="onsale">-19%</span></div></div>
+</div>
+						<div class="product-small box list-product has-hover box-normal box-text-bottom">
+							<div class="box-image" style="border-radius:2%;">
+								<div class="image-cover" style="padding-top:100%;">
+									<a href="https://hyperx.mauthemewp.com/product/george-washington-limited-edtion/">
+										<img width="510" height="510" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20510%20510%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/aZ18gGy-510x510.jpg" class="lazy-load show-on-hover absolute fill hide-for-small back-image" alt="" loading="lazy" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/aZ18gGy-510x510.jpg 510w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/aZ18gGy-510x510-150x150.jpg 150w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/aZ18gGy-510x510-300x300.jpg 300w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/aZ18gGy-510x510-100x100.jpg 100w" sizes="(max-width: 510px) 100vw, 510px" /><img width="510" height="510" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20510%20510%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/aZ18gGy-510x510.jpg" class="lazy-load attachment-original size-original" alt="" loading="lazy" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/aZ18gGy-510x510.jpg 510w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/aZ18gGy-510x510-150x150.jpg 150w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/aZ18gGy-510x510-300x300.jpg 300w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/aZ18gGy-510x510-100x100.jpg 100w" sizes="(max-width: 510px) 100vw, 510px" />									</a>
+																		 								</div>
+							
+																	
+																							</div><!-- box-image -->
+
+							<div class="box-text text-center" >
+								<div class="title-wrapper"><p class="name product-title woocommerce-loop-product__title"><a href="https://hyperx.mauthemewp.com/product/george-washington-limited-edtion/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">George Washington Limited Edtion</a></p></div><div class="price-wrapper">
+	<span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>560.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi>456.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></ins></span>
+</div>								<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+										  <a class="quick-view" data-prod="133" href="#quick-view">Add to Cart</a>									</div>
+							</div><!-- box-text -->
+						</div><!-- box -->
+						</div><!-- .col-inner -->
+					</div><!-- col -->
+						            
+						            	
+	            	<div class="col" >
+						<div class="col-inner">
+						
+<div class="badge-container absolute left top z-1">
+		<div class="callout badge badge-square"><div class="badge-inner secondary on-sale"><span class="onsale">-38%</span></div></div>
+</div>
+						<div class="product-small box list-product has-hover box-normal box-text-bottom">
+							<div class="box-image" style="border-radius:2%;">
+								<div class="image-cover" style="padding-top:100%;">
+									<a href="https://hyperx.mauthemewp.com/product/kitten-astronaut-limited-editon/">
+										<img width="510" height="510" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20510%20510%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/DpQd5BQ-510x510.jpg" class="lazy-load show-on-hover absolute fill hide-for-small back-image" alt="" loading="lazy" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/DpQd5BQ-510x510.jpg 510w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/DpQd5BQ-510x510-150x150.jpg 150w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/DpQd5BQ-510x510-300x300.jpg 300w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/DpQd5BQ-510x510-100x100.jpg 100w" sizes="(max-width: 510px) 100vw, 510px" /><img width="510" height="510" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20510%20510%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/DpQd5BQ-510x510.jpg" class="lazy-load attachment-original size-original" alt="" loading="lazy" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/DpQd5BQ-510x510.jpg 510w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/DpQd5BQ-510x510-150x150.jpg 150w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/DpQd5BQ-510x510-300x300.jpg 300w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/DpQd5BQ-510x510-100x100.jpg 100w" sizes="(max-width: 510px) 100vw, 510px" />									</a>
+																		 								</div>
+							
+																	
+																							</div><!-- box-image -->
+
+							<div class="box-text text-center" >
+								<div class="title-wrapper"><p class="name product-title woocommerce-loop-product__title"><a href="https://hyperx.mauthemewp.com/product/kitten-astronaut-limited-editon/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Kitten Astronaut Limited Editon</a></p></div><div class="price-wrapper">
+	<span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>560.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi>350.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></ins></span>
+</div>								<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+										  <a class="quick-view" data-prod="135" href="#quick-view">Add to Cart</a>									</div>
+							</div><!-- box-text -->
+						</div><!-- box -->
+						</div><!-- .col-inner -->
+					</div><!-- col -->
+						            
+						            	
+	            	<div class="col" >
+						<div class="col-inner">
+						
+<div class="badge-container absolute left top z-1">
+		<div class="callout badge badge-square"><div class="badge-inner secondary on-sale"><span class="onsale">-4%</span></div></div>
+</div>
+						<div class="product-small box list-product has-hover box-normal box-text-bottom">
+							<div class="box-image" style="border-radius:2%;">
+								<div class="image-cover" style="padding-top:100%;">
+									<a href="https://hyperx.mauthemewp.com/product/party-like-our-forefather-limited-edition/">
+										<img width="510" height="510" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20510%20510%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/Ya8oUVk-510x510.jpg" class="lazy-load show-on-hover absolute fill hide-for-small back-image" alt="" loading="lazy" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/Ya8oUVk-510x510.jpg 510w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/Ya8oUVk-510x510-150x150.jpg 150w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/Ya8oUVk-510x510-300x300.jpg 300w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/Ya8oUVk-510x510-100x100.jpg 100w" sizes="(max-width: 510px) 100vw, 510px" /><img width="510" height="510" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20510%20510%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/Ya8oUVk-510x510.jpg" class="lazy-load attachment-original size-original" alt="" loading="lazy" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/Ya8oUVk-510x510.jpg 510w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/Ya8oUVk-510x510-150x150.jpg 150w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/Ya8oUVk-510x510-300x300.jpg 300w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/Ya8oUVk-510x510-100x100.jpg 100w" sizes="(max-width: 510px) 100vw, 510px" />									</a>
+																		 								</div>
+							
+																	
+																							</div><!-- box-image -->
+
+							<div class="box-text text-center" >
+								<div class="title-wrapper"><p class="name product-title woocommerce-loop-product__title"><a href="https://hyperx.mauthemewp.com/product/party-like-our-forefather-limited-edition/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Party Like Our Forefather Limited Edition</a></p></div><div class="price-wrapper">
+	<span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>450.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi>430.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></ins></span>
+</div>								<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+										  <a class="quick-view" data-prod="137" href="#quick-view">Add to Cart</a>									</div>
+							</div><!-- box-text -->
+						</div><!-- box -->
+						</div><!-- .col-inner -->
+					</div><!-- col -->
+						            
+						            	
+	            	<div class="col" >
+						<div class="col-inner">
+						
+<div class="badge-container absolute left top z-1">
+</div>
+						<div class="product-small box list-product has-hover box-normal box-text-bottom">
+							<div class="box-image" style="border-radius:2%;">
+								<div class="image-cover" style="padding-top:100%;">
+									<a href="https://hyperx.mauthemewp.com/product/reagan-stang-limited-edtion/">
+										<img width="510" height="510" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20510%20510%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/ANsihd2-510x510.jpg" class="lazy-load show-on-hover absolute fill hide-for-small back-image" alt="" loading="lazy" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/ANsihd2-510x510.jpg 510w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/ANsihd2-510x510-150x150.jpg 150w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/ANsihd2-510x510-300x300.jpg 300w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/ANsihd2-510x510-100x100.jpg 100w" sizes="(max-width: 510px) 100vw, 510px" /><img width="510" height="510" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20510%20510%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/ANsihd2-510x510.jpg" class="lazy-load attachment-original size-original" alt="" loading="lazy" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/ANsihd2-510x510.jpg 510w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/ANsihd2-510x510-150x150.jpg 150w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/ANsihd2-510x510-300x300.jpg 300w, https://hyperx.mauthemewp.com/wp-content/uploads/2019/07/ANsihd2-510x510-100x100.jpg 100w" sizes="(max-width: 510px) 100vw, 510px" />									</a>
+																		 								</div>
+							
+																	
+																							</div><!-- box-image -->
+
+							<div class="box-text text-center" >
+								<div class="title-wrapper"><p class="name product-title woocommerce-loop-product__title"><a href="https://hyperx.mauthemewp.com/product/reagan-stang-limited-edtion/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Reagan Stang Limited Edtion</a></p></div><div class="price-wrapper">
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>1.000.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
+</div>								<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+										  <a class="quick-view" data-prod="139" href="#quick-view">Add to Cart</a>									</div>
+							</div><!-- box-text -->
+						</div><!-- box -->
+						</div><!-- .col-inner -->
+					</div><!-- col -->
+						            
+	        </div>
+		</div>
+					</div>
+
+	
+</div>
+		</div>
+
+		
+<style>
+#section_12720709 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+#section_12720709 .ux-shape-divider--top svg {
+  height: 150px;
+  --divider-top-width: 100%;
+}
+#section_12720709 .ux-shape-divider--bottom svg {
+  height: 150px;
+  --divider-width: 100%;
+}
+</style>
+	</section>
+	
+
+	<section class="section bo-su-tap" id="section_67478001">
+		<div class="bg section-bg fill bg-fill  bg-loaded" >
+
+			
+			
+			
+
+		</div>
+
+		
+
+		<div class="section-content relative">
+			
+<div class="row"  id="row-1056171437">
+
+	<div id="col-461693634" class="col small-12 large-12"  >
+				<div class="col-inner"  >
+			
+			
+<div class="container section-title-container" ><h2 class="section-title section-title-center"><b></b><span class="section-title-main" style="font-size:115%;color:rgb(186, 0, 0);">BỘ SƯU TẬP HYPERX</span><b></b></h2></div>
+
+  
+    <div class="row list-post large-columns-4 medium-columns-1 small-columns-1 row-small">
+  <div class="col post-item" >
+			<div class="col-inner">
+			<a href="https://hyperx.mauthemewp.com/unlimited-collection-by-liberty-wings-fall-winter-2019/" class="plain">
+				<div class="box box-normal box-text-bottom box-blog-post has-hover">
+            					<div class="box-image" >
+  						<div class="image-zoom image-cover" style="padding-top:67%;">
+  							<img width="484" height="252" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20484%20252%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/B0-484x252-1-1.jpg" class="lazy-load attachment-original size-original wp-post-image" alt="" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/B0-484x252-1-1.jpg 484w, https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/B0-484x252-1-1-300x156.jpg 300w" sizes="(max-width: 484px) 100vw, 484px" />  							  							  						</div>
+  						  					</div>
+          					<div class="box-text text-left is-small dark" style="background-color:rgb(0, 0, 0);padding:10px 10px 10px 10px;">
+					<div class="box-text-inner blog-post-inner">
+
+					
+										<h5 class="post-title is-large ">UNLIMITED COLLECTION | BY LIBERTY WINGS</h5>
+										<div class="is-divider"></div>
+					                    
+					
+					
+					</div>
+					</div>
+									</div>
+				</a>
+			</div>
+		</div><div class="col post-item" >
+			<div class="col-inner">
+			<a href="https://hyperx.mauthemewp.com/trip-to-the-newland-summer-collection-wings-2018/" class="plain">
+				<div class="box box-normal box-text-bottom box-blog-post has-hover">
+            					<div class="box-image" >
+  						<div class="image-zoom image-cover" style="padding-top:67%;">
+  							<img width="484" height="252" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20484%20252%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/Cover-484x252-1.jpg" class="lazy-load attachment-original size-original wp-post-image" alt="" loading="lazy" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/Cover-484x252-1.jpg 484w, https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/Cover-484x252-1-300x156.jpg 300w" sizes="(max-width: 484px) 100vw, 484px" />  							  							  						</div>
+  						  					</div>
+          					<div class="box-text text-left is-small dark" style="background-color:rgb(0, 0, 0);padding:10px 10px 10px 10px;">
+					<div class="box-text-inner blog-post-inner">
+
+					
+										<h5 class="post-title is-large ">TRIP TO THE NEWLAND SUMMER COLLECTION WINGS 2018</h5>
+										<div class="is-divider"></div>
+					                    
+					
+					
+					</div>
+					</div>
+									</div>
+				</a>
+			</div>
+		</div><div class="col post-item" >
+			<div class="col-inner">
+			<a href="https://hyperx.mauthemewp.com/secret-future-collection-2018-by-liberty-wings/" class="plain">
+				<div class="box box-normal box-text-bottom box-blog-post has-hover">
+            					<div class="box-image" >
+  						<div class="image-zoom image-cover" style="padding-top:67%;">
+  							<img width="484" height="252" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20484%20252%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/Untitled-1-484x252-1.jpg" class="lazy-load attachment-original size-original wp-post-image" alt="" loading="lazy" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/Untitled-1-484x252-1.jpg 484w, https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/Untitled-1-484x252-1-300x156.jpg 300w" sizes="(max-width: 484px) 100vw, 484px" />  							  							  						</div>
+  						  					</div>
+          					<div class="box-text text-left is-small dark" style="background-color:rgb(0, 0, 0);padding:10px 10px 10px 10px;">
+					<div class="box-text-inner blog-post-inner">
+
+					
+										<h5 class="post-title is-large ">SECRET FUTURE COLLECTION 2018 BY LIBERTY WINGS</h5>
+										<div class="is-divider"></div>
+					                    
+					
+					
+					</div>
+					</div>
+									</div>
+				</a>
+			</div>
+		</div><div class="col post-item" >
+			<div class="col-inner">
+			<a href="https://hyperx.mauthemewp.com/light-shadow-collection-liberty-wings-homme/" class="plain">
+				<div class="box box-normal box-text-bottom box-blog-post has-hover">
+            					<div class="box-image" >
+  						<div class="image-zoom image-cover" style="padding-top:67%;">
+  							<img width="484" height="252" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20484%20252%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/light-and-shadow-484x252-1.jpg" class="lazy-load attachment-original size-original wp-post-image" alt="" loading="lazy" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/light-and-shadow-484x252-1.jpg 484w, https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/light-and-shadow-484x252-1-300x156.jpg 300w" sizes="(max-width: 484px) 100vw, 484px" />  							  							  						</div>
+  						  					</div>
+          					<div class="box-text text-left is-small dark" style="background-color:rgb(0, 0, 0);padding:10px 10px 10px 10px;">
+					<div class="box-text-inner blog-post-inner">
+
+					
+										<h5 class="post-title is-large ">LIGHT &#038; SHADOW COLLECTION – LIBERTY WINGS HOMME</h5>
+										<div class="is-divider"></div>
+					                    
+					
+					
+					</div>
+					</div>
+									</div>
+				</a>
+			</div>
+		</div></div>
+	<div id="gap-1694033476" class="gap-element clearfix" style="display:block; height:auto;">
+		
+<style>
+#gap-1694033476 {
+  padding-top: 30px;
+}
+</style>
+	</div>
+	
+	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1561890210">
+								<div class="img-inner dark" >
+			<img width="1920" height="320" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%201920%20320%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/banner.jpg" class="lazy-load attachment-original size-original" alt="" loading="lazy" srcset="" data-srcset="https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/banner.jpg 1920w, https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/banner-300x50.jpg 300w, https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/banner-1024x171.jpg 1024w, https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/banner-768x128.jpg 768w, https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/banner-1536x256.jpg 1536w, https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/banner-600x100.jpg 600w" sizes="(max-width: 1920px) 100vw, 1920px" />						
+					</div>
+								
+<style>
+#image_1561890210 {
+  width: 100%;
+}
+</style>
+	</div>
+	
+		</div>
+					</div>
+
+	
+</div>
+		</div>
+
+		
+<style>
+#section_67478001 {
+  padding-top: 46px;
+  padding-bottom: 46px;
+}
+#section_67478001 .ux-shape-divider--top svg {
+  height: 150px;
+  --divider-top-width: 100%;
+}
+#section_67478001 .ux-shape-divider--bottom svg {
+  height: 150px;
+  --divider-width: 100%;
+}
+</style>
+	</section>
+	
+	<section class="section" id="section_1930079853">
+		<div class="bg section-bg fill bg-fill  bg-loaded" >
+
+			
+			
+			
+
+		</div>
+
+		
+
+		<div class="section-content relative">
+			
+<div class="row"  id="row-744786801">
+
+	<div id="col-304300189" class="col medium-3 small-6 large-3"  >
+				<div class="col-inner"  >
+			
+			
+
+		<div class="icon-box featured-box icon-box-center text-center"  >
+					<div class="icon-box-img" style="width: 60px">
+				<div class="icon">
+					<div class="icon-inner" >
+						<img width="73" height="81" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%2073%2081%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/22-01.png" class="lazy-load attachment-medium size-medium" alt="" loading="lazy" />					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset">
+									
+<h3 style="text-align: center;"><span style="font-size: 110%;">Fast Free Shipping</span></h3>
+<p style="text-align: center;">Nhiều mã freeship tặng khách hàng và đơn vị vận chuyển nhanh nhất</p>
+		</div>
+	</div>
+	
+	
+		</div>
+					</div>
+
+	
+
+	<div id="col-529191838" class="col medium-3 small-6 large-3"  >
+				<div class="col-inner"  >
+			
+			
+
+		<div class="icon-box featured-box icon-box-center text-center"  >
+					<div class="icon-box-img" style="width: 60px">
+				<div class="icon">
+					<div class="icon-inner" >
+						<img width="73" height="81" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%2073%2081%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/icon2-01.png" class="lazy-load attachment-medium size-medium" alt="" loading="lazy" />					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset">
+									
+<h3 style="text-align: center;"><span style="font-size: 110%;">Online Support 24/7</span></h3>
+<p>Nhân viên online tư vấn cả ngày sẵn sàng tư vấn cho bạn kể cả ngày lễ</p>
+		</div>
+	</div>
+	
+	
+		</div>
+					</div>
+
+	
+
+	<div id="col-685494871" class="col medium-3 small-6 large-3"  >
+				<div class="col-inner"  >
+			
+			
+
+		<div class="icon-box featured-box icon-box-center text-center"  >
+					<div class="icon-box-img" style="width: 60px">
+				<div class="icon">
+					<div class="icon-inner" >
+						<img width="76" height="85" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%2076%2085%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/icon3-01.png" class="lazy-load attachment-medium size-medium" alt="" loading="lazy" />					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset">
+									
+<h3 class="elementor-icon-box-title"><span style="font-size: 110%;">14 Days Exchange</span></h3>
+<p>14 ngày đổi trả sản phẩm &#8211; xem thêm tại mục Shipping</p>
+		</div>
+	</div>
+	
+	
+		</div>
+					</div>
+
+	
+
+	<div id="col-86166132" class="col medium-3 small-6 large-3"  >
+				<div class="col-inner"  >
+			
+			
+
+		<div class="icon-box featured-box icon-box-center text-center"  >
+					<div class="icon-box-img" style="width: 60px">
+				<div class="icon">
+					<div class="icon-inner" >
+						<img width="73" height="81" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%2073%2081%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/icon4-01.png" class="lazy-load attachment-medium size-medium" alt="" loading="lazy" />					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset">
+									
+<h3 class="elementor-icon-box-title"><span style="font-size: 110%;">High Quality Material</span></h3>
+<p>Sử dụng sợi vải cotton cao cấp và an toàn cho sức khỏe</p>
+		</div>
+	</div>
+	
+	
+		</div>
+					</div>
+
+	
+</div>
+		</div>
+
+		
+<style>
+#section_1930079853 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: rgb(244, 244, 244);
+}
+#section_1930079853 .ux-shape-divider--top svg {
+  height: 150px;
+  --divider-top-width: 100%;
+}
+#section_1930079853 .ux-shape-divider--bottom svg {
+  height: 150px;
+  --divider-width: 100%;
+}
+</style>
+	</section>
+	
+	<section class="section tieu-chi dark" id="section_500250530">
+		<div class="bg section-bg fill bg-fill  bg-loaded" >
+
+			
+			
+			
+
+		</div>
+
+		
+
+		<div class="section-content relative">
+			
+<div class="row"  id="row-1455037811">
+
+	<div id="col-1297124917" class="col medium-4 small-12 large-4"  >
+				<div class="col-inner"  >
+			
+			
+<h3 style="text-align: center;">Khách hàng hài lòng</h3>
+<p style="text-align: center;">Trên 500 đánh giá 5 sao</p>
+		</div>
+					</div>
+
+	
+
+	<div id="col-551349371" class="col medium-4 small-12 large-4"  >
+				<div class="col-inner"  >
+			
+			
+<h3 style="text-align: center;">Chất lượng bảo đảm</h3>
+<p style="text-align: center;">Đảm bảo hoàn tiền nếu sản phẩm lỗi vì kém chất lượng</p>
+		</div>
+					</div>
+
+	
+
+	<div id="col-820897982" class="col medium-4 small-12 large-4"  >
+				<div class="col-inner"  >
+			
+			
+<h3 style="text-align: center;">Giao hàng toàn quốc</h3>
+<p style="text-align: center;">Đơn vị vận chuyển nhanh và rẻ nhất</p>
+		</div>
+					</div>
+
+	
+</div>
+		</div>
+
+		
+<style>
+#section_500250530 {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgb(61, 60, 60);
+}
+#section_500250530 .ux-shape-divider--top svg {
+  height: 150px;
+  --divider-top-width: 100%;
+}
+#section_500250530 .ux-shape-divider--bottom svg {
+  height: 150px;
+  --divider-width: 100%;
+}
+</style>
+	</section>
+	
+		
+				
+</div>
+
+
+
+</main>
+
+<footer id="footer" class="footer-wrapper">
+
+		<section class="section footer-section dark" id="section_472902816">
+		<div class="bg section-bg fill bg-fill  bg-loaded" >
+
+			
+			
+			
+
+		</div>
+
+		
+
+		<div class="section-content relative">
+			
+
+<div class="row"  id="row-659235091">
+
+
+	<div id="col-117583488" class="col medium-3 small-6 large-3"  >
+				<div class="col-inner"  >
+			
+			
+
+
+		<div class="icon-box featured-box icon-box-top text-left"  >
+					<div class="icon-box-img" style="width: 99px">
+				<div class="icon">
+					<div class="icon-inner" >
+						<img width="300" height="212" src="https://hyperx.mauthemewp.com/wp-content/uploads/2022/04/logo-hyper.png" class="attachment-medium size-medium" alt="" loading="lazy" />					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset">
+									
+
+<p>Welcome to HyperX.com.vn</p>
+<p><span style="color: #c0c0c0; font-size: 14.4px;">Rất nhiều mẫ mã sản phẩm quần áo, áo phông, quần jeans và giày dép cho bạn thỏa sức lựa chọn!</span></p>
+	<div id="gap-12081115" class="gap-element clearfix" style="display:block; height:auto;">
+		
+<style>
+#gap-12081115 {
+  padding-top: 16px;
+}
+</style>
+	</div>
+	
+
+<div class="social-icons follow-icons full-width text-left" ><a href="#" target="_blank" data-label="Facebook" rel="noopener noreferrer nofollow" class="icon primary button circle facebook tooltip" title="Follow on Facebook" aria-label="Follow on Facebook"><i class="icon-facebook" ></i></a><a href="mailto:#" data-label="E-mail" rel="nofollow" class="icon primary button circle  email tooltip" title="Send us an email" aria-label="Send us an email"><i class="icon-envelop" ></i></a><a href="tel:#" target="_blank" data-label="Phone" rel="noopener noreferrer nofollow" class="icon primary button circle  phone tooltip" title="Call us" aria-label="Call us"><i class="icon-phone" ></i></a><a href="#" target="_blank" rel="noopener noreferrer nofollow" data-label="YouTube" class="icon primary button circle  youtube tooltip" title="Follow on YouTube" aria-label="Follow on YouTube"><i class="icon-youtube" ></i></a></div>
+
+
+		</div>
+	</div>
+	
+	
+
+		</div>
+					</div>
+
+	
+
+	<div id="col-913538105" class="col medium-3 small-6 large-3"  >
+				<div class="col-inner"  >
+			
+			
+
+<div class="menu-footer-2-container">
+<h3><span style="color: #ffffff; font-size: 90%;">HỖ TRỢ KHÁCH HÀNG</span></h3>
+<ul id="menu-footer-2" class="menu">
+<li id="menu-item-268" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-268"><span style="color: #c0c0c0; font-size: 90%;"><a style="color: #c0c0c0;" href="/term-of-service/">Terms of Service</a></span></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-268"><span style="color: #c0c0c0; font-size: 90%;"><a style="color: #c0c0c0;" href="https://bliszen.com/terms-of-service/">Privacy Policy</a></span></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-268"><span style="color: #c0c0c0; font-size: 90%;"><a style="color: #c0c0c0;" href="/shipping-and-return/">Shipping and Returns</a></span></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-268"><span style="color: #c0c0c0; font-size: 90%;"><a style="color: #c0c0c0;" href="https://bliszen.com/terms-of-service/">FAQs</a></span></li>
+</ul>
+</div>
+
+		</div>
+					</div>
+
+	
+
+	<div id="col-1771112673" class="col medium-3 small-6 large-3"  >
+				<div class="col-inner"  >
+			
+			
+
+<h3><span style="color: #ffffff; font-size: 90%;">THÔNG TIN LIÊN HỆ</span></h3>
+<p><span style="color: #c0c0c0; font-size: 90%;">Cảm ơn bạn đã ghé thăm bliszen.com, Nếu bạn có bất kỳ câu hỏi nào, vui lòng liên hệ với chúng tôi </span></p>
+<p><span style="font-size: 90%; color: #c0c0c0;">Địa chỉ: </span></p>
+<p><span style="color: #c0c0c0; font-size: 90%;">Điện thoại/ Zalo: </span></p>
+
+		</div>
+					</div>
+
+	
+
+	<div id="col-915277711" class="col medium-3 small-6 large-3"  >
+				<div class="col-inner"  >
+			
+			
+
+<h3><span style="font-size: 90%; color: #ffffff;">ĐĂNG KÝ NHẬN TIN</span></h3>
+<p><span style="font-size: 90%; color: #c0c0c0;">Vui lòng đăng ký email để nhận tin khuyến mãi mới nhất</span></p>
+<div role="form" class="wpcf7" id="wpcf7-f299-o1" lang="en-US" dir="ltr">
+<div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
+<form action="/#wpcf7-f299-o1" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="299" />
+<input type="hidden" name="_wpcf7_version" value="5.5.6" />
+<input type="hidden" name="_wpcf7_locale" value="en_US" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f299-o1" />
+<input type="hidden" name="_wpcf7_container_post" value="0" />
+<input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+</div>
+<div class="form-flat">
+      <span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Địa chỉ email (*)" /></span><br />
+      <input type="submit" value="Đăng ký" class="wpcf7-form-control has-spinner wpcf7-submit button" />
+    </div>
+<div class="wpcf7-response-output" aria-hidden="true"></div></form></div>
+
+
+		</div>
+					</div>
+
+	
+
+</div>
+
+		</div>
+
+		
+<style>
+#section_472902816 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: rgb(45, 45, 45);
+}
+#section_472902816 .ux-shape-divider--top svg {
+  height: 150px;
+  --divider-top-width: 100%;
+}
+#section_472902816 .ux-shape-divider--bottom svg {
+  height: 150px;
+  --divider-width: 100%;
+}
+</style>
+	</section>
+	
+<div class="absolute-footer dark medium-text-center small-text-center">
+  <div class="container clearfix">
+
+          <div class="footer-secondary pull-right">
+                <div class="payment-icons inline-block"><div class="payment-icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 64 32">
+<path d="M10.781 7.688c-0.251-1.283-1.219-1.688-2.344-1.688h-8.376l-0.061 0.405c5.749 1.469 10.469 4.595 12.595 10.501l-1.813-9.219zM13.125 19.688l-0.531-2.781c-1.096-2.907-3.752-5.594-6.752-6.813l4.219 15.939h5.469l8.157-20.032h-5.501l-5.062 13.688zM27.72 26.061l3.248-20.061h-5.187l-3.251 20.061h5.189zM41.875 5.656c-5.125 0-8.717 2.72-8.749 6.624-0.032 2.877 2.563 4.469 4.531 5.439 2.032 0.968 2.688 1.624 2.688 2.499 0 1.344-1.624 1.939-3.093 1.939-2.093 0-3.219-0.251-4.875-1.032l-0.688-0.344-0.719 4.499c1.219 0.563 3.437 1.064 5.781 1.064 5.437 0.032 8.97-2.688 9.032-6.843 0-2.282-1.405-4-4.376-5.439-1.811-0.904-2.904-1.563-2.904-2.499 0-0.843 0.936-1.72 2.968-1.72 1.688-0.029 2.936 0.314 3.875 0.752l0.469 0.248 0.717-4.344c-1.032-0.406-2.656-0.844-4.656-0.844zM55.813 6c-1.251 0-2.189 0.376-2.72 1.688l-7.688 18.374h5.437c0.877-2.467 1.096-3 1.096-3 0.592 0 5.875 0 6.624 0 0 0 0.157 0.688 0.624 3h4.813l-4.187-20.061h-4zM53.405 18.938c0 0 0.437-1.157 2.064-5.594-0.032 0.032 0.437-1.157 0.688-1.907l0.374 1.72c0.968 4.781 1.189 5.781 1.189 5.781-0.813 0-3.283 0-4.315 0z"></path>
+</svg>
+</div><div class="payment-icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 64 32">
+<path d="M35.255 12.078h-2.396c-0.229 0-0.444 0.114-0.572 0.303l-3.306 4.868-1.4-4.678c-0.088-0.292-0.358-0.493-0.663-0.493h-2.355c-0.284 0-0.485 0.28-0.393 0.548l2.638 7.745-2.481 3.501c-0.195 0.275 0.002 0.655 0.339 0.655h2.394c0.227 0 0.439-0.111 0.569-0.297l7.968-11.501c0.191-0.275-0.006-0.652-0.341-0.652zM19.237 16.718c-0.23 1.362-1.311 2.276-2.691 2.276-0.691 0-1.245-0.223-1.601-0.644-0.353-0.417-0.485-1.012-0.374-1.674 0.214-1.35 1.313-2.294 2.671-2.294 0.677 0 1.227 0.225 1.589 0.65 0.365 0.428 0.509 1.027 0.404 1.686zM22.559 12.078h-2.384c-0.204 0-0.378 0.148-0.41 0.351l-0.104 0.666-0.166-0.241c-0.517-0.749-1.667-1-2.817-1-2.634 0-4.883 1.996-5.321 4.796-0.228 1.396 0.095 2.731 0.888 3.662 0.727 0.856 1.765 1.212 3.002 1.212 2.123 0 3.3-1.363 3.3-1.363l-0.106 0.662c-0.040 0.252 0.155 0.479 0.41 0.479h2.147c0.341 0 0.63-0.247 0.684-0.584l1.289-8.161c0.040-0.251-0.155-0.479-0.41-0.479zM8.254 12.135c-0.272 1.787-1.636 1.787-2.957 1.787h-0.751l0.527-3.336c0.031-0.202 0.205-0.35 0.41-0.35h0.345c0.899 0 1.747 0 2.185 0.511 0.262 0.307 0.341 0.761 0.242 1.388zM7.68 7.473h-4.979c-0.341 0-0.63 0.248-0.684 0.584l-2.013 12.765c-0.040 0.252 0.155 0.479 0.41 0.479h2.378c0.34 0 0.63-0.248 0.683-0.584l0.543-3.444c0.053-0.337 0.343-0.584 0.683-0.584h1.575c3.279 0 5.172-1.587 5.666-4.732 0.223-1.375 0.009-2.456-0.635-3.212-0.707-0.832-1.962-1.272-3.628-1.272zM60.876 7.823l-2.043 12.998c-0.040 0.252 0.155 0.479 0.41 0.479h2.055c0.34 0 0.63-0.248 0.683-0.584l2.015-12.765c0.040-0.252-0.155-0.479-0.41-0.479h-2.299c-0.205 0.001-0.379 0.148-0.41 0.351zM54.744 16.718c-0.23 1.362-1.311 2.276-2.691 2.276-0.691 0-1.245-0.223-1.601-0.644-0.353-0.417-0.485-1.012-0.374-1.674 0.214-1.35 1.313-2.294 2.671-2.294 0.677 0 1.227 0.225 1.589 0.65 0.365 0.428 0.509 1.027 0.404 1.686zM58.066 12.078h-2.384c-0.204 0-0.378 0.148-0.41 0.351l-0.104 0.666-0.167-0.241c-0.516-0.749-1.667-1-2.816-1-2.634 0-4.883 1.996-5.321 4.796-0.228 1.396 0.095 2.731 0.888 3.662 0.727 0.856 1.765 1.212 3.002 1.212 2.123 0 3.3-1.363 3.3-1.363l-0.106 0.662c-0.040 0.252 0.155 0.479 0.41 0.479h2.147c0.341 0 0.63-0.247 0.684-0.584l1.289-8.161c0.040-0.252-0.156-0.479-0.41-0.479zM43.761 12.135c-0.272 1.787-1.636 1.787-2.957 1.787h-0.751l0.527-3.336c0.031-0.202 0.205-0.35 0.41-0.35h0.345c0.899 0 1.747 0 2.185 0.511 0.261 0.307 0.34 0.761 0.241 1.388zM43.187 7.473h-4.979c-0.341 0-0.63 0.248-0.684 0.584l-2.013 12.765c-0.040 0.252 0.156 0.479 0.41 0.479h2.554c0.238 0 0.441-0.173 0.478-0.408l0.572-3.619c0.053-0.337 0.343-0.584 0.683-0.584h1.575c3.279 0 5.172-1.587 5.666-4.732 0.223-1.375 0.009-2.456-0.635-3.212-0.707-0.832-1.962-1.272-3.627-1.272z"></path>
+</svg>
+</div><div class="payment-icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 64 32">
+<path d="M7.114 14.656c-1.375-0.5-2.125-0.906-2.125-1.531 0-0.531 0.437-0.812 1.188-0.812 1.437 0 2.875 0.531 3.875 1.031l0.563-3.5c-0.781-0.375-2.406-1-4.656-1-1.594 0-2.906 0.406-3.844 1.188-1 0.812-1.5 2-1.5 3.406 0 2.563 1.563 3.688 4.125 4.594 1.625 0.594 2.188 1 2.188 1.656 0 0.625-0.531 0.969-1.5 0.969-1.188 0-3.156-0.594-4.437-1.343l-0.563 3.531c1.094 0.625 3.125 1.281 5.25 1.281 1.688 0 3.063-0.406 4.031-1.157 1.063-0.843 1.594-2.062 1.594-3.656-0.001-2.625-1.595-3.719-4.188-4.657zM21.114 9.125h-3v-4.219l-4.031 0.656-0.563 3.563-1.437 0.25-0.531 3.219h1.937v6.844c0 1.781 0.469 3 1.375 3.75 0.781 0.625 1.907 0.938 3.469 0.938 1.219 0 1.937-0.219 2.468-0.344v-3.688c-0.282 0.063-0.938 0.22-1.375 0.22-0.906 0-1.313-0.5-1.313-1.563v-6.156h2.406l0.595-3.469zM30.396 9.031c-0.313-0.062-0.594-0.093-0.876-0.093-1.312 0-2.374 0.687-2.781 1.937l-0.313-1.75h-4.093v14.719h4.687v-9.563c0.594-0.719 1.437-0.968 2.563-0.968 0.25 0 0.5 0 0.812 0.062v-4.344zM33.895 2.719c-1.375 0-2.468 1.094-2.468 2.469s1.094 2.5 2.468 2.5 2.469-1.124 2.469-2.5-1.094-2.469-2.469-2.469zM36.239 23.844v-14.719h-4.687v14.719h4.687zM49.583 10.468c-0.843-1.094-2-1.625-3.469-1.625-1.343 0-2.531 0.563-3.656 1.75l-0.25-1.469h-4.125v20.155l4.688-0.781v-4.719c0.719 0.219 1.469 0.344 2.125 0.344 1.157 0 2.876-0.313 4.188-1.75 1.281-1.375 1.907-3.5 1.907-6.313 0-2.499-0.469-4.405-1.407-5.593zM45.677 19.532c-0.375 0.687-0.969 1.094-1.625 1.094-0.468 0-0.906-0.093-1.281-0.281v-7c0.812-0.844 1.531-0.938 1.781-0.938 1.188 0 1.781 1.313 1.781 3.812 0.001 1.437-0.219 2.531-0.656 3.313zM62.927 10.843c-1.032-1.312-2.563-2-4.501-2-4 0-6.468 2.938-6.468 7.688 0 2.625 0.656 4.625 1.968 5.875 1.157 1.157 2.844 1.719 5.032 1.719 2 0 3.844-0.469 5-1.251l-0.501-3.219c-1.157 0.625-2.5 0.969-4 0.969-0.906 0-1.532-0.188-1.969-0.594-0.5-0.406-0.781-1.094-0.875-2.062h7.75c0.031-0.219 0.062-1.281 0.062-1.625 0.001-2.344-0.5-4.188-1.499-5.5zM56.583 15.094c0.125-2.093 0.687-3.062 1.75-3.062s1.625 1 1.687 3.062h-3.437z"></path>
+</svg>
+</div><div class="payment-icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 64 32">
+<path d="M42.667-0c-4.099 0-7.836 1.543-10.667 4.077-2.831-2.534-6.568-4.077-10.667-4.077-8.836 0-16 7.163-16 16s7.164 16 16 16c4.099 0 7.835-1.543 10.667-4.077 2.831 2.534 6.568 4.077 10.667 4.077 8.837 0 16-7.163 16-16s-7.163-16-16-16zM11.934 19.828l0.924-5.809-2.112 5.809h-1.188v-5.809l-1.056 5.809h-1.584l1.32-7.657h2.376v4.753l1.716-4.753h2.508l-1.32 7.657h-1.585zM19.327 18.244c-0.088 0.528-0.178 0.924-0.264 1.188v0.396h-1.32v-0.66c-0.353 0.528-0.924 0.792-1.716 0.792-0.442 0-0.792-0.132-1.056-0.396-0.264-0.351-0.396-0.792-0.396-1.32 0-0.792 0.218-1.364 0.66-1.716 0.614-0.44 1.364-0.66 2.244-0.66h0.66v-0.396c0-0.351-0.353-0.528-1.056-0.528-0.442 0-1.012 0.088-1.716 0.264 0.086-0.351 0.175-0.792 0.264-1.32 0.703-0.264 1.32-0.396 1.848-0.396 1.496 0 2.244 0.616 2.244 1.848 0 0.353-0.046 0.749-0.132 1.188-0.089 0.616-0.179 1.188-0.264 1.716zM24.079 15.076c-0.264-0.086-0.66-0.132-1.188-0.132s-0.792 0.177-0.792 0.528c0 0.177 0.044 0.31 0.132 0.396l0.528 0.264c0.792 0.442 1.188 1.012 1.188 1.716 0 1.409-0.838 2.112-2.508 2.112-0.792 0-1.366-0.044-1.716-0.132 0.086-0.351 0.175-0.836 0.264-1.452 0.703 0.177 1.188 0.264 1.452 0.264 0.614 0 0.924-0.175 0.924-0.528 0-0.175-0.046-0.308-0.132-0.396-0.178-0.175-0.396-0.308-0.66-0.396-0.792-0.351-1.188-0.924-1.188-1.716 0-1.407 0.792-2.112 2.376-2.112 0.792 0 1.32 0.045 1.584 0.132l-0.265 1.451zM27.512 15.208h-0.924c0 0.442-0.046 0.838-0.132 1.188 0 0.088-0.022 0.264-0.066 0.528-0.046 0.264-0.112 0.442-0.198 0.528v0.528c0 0.353 0.175 0.528 0.528 0.528 0.175 0 0.35-0.044 0.528-0.132l-0.264 1.452c-0.264 0.088-0.66 0.132-1.188 0.132-0.881 0-1.32-0.44-1.32-1.32 0-0.528 0.086-1.099 0.264-1.716l0.66-4.225h1.584l-0.132 0.924h0.792l-0.132 1.585zM32.66 17.32h-3.3c0 0.442 0.086 0.749 0.264 0.924 0.264 0.264 0.66 0.396 1.188 0.396s1.1-0.175 1.716-0.528l-0.264 1.584c-0.442 0.177-1.012 0.264-1.716 0.264-1.848 0-2.772-0.924-2.772-2.773 0-1.142 0.264-2.024 0.792-2.64 0.528-0.703 1.188-1.056 1.98-1.056 0.703 0 1.274 0.22 1.716 0.66 0.35 0.353 0.528 0.881 0.528 1.584 0.001 0.617-0.046 1.145-0.132 1.585zM35.3 16.132c-0.264 0.97-0.484 2.201-0.66 3.697h-1.716l0.132-0.396c0.35-2.463 0.614-4.4 0.792-5.809h1.584l-0.132 0.924c0.264-0.44 0.528-0.703 0.792-0.792 0.264-0.264 0.528-0.308 0.792-0.132-0.088 0.088-0.31 0.706-0.66 1.848-0.353-0.086-0.661 0.132-0.925 0.66zM41.241 19.697c-0.353 0.177-0.838 0.264-1.452 0.264-0.881 0-1.584-0.308-2.112-0.924-0.528-0.528-0.792-1.32-0.792-2.376 0-1.32 0.35-2.42 1.056-3.3 0.614-0.879 1.496-1.32 2.64-1.32 0.44 0 1.056 0.132 1.848 0.396l-0.264 1.584c-0.528-0.264-1.012-0.396-1.452-0.396-0.707 0-1.235 0.264-1.584 0.792-0.353 0.442-0.528 1.144-0.528 2.112 0 0.616 0.132 1.056 0.396 1.32 0.264 0.353 0.614 0.528 1.056 0.528 0.44 0 0.924-0.132 1.452-0.396l-0.264 1.717zM47.115 15.868c-0.046 0.264-0.066 0.484-0.066 0.66-0.088 0.442-0.178 1.035-0.264 1.782-0.088 0.749-0.178 1.254-0.264 1.518h-1.32v-0.66c-0.353 0.528-0.924 0.792-1.716 0.792-0.442 0-0.792-0.132-1.056-0.396-0.264-0.351-0.396-0.792-0.396-1.32 0-0.792 0.218-1.364 0.66-1.716 0.614-0.44 1.32-0.66 2.112-0.66h0.66c0.086-0.086 0.132-0.218 0.132-0.396 0-0.351-0.353-0.528-1.056-0.528-0.442 0-1.012 0.088-1.716 0.264 0-0.351 0.086-0.792 0.264-1.32 0.703-0.264 1.32-0.396 1.848-0.396 1.496 0 2.245 0.616 2.245 1.848 0.001 0.089-0.021 0.264-0.065 0.529zM49.69 16.132c-0.178 0.528-0.396 1.762-0.66 3.697h-1.716l0.132-0.396c0.35-1.935 0.614-3.872 0.792-5.809h1.584c0 0.353-0.046 0.66-0.132 0.924 0.264-0.44 0.528-0.703 0.792-0.792 0.35-0.175 0.614-0.218 0.792-0.132-0.353 0.442-0.574 1.056-0.66 1.848-0.353-0.086-0.66 0.132-0.925 0.66zM54.178 19.828l0.132-0.528c-0.353 0.442-0.838 0.66-1.452 0.66-0.707 0-1.188-0.218-1.452-0.66-0.442-0.614-0.66-1.232-0.66-1.848 0-1.142 0.308-2.067 0.924-2.773 0.44-0.703 1.056-1.056 1.848-1.056 0.528 0 1.056 0.264 1.584 0.792l0.264-2.244h1.716l-1.32 7.657h-1.585zM16.159 17.98c0 0.442 0.175 0.66 0.528 0.66 0.35 0 0.614-0.132 0.792-0.396 0.264-0.264 0.396-0.66 0.396-1.188h-0.397c-0.881 0-1.32 0.31-1.32 0.924zM31.076 15.076c-0.088 0-0.178-0.043-0.264-0.132h-0.264c-0.528 0-0.881 0.353-1.056 1.056h1.848v-0.396l-0.132-0.264c-0.001-0.086-0.047-0.175-0.133-0.264zM43.617 17.98c0 0.442 0.175 0.66 0.528 0.66 0.35 0 0.614-0.132 0.792-0.396 0.264-0.264 0.396-0.66 0.396-1.188h-0.396c-0.881 0-1.32 0.31-1.32 0.924zM53.782 15.076c-0.353 0-0.66 0.22-0.924 0.66-0.178 0.264-0.264 0.749-0.264 1.452 0 0.792 0.264 1.188 0.792 1.188 0.35 0 0.66-0.175 0.924-0.528 0.264-0.351 0.396-0.879 0.396-1.584-0.001-0.792-0.311-1.188-0.925-1.188z"></path>
+</svg>
+</div><div class="payment-icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 64 32">
+<path d="M13.043 8.356c-0.46 0-0.873 0.138-1.24 0.413s-0.662 0.681-0.885 1.217c-0.223 0.536-0.334 1.112-0.334 1.727 0 0.568 0.119 0.99 0.358 1.265s0.619 0.413 1.141 0.413c0.508 0 1.096-0.131 1.765-0.393v1.327c-0.693 0.262-1.389 0.393-2.089 0.393-0.884 0-1.572-0.254-2.063-0.763s-0.736-1.229-0.736-2.161c0-0.892 0.181-1.712 0.543-2.462s0.846-1.32 1.452-1.709 1.302-0.584 2.089-0.584c0.435 0 0.822 0.038 1.159 0.115s0.7 0.217 1.086 0.421l-0.616 1.276c-0.369-0.201-0.673-0.333-0.914-0.398s-0.478-0.097-0.715-0.097zM19.524 12.842h-2.47l-0.898 1.776h-1.671l3.999-7.491h1.948l0.767 7.491h-1.551l-0.125-1.776zM19.446 11.515l-0.136-1.786c-0.035-0.445-0.052-0.876-0.052-1.291v-0.184c-0.153 0.408-0.343 0.84-0.569 1.296l-0.982 1.965h1.739zM27.049 12.413c0 0.711-0.257 1.273-0.773 1.686s-1.213 0.62-2.094 0.62c-0.769 0-1.389-0.153-1.859-0.46v-1.398c0.672 0.367 1.295 0.551 1.869 0.551 0.39 0 0.694-0.072 0.914-0.217s0.329-0.343 0.329-0.595c0-0.147-0.024-0.275-0.070-0.385s-0.114-0.214-0.201-0.309c-0.087-0.095-0.303-0.269-0.648-0.52-0.481-0.337-0.818-0.67-1.013-1s-0.293-0.685-0.293-1.066c0-0.439 0.108-0.831 0.324-1.176s0.523-0.614 0.922-0.806 0.857-0.288 1.376-0.288c0.755 0 1.446 0.168 2.073 0.505l-0.569 1.189c-0.543-0.252-1.044-0.378-1.504-0.378-0.289 0-0.525 0.077-0.71 0.23s-0.276 0.355-0.276 0.607c0 0.207 0.058 0.389 0.172 0.543s0.372 0.36 0.773 0.615c0.421 0.272 0.736 0.572 0.945 0.9s0.313 0.712 0.313 1.151zM33.969 14.618h-1.597l0.7-3.22h-2.46l-0.7 3.22h-1.592l1.613-7.46h1.597l-0.632 2.924h2.459l0.632-2.924h1.592l-1.613 7.46zM46.319 9.831c0 0.963-0.172 1.824-0.517 2.585s-0.816 1.334-1.415 1.722c-0.598 0.388-1.288 0.582-2.067 0.582-0.891 0-1.587-0.251-2.086-0.753s-0.749-1.198-0.749-2.090c0-0.902 0.172-1.731 0.517-2.488s0.82-1.338 1.425-1.743c0.605-0.405 1.306-0.607 2.099-0.607 0.888 0 1.575 0.245 2.063 0.735s0.73 1.176 0.73 2.056zM43.395 8.356c-0.421 0-0.808 0.155-1.159 0.467s-0.627 0.739-0.828 1.283-0.3 1.135-0.3 1.771c0 0.5 0.116 0.877 0.348 1.133s0.558 0.383 0.979 0.383 0.805-0.148 1.151-0.444c0.346-0.296 0.617-0.714 0.812-1.255s0.292-1.148 0.292-1.822c0-0.483-0.113-0.856-0.339-1.12-0.227-0.264-0.546-0.396-0.957-0.396zM53.427 14.618h-1.786l-1.859-5.644h-0.031l-0.021 0.163c-0.111 0.735-0.227 1.391-0.344 1.97l-0.757 3.511h-1.436l1.613-7.46h1.864l1.775 5.496h0.021c0.042-0.259 0.109-0.628 0.203-1.107s0.407-1.942 0.94-4.388h1.43l-1.613 7.461zM13.296 20.185c0 0.98-0.177 1.832-0.532 2.556s-0.868 1.274-1.539 1.652c-0.672 0.379-1.464 0.568-2.376 0.568h-2.449l1.678-7.68h2.15c0.977 0 1.733 0.25 2.267 0.751s0.801 1.219 0.801 2.154zM8.925 23.615c0.536 0 1.003-0.133 1.401-0.399s0.71-0.657 0.934-1.174c0.225-0.517 0.337-1.108 0.337-1.773 0-0.54-0.131-0.95-0.394-1.232s-0.64-0.423-1.132-0.423h-0.624l-1.097 5.001h0.575zM18.64 24.96h-4.436l1.678-7.68h4.442l-0.293 1.334h-2.78l-0.364 1.686h2.59l-0.299 1.334h-2.59l-0.435 1.98h2.78l-0.293 1.345zM20.509 24.96l1.678-7.68h1.661l-1.39 6.335h2.78l-0.294 1.345h-4.436zM26.547 24.96l1.694-7.68h1.656l-1.694 7.68h-1.656zM33.021 23.389c0.282-0.774 0.481-1.27 0.597-1.487l2.346-4.623h1.716l-4.061 7.68h-1.814l-0.689-7.68h1.602l0.277 4.623c0.015 0.157 0.022 0.39 0.022 0.699-0.007 0.361-0.018 0.623-0.033 0.788h0.038zM41.678 24.96h-4.437l1.678-7.68h4.442l-0.293 1.334h-2.78l-0.364 1.686h2.59l-0.299 1.334h-2.59l-0.435 1.98h2.78l-0.293 1.345zM45.849 22.013l-0.646 2.947h-1.656l1.678-7.68h1.949c0.858 0 1.502 0.179 1.933 0.536s0.646 0.881 0.646 1.571c0 0.554-0.15 1.029-0.451 1.426s-0.733 0.692-1.298 0.885l1.417 3.263h-1.803l-1.124-2.947h-0.646zM46.137 20.689h0.424c0.474 0 0.843-0.1 1.108-0.3s0.396-0.504 0.396-0.914c0-0.287-0.086-0.502-0.258-0.646s-0.442-0.216-0.812-0.216h-0.402l-0.456 2.076zM53.712 20.39l2.031-3.11h1.857l-3.355 4.744-0.646 2.936h-1.645l0.646-2.936-1.281-4.744h1.694l0.7 3.11z"></path>
+</svg>
+</div></div>      </div>
+    
+    <div class="footer-primary pull-left">
+              <div class="menu-main-menu-container"><ul id="menu-main-menu-1" class="links footer-nav uppercase"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-40"><a href="https://hyperx.mauthemewp.com/" aria-current="page">Trang chủ</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-564"><a href="https://hyperx.mauthemewp.com/gioi-thieu/">Giới thiệu</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-548"><a href="https://hyperx.mauthemewp.com/shop/">Sản phẩm</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-553"><a href="#">Hỗ trợ khách hàng</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-560"><a href="https://hyperx.mauthemewp.com/category/tin-tuc/">Tin tức</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38"><a href="https://hyperx.mauthemewp.com/lien-he/">Liên hệ</a></li>
+<li class="menu-order menu-item menu-item-type-post_type menu-item-object-page menu-item-557"><a href="https://hyperx.mauthemewp.com/order-hang/">Hàng Order</a></li>
+</ul></div>            <div class="copyright-footer">
+        Copyright 2019 © HyperX.com.vn      </div>
+          </div>
   </div>
 </div>
+
+<a href="#top" class="back-to-top button icon invert plain fixed bottom z-1 is-outline hide-for-medium circle" id="top-link" aria-label="Go to top"><i class="icon-angle-up" ></i></a>
+
+</footer>
+
+</div>
+
+<div id="main-menu" class="mobile-sidebar no-scrollbar mfp-hide">
+
+	
+	<div class="sidebar-menu no-scrollbar ">
+
+		
+					<ul class="nav nav-sidebar nav-vertical nav-uppercase" data-tab="1">
+				<li class="header-search-form search-form html relative has-icon">
+	<div class="header-search-form-wrapper">
+		<div class="searchform-wrapper ux-search-box relative form-flat is-normal"><form role="search" method="get" class="searchform" action="https://hyperx.mauthemewp.com/">
+	<div class="flex-row relative">
+						<div class="flex-col flex-grow">
+			<label class="screen-reader-text" for="woocommerce-product-search-field-1">Tìm kiếm:</label>
+			<input type="search" id="woocommerce-product-search-field-1" class="search-field mb-0" placeholder="Nhập từ khóa sản phẩm..." value="" name="s" />
+			<input type="hidden" name="post_type" value="product" />
+					</div>
+		<div class="flex-col">
+			<button type="submit" value="Tìm kiếm" class="ux-search-submit submit-button secondary button icon mb-0" aria-label="Submit">
+				<i class="icon-search" ></i>			</button>
+		</div>
+	</div>
+	<div class="live-search-results text-left z-top"></div>
+</form>
+</div>	</div>
+</li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-40"><a href="https://hyperx.mauthemewp.com/" aria-current="page">Trang chủ</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-564"><a href="https://hyperx.mauthemewp.com/gioi-thieu/">Giới thiệu</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-548"><a href="https://hyperx.mauthemewp.com/shop/">Sản phẩm</a>
+<ul class="sub-menu nav-sidebar-ul children">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-41"><a href="https://hyperx.mauthemewp.com/product-categories/ao-phong/">Áo phông</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-550"><a href="https://hyperx.mauthemewp.com/product-categories/quan-ao/">Quần áo</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-551"><a href="https://hyperx.mauthemewp.com/product-categories/quan-jeans/">Quần Jeans</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-552"><a href="https://hyperx.mauthemewp.com/product-categories/quan-short/">Quần Short</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-549"><a href="https://hyperx.mauthemewp.com/product-categories/giay/">Giày dép</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-553"><a href="#">Hỗ trợ khách hàng</a>
+<ul class="sub-menu nav-sidebar-ul children">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-556"><a href="https://hyperx.mauthemewp.com/quy-dinh-doi-tra-hang/">Quy định đổi trả hàng</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-555"><a href="https://hyperx.mauthemewp.com/huong-dan-thanh-toan/">Hướng dẫn thanh toán</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-554"><a href="https://hyperx.mauthemewp.com/huong-dan-mua-hang/">Hướng dẫn mua hàng</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39"><a href="https://hyperx.mauthemewp.com/faqs/">Hỏi đáp</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-560"><a href="https://hyperx.mauthemewp.com/category/tin-tuc/">Tin tức</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38"><a href="https://hyperx.mauthemewp.com/lien-he/">Liên hệ</a></li>
+<li class="menu-order menu-item menu-item-type-post_type menu-item-object-page menu-item-557"><a href="https://hyperx.mauthemewp.com/order-hang/">Hàng Order</a></li>
+<li class="account-item has-icon menu-item">
+<a href="https://hyperx.mauthemewp.com/my-account/"
+    class="nav-top-link nav-top-not-logged-in">
+    <span class="header-account-title">
+    Đăng nhập  </span>
+</a>
+
+</li>
+			</ul>
+		
+		
+	</div>
+
+	
+</div>
+<style>.float-contact {
+position: fixed;
+bottom: 20px;
+left: 20px;
+z-index: 99999;
+}
+.chat-zalo {
+background: #8eb22b;
+border-radius: 20px;
+padding: 0 18px;
+color: white;
+display: block;
+margin-bottom: 6px;
+}
+.chat-face {
+background: #125c9e;
+border-radius: 20px;
+padding: 0 18px;
+color: white;
+display: block;
+margin-bottom: 6px;
+}
+.float-contact .hotline {
+background: #e51313!important;
+border-radius: 20px;
+padding: 0 18px;
+color: white;
+display: block;
+margin-bottom: 6px;
+}
+.chat-zalo a, .chat-face a, .hotline a {
+font-size: 15px;
+color: white;
+font-weight: 400;
+text-transform: none;
+line-height: 0;
+}
+@media (max-width: 549px){
+.float-contact{
+display:none
+}
+}</style>
+<div class="float-contact">
+<button class="chat-zalo">
+<a href="http://zalo.me/09999999">Chat Zalo</a>
+</button>
+<button class="chat-face">
+<a href="https://www.facebook.com/09999999/">Chat Facebook</a>
+</button>
+<button class="hotline">
+<a href="tel:09999999">Hotline: 09999999</a>
+</button>
+</div>    <div id="login-form-popup" class="lightbox-content mfp-hide">
+            <div class="woocommerce-notices-wrapper"></div>
+<div class="account-container lightbox-inner">
+
+	
+			<div class="account-login-inner">
+
+				<h3 class="uppercase">Đăng nhập</h3>
+
+				<form class="woocommerce-form woocommerce-form-login login" method="post">
+
+					
+					<p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+						<label for="username">Tên tài khoản hoặc địa chỉ email&nbsp;<span class="required">*</span></label>
+						<input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="username" autocomplete="username" value="" />					</p>
+					<p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+						<label for="password">Mật khẩu&nbsp;<span class="required">*</span></label>
+						<input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password" />
+					</p>
+
+					
+					<p class="form-row">
+						<label class="woocommerce-form__label woocommerce-form__label-for-checkbox woocommerce-form-login__rememberme">
+							<input class="woocommerce-form__input woocommerce-form__input-checkbox" name="rememberme" type="checkbox" id="rememberme" value="forever" /> <span>Ghi nhớ mật khẩu</span>
+						</label>
+						<input type="hidden" id="woocommerce-login-nonce" name="woocommerce-login-nonce" value="ddf5ceda4b" /><input type="hidden" name="_wp_http_referer" value="/" />						<button type="submit" class="woocommerce-button button woocommerce-form-login__submit" name="login" value="Đăng nhập">Đăng nhập</button>
+					</p>
+					<p class="woocommerce-LostPassword lost_password">
+						<a href="https://hyperx.mauthemewp.com/my-account/lost-password/">Quên mật khẩu?</a>
+					</p>
+
+					
+				</form>
+			</div>
+
+			
+</div>
+
+          </div>
+  	<script type="text/javascript">
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	<script type="text/template" id="tmpl-variation-template">
+	<div class="woocommerce-variation-description">{{{ data.variation.variation_description }}}</div>
+	<div class="woocommerce-variation-price">{{{ data.variation.price_html }}}</div>
+	<div class="woocommerce-variation-availability">{{{ data.variation.availability_html }}}</div>
+</script>
+<script type="text/template" id="tmpl-unavailable-variation-template">
+	<p>Rất tiếc, sản phẩm này hiện không tồn tại. Hãy chọn một phương thức kết hợp khác.</p>
+</script>
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<script type='text/javascript' src='https://hyperx.mauthemewp.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.9' id='regenerator-runtime-js'></script>
+<script type='text/javascript' src='https://hyperx.mauthemewp.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'></script>
+<script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/hyperx.mauthemewp.com\/wp-json\/","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://hyperx.mauthemewp.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.5.6' id='contact-form-7-js'></script>
+<script type='text/javascript' src='https://hyperx.mauthemewp.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.6.4.1' id='jquery-blockui-js'></script>
+<script type='text/javascript' id='wc-add-to-cart-js-extra'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"Xem gi\u1ecf h\u00e0ng","cart_url":"https:\/\/hyperx.mauthemewp.com\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://hyperx.mauthemewp.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=6.4.1' id='wc-add-to-cart-js'></script>
+<script type='text/javascript' src='https://hyperx.mauthemewp.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.6.4.1' id='js-cookie-js'></script>
+<script type='text/javascript' id='woocommerce-js-extra'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://hyperx.mauthemewp.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=6.4.1' id='woocommerce-js'></script>
+<script type='text/javascript' id='wc-cart-fragments-js-extra'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_9ffe588d807a766e7abf862cfa5cfa6c","fragment_name":"wc_fragments_9ffe588d807a766e7abf862cfa5cfa6c","request_timeout":"5000"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://hyperx.mauthemewp.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=6.4.1' id='wc-cart-fragments-js'></script>
+<script type='text/javascript' src='https://hyperx.mauthemewp.com/wp-includes/js/hoverIntent.min.js?ver=1.10.2' id='hoverIntent-js'></script>
+<script type='text/javascript' id='flatsome-js-js-extra'>
+/* <![CDATA[ */
+var flatsomeVars = {"theme":{"version":"3.15.4"},"ajaxurl":"https:\/\/hyperx.mauthemewp.com\/wp-admin\/admin-ajax.php","rtl":"","sticky_height":"70","assets_url":"https:\/\/hyperx.mauthemewp.com\/wp-content\/themes\/flatsome\/assets\/js\/","lightbox":{"close_markup":"<button title=\"%title%\" type=\"button\" class=\"mfp-close\"><svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-x\"><line x1=\"18\" y1=\"6\" x2=\"6\" y2=\"18\"><\/line><line x1=\"6\" y1=\"6\" x2=\"18\" y2=\"18\"><\/line><\/svg><\/button>","close_btn_inside":false},"user":{"can_edit_pages":false},"i18n":{"mainMenu":"Main Menu"},"options":{"cookie_notice_version":"1","swatches_layout":false,"swatches_box_select_event":false,"swatches_box_behavior_selected":false,"swatches_box_update_urls":"1","swatches_box_reset":false,"swatches_box_reset_extent":false,"swatches_box_reset_time":300,"search_result_latency":"0"},"is_mini_cart_reveal":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://hyperx.mauthemewp.com/wp-content/themes/flatsome/assets/js/flatsome.js?ver=dfed7b62b19c7bfa50899e873935db6f' id='flatsome-js-js'></script>
+<script type='text/javascript' src='https://hyperx.mauthemewp.com/wp-content/themes/flatsome/assets/js/extensions/flatsome-swatches-frontend.js?ver=3.15.4' id='flatsome-swatches-frontend-js'></script>
+<script type='text/javascript' src='https://hyperx.mauthemewp.com/wp-content/themes/flatsome/inc/extensions/flatsome-lazy-load/flatsome-lazy-load.js?ver=3.15.4' id='flatsome-lazy-js'></script>
+<script type='text/javascript' src='https://hyperx.mauthemewp.com/wp-content/themes/flatsome/assets/js/woocommerce.js?ver=7a63f7aa2c4bbf851812535d8e4e7958' id='flatsome-theme-woocommerce-js-js'></script>
+<!--[if IE]>
+<script type='text/javascript' src='https://cdn.jsdelivr.net/npm/intersection-observer-polyfill@0.1.0/dist/IntersectionObserver.js?ver=0.1.0' id='intersection-observer-polyfill-js'></script>
+<![endif]-->
+<script type='text/javascript' src='https://hyperx.mauthemewp.com/wp-includes/js/underscore.min.js?ver=1.13.1' id='underscore-js'></script>
+<script type='text/javascript' id='wp-util-js-extra'>
+/* <![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://hyperx.mauthemewp.com/wp-includes/js/wp-util.min.js?ver=5.9.5' id='wp-util-js'></script>
+<script type='text/javascript' id='wc-add-to-cart-variation-js-extra'>
+/* <![CDATA[ */
+var wc_add_to_cart_variation_params = {"wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_no_matching_variations_text":"R\u1ea5t ti\u1ebfc, kh\u00f4ng c\u00f3 s\u1ea3n ph\u1ea9m n\u00e0o ph\u00f9 h\u1ee3p v\u1edbi l\u1ef1a ch\u1ecdn c\u1ee7a b\u1ea1n. H\u00e3y ch\u1ecdn m\u1ed9t ph\u01b0\u01a1ng th\u1ee9c k\u1ebft h\u1ee3p kh\u00e1c.","i18n_make_a_selection_text":"Ch\u1ecdn c\u00e1c t\u00f9y ch\u1ecdn cho s\u1ea3n ph\u1ea9m tr\u01b0\u1edbc khi cho s\u1ea3n ph\u1ea9m v\u00e0o gi\u1ecf h\u00e0ng c\u1ee7a b\u1ea1n.","i18n_unavailable_text":"R\u1ea5t ti\u1ebfc, s\u1ea3n ph\u1ea9m n\u00e0y hi\u1ec7n kh\u00f4ng t\u1ed3n t\u1ea1i. H\u00e3y ch\u1ecdn m\u1ed9t ph\u01b0\u01a1ng th\u1ee9c k\u1ebft h\u1ee3p kh\u00e1c."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://hyperx.mauthemewp.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js?ver=6.4.1' id='wc-add-to-cart-variation-js'></script>
 
 </body>
 </html>
