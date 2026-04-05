@@ -117,16 +117,16 @@ img.emoji {
 			</li>
 			
 						<li class="">
-			  <a href="mailto:099999999@gmail.com" class="tooltip" title="099999999@gmail.com">
+			  <a href="mailto:chunthanh@gmail.com" class="tooltip" title="chungthanh@gmail.com">
 				  <i class="icon-envelop" style="font-size:16px;"></i>			       <span>
-			       	099999999@gmail.com			       </span>
+			       	chunthanh@gmail.com			       </span>
 			  </a>
 			</li>
 					
 			
 						<li class="">
-			  <a href="tel:099999999" class="tooltip" title="099999999">
-			     <i class="icon-phone" style="font-size:16px;"></i>			      <span>099999999</span>
+			  <a href="tel:0858712745" class="tooltip" title="0858712745">
+			     <i class="icon-phone" style="font-size:16px;"></i>			      <span>08587127450858712745</span>
 			  </a>
 			</li>
 				</ul>
