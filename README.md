@@ -1,87 +1,127 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta charset="UTF-8">
-  <title>Shop Quần Áo</title>
-  <style>
-    body {
-      font-family: Arial;
-      padding: 20px;
-      background: #f5f5f5;
-    }
+<meta charset="UTF-8">
+<title>Shop Quần Áo</title>
 
-    h1 {
-      text-align: center;
-    }
+<style>
+body {
+  margin: 0;
+  font-family: Arial;
+}
 
-    /* GIỎ HÀNG GÓC PHẢI */
-    .cart-icon {
-      position: fixed;
-      top: 20px;
-      right: 20px;
-      background: #007bff;
-      color: white;
-      padding: 10px 15px;
-      border-radius: 20px;
-      cursor: pointer;
-    }
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  border-bottom: 1px solid #ddd;
+}
 
-    .cart-count {
-      background: red;
-      border-radius: 50%;
-      padding: 2px 6px;
-      margin-left: 5px;
-    }
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
 
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 20px;
-    }
+.menu a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+}
 
-    .product {
-      background: white;
-      padding: 15px;
-      border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
+.cart {
+  position: relative;
+  cursor: pointer;
+}
 
-    button {
-      background: #007bff;
-      color: white;
-      border: none;
-      padding: 8px;
-      cursor: pointer;
-      border-radius: 5px;
-    }
+.cart span {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background: red;
+  color: white;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
 
-    /* BOX GIỎ HÀNG */
-    .cart-box {
-      position: fixed;
-      top: 60px;
-      right: 20px;
-      width: 300px;
-      background: white;
-      padding: 15px;
-      border-radius: 10px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
-      display: none;
-    }
-  </style>
+/* TITLE */
+.title {
+  text-align: center;
+  margin: 20px;
+  font-size: 24px;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* PRODUCT */
+.product {
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.product img:hover {
+  transform: scale(1.05);
+}
+
+.product button {
+  margin-top: 10px;
+  padding: 8px;
+  border: none;
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+
+/* CART BOX */
+.cart-box {
+  position: fixed;
+  top: 70px;
+  right: 20px;
+  width: 300px;
+  background: white;
+  border: 1px solid #ddd;
+  padding: 15px;
+  display: none;
+}
+</style>
 </head>
+
 <body>
 
-<h1>🛍 Shop Quần Áo</h1>
+<!-- HEADER -->
+<div class="header">
+  <div class="logo">OLD SAILOR</div>
 
-<!-- ICON GIỎ HÀNG -->
-<div class="cart-icon" onclick="toggleCart()">
-  🛒 <span class="cart-count" id="cartCount">0</span>
+  <div class="menu">
+    <a href="#">Trang chủ</a>
+    <a href="#">Sản phẩm</a>
+    <a href="#">Sale</a>
+  </div>
+
+  <div class="cart" onclick="toggleCart()">
+    🛒 <span id="count">0</span>
+  </div>
 </div>
 
-<h2>Sản phẩm</h2>
+<div class="title">NEW ARRIVAL</div>
+
+<!-- PRODUCTS -->
 <div class="grid" id="products"></div>
 
-<!-- GIỎ HÀNG -->
+<!-- CART -->
 <div class="cart-box" id="cartBox">
   <h3>Giỏ hàng</h3>
   <div id="cart"></div>
@@ -90,9 +130,30 @@
 
 <script>
 const products = [
-  { id: 1, name: "Áo thun", price: 150000 },
-  { id: 2, name: "Quần jeans", price: 300000 },
-  { id: 3, name: "Áo hoodie", price: 350000 }
+  {
+    id: 1,
+    name: "Áo thun đen",
+    price: 325000,
+    img: "https://i.imgur.com/1.jpg"
+  },
+  {
+    id: 2,
+    name: "Áo thun trắng",
+    price: 325000,
+    img: "https://i.imgur.com/2.jpg"
+  },
+  {
+    id: 3,
+    name: "Áo nâu",
+    price: 325000,
+    img: "https://i.imgur.com/3.jpg"
+  },
+  {
+    id: 4,
+    name: "Áo basic",
+    price: 325000,
+    img: "https://i.imgur.com/4.jpg"
+  }
 ];
 
 let cart = JSON.parse(localStorage.getItem("cart")) || [];
@@ -104,8 +165,9 @@ function renderProducts() {
   products.forEach(p => {
     el.innerHTML += `
       <div class="product">
-        <h3>${p.name}</h3>
-        <p>${p.price.toLocaleString()}đ</p>
+        <img src="${p.img}">
+        <p>${p.name}</p>
+        <b>${p.price.toLocaleString()}đ</b><br>
         <button onclick="addToCart(${p.id})">Thêm</button>
       </div>
     `;
@@ -113,42 +175,40 @@ function renderProducts() {
 }
 
 function addToCart(id) {
-  const product = products.find(p => p.id === id);
-  cart.push(product);
-  saveCart();
+  const p = products.find(x => x.id === id);
+  cart.push(p);
+  save();
   renderCart();
-}
-
-function saveCart() {
-  localStorage.setItem("cart", JSON.stringify(cart));
 }
 
 function renderCart() {
   const el = document.getElementById("cart");
   const totalEl = document.getElementById("total");
-  const countEl = document.getElementById("cartCount");
+  const countEl = document.getElementById("count");
 
   el.innerHTML = "";
 
   cart.forEach((c, i) => {
     el.innerHTML += `
-      <p>
-        ${c.name} - ${c.price.toLocaleString()}đ 
-        <button onclick="removeItem(${i})">X</button>
-      </p>
+      <p>${c.name} 
+      <button onclick="removeItem(${i})">x</button></p>
     `;
   });
 
-  const total = cart.reduce((sum, i) => sum + i.price, 0);
+  const total = cart.reduce((s, i) => s + i.price, 0);
 
   totalEl.innerText = "Tổng: " + total.toLocaleString() + "đ";
   countEl.innerText = cart.length;
 }
 
-function removeItem(index) {
-  cart.splice(index, 1);
-  saveCart();
+function removeItem(i) {
+  cart.splice(i, 1);
+  save();
   renderCart();
+}
+
+function save() {
+  localStorage.setItem("cart", JSON.stringify(cart));
 }
 
 function toggleCart() {
