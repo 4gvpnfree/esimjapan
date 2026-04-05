@@ -238,7 +238,60 @@ function toggleCart(){
 
 renderProducts();
 renderCart();
+  let currentProduct = null;
+let quantity = 1;
+
+function openPopup(id){
+  const p = products.find(x => x.id === id);
+  currentProduct = p;
+  quantity = 1;
+
+  document.getElementById("pImg").src = p.img;
+  document.getElementById("pName").innerText = p.name;
+  document.getElementById("pPrice").innerText = p.price.toLocaleString()+"đ";
+  document.getElementById("qty").innerText = quantity;
+
+  document.getElementById("popup").style.display = "block";
+}
+
+function closePopup(){
+  document.getElementById("popup").style.display = "none";
+}
+
+function changeQty(n){
+  quantity += n;
+  if(quantity < 1) quantity = 1;
+  document.getElementById("qty").innerText = quantity;
+}
+
+function confirmAdd(){
+  for(let i=0;i<quantity;i++){
+    cart.push(currentProduct);
+  }
+  save();
+  renderCart();
+  closePopup();
+}
 </script>
+<!-- POPUP -->
+<div id="popup" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5);">
+  <div style="background:white; width:400px; margin:100px auto; padding:20px; border-radius:10px;">
+    
+    <img id="pImg" style="width:100%">
+    <h3 id="pName"></h3>
+    <p id="pPrice"></p>
+
+    <div>
+      <button onclick="changeQty(-1)">-</button>
+      <span id="qty">1</span>
+      <button onclick="changeQty(1)">+</button>
+    </div>
+
+    <br>
+    <button onclick="confirmAdd()">Thêm vào giỏ</button>
+    <button onclick="closePopup()">Đóng</button>
+  </div>
+</div>
 
 </body>
 </html>
