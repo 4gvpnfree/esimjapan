@@ -112,7 +112,7 @@ img.emoji {
 					<li class="">
 			  <a target="_blank" rel="noopener noreferrer" href="https://maps.google.com/?q=Thanh Xuân, Hà Nội" title="Thanh Xuân, Hà Nội" class="tooltip">
 			  	 <i class="icon-map-pin-fill" style="font-size:16px;"></i>			     <span>
-			     	Hưng Lộc, Vinh, Nghệ An			     </span>
+			     	Thanh Xuân, Hà Nội			     </span>
 			  </a>
 			</li>
 			
