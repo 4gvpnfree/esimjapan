@@ -1533,7 +1533,7 @@ img.emoji {
 				<div class="icon-box-text last-reset">
 									
 
-<p>Welcome to HyperX.com.vn</p>
+<p>Shop Chung Thành</p>
 <p><span style="color: #c0c0c0; font-size: 14.4px;">Rất nhiều mẫ mã sản phẩm quần áo, áo phông, quần jeans và giày dép cho bạn thỏa sức lựa chọn!</span></p>
 	<div id="gap-12081115" class="gap-element clearfix" style="display:block; height:auto;">
 		
