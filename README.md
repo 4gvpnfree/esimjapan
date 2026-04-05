@@ -110,7 +110,7 @@ img.emoji {
               <li class="header-contact-wrapper">
 		<ul id="header-contact" class="nav nav-divided nav-uppercase header-contact">
 					<li class="">
-			  <a target="_blank" rel="noopener noreferrer" href="https://maps.google.com/?q=Hưng Lộc, Vinh, Nghệ An" title="Hưng Lộc, Vinh, Nghệ An" class="tooltip">
+			  <a target="_blank" rel="noopener noreferrer" href="https://maps.google.com/?q=Thanh Xuân, Hà Nội" title="Thanh Xuân, Hà Nội" class="tooltip">
 			  	 <i class="icon-map-pin-fill" style="font-size:16px;"></i>			     <span>
 			     	Hưng Lộc, Vinh, Nghệ An			     </span>
 			  </a>
