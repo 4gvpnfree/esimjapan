@@ -1,7 +1,7 @@
 Chung Thành 
 <!--[if IE 9 ]> <html lang="vi" class="ie9 loading-site no-js"> <![endif]-->
 <!--[if IE 8 ]> <html lang="vi" class="ie8 loading-site no-js"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="vi" class="loading-site no-js"> <!--<![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <!--<![endif]-->
 <head>
 	<meta charset="UTF-8" />
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
