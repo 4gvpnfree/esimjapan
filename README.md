@@ -1675,7 +1675,7 @@ img.emoji {
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38"><a href="https://hyperx.mauthemewp.com/lien-he/">Liên hệ</a></li>
 <li class="menu-order menu-item menu-item-type-post_type menu-item-object-page menu-item-557"><a href="https://hyperx.mauthemewp.com/order-hang/">Hàng Order</a></li>
 </ul></div>            <div class="copyright-footer">
-        Copyright 2019 © HyperX.com.vn      </div>
+        Copyright 2026  © chunthanh18072003@gmail.com     </div>
           </div>
   </div>
 </div>
@@ -1791,13 +1791,13 @@ display:none
 }</style>
 <div class="float-contact">
 <button class="chat-zalo">
-<a href="http://zalo.me/09999999">Chat Zalo</a>
+<a href="http://zalo.me/0858712745">Chat Zalo</a>
 </button>
 <button class="chat-face">
 <a href="https://www.facebook.com/09999999/">Chat Facebook</a>
 </button>
 <button class="hotline">
-<a href="tel:09999999">Hotline: 09999999</a>
+<a href="tel:09999999">Hotline: </a>
 </button>
 </div>    <div id="login-form-popup" class="lightbox-content mfp-hide">
             <div class="woocommerce-notices-wrapper"></div>
