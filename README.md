@@ -193,7 +193,7 @@ function renderProducts(){
         <img src="${p.img}">
         <p>${p.name}</p>
         <b>${p.price.toLocaleString()}đ</b><br>
-        <button onclick="addToCart(${p.id})">Thêm</button>
+        <button onclick="openPopup(${p.id})">Thêm</button>
       </div>
     `;
   });
