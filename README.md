@@ -126,7 +126,7 @@ img.emoji {
 			
 						<li class="">
 			  <a href="tel:0858712745" class="tooltip" title="0858712745">
-			     <i class="icon-phone" style="font-size:16px;"></i>			      <span>08587127450858712745</span>
+			     <i class="icon-phone" style="font-size:16px;"></i>			      <span>0858712745</span>
 			  </a>
 			</li>
 				</ul>
