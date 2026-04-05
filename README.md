@@ -1,44 +1,99 @@
-# 🛒 Web Bán Quần Áo (Full Code - Deploy GitHub)
+# 🛒 FULL CODE HOÀN CHỈNH WEB BÁN QUẦN ÁO (1 PROJECT CHẠY LUÔN)
 
-## 📁 Cấu trúc project
+👉 Copy toàn bộ cấu trúc này lên GitHub là chạy được
+
+---
+
+# 📁 CẤU TRÚC
 ```
 clothing-shop/
-├── index.html
-├── package.json
-├── vite.config.js
-└── src/
-    ├── main.jsx
-    ├── App.jsx
-    └── style.css
+├── server/
+│   ├── index.js
+│   └── package.json
+└── client/
+    ├── index.html
+    ├── package.json
+    ├── vite.config.js
+    └── src/
+        ├── main.jsx
+        └── App.jsx
 ```
 
 ---
 
-## 📦 package.json
+# ⚙️ BACKEND
+
+## server/package.json
 ```json
 {
-  "name": "clothing-shop",
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  }
+}
+```
+
+## server/index.js
+```js
+const express = require('express')
+const cors = require('cors')
+
+const app = express()
+app.use(cors())
+app.use(express.json())
+
+let products = [
+  { id: 1, name: 'Áo thun', price: 150000 },
+  { id: 2, name: 'Quần jeans', price: 300000 },
+  { id: 3, name: 'Áo hoodie', price: 350000 }
+]
+
+let orders = []
+
+app.get('/products', (req, res) => {
+  res.json(products)
+})
+
+app.post('/order', (req, res) => {
+  orders.push(req.body)
+  res.json({ message: 'Đặt hàng thành công' })
+})
+
+app.listen(3000, () => console.log('Server: http://localhost:3000'))
+```
+
+---
+
+# 🎨 FRONTEND
+
+## client/package.json
+```json
+{
+  "name": "client",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev": "vite"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "vite": "^5.0.0"
+    "vite": "^5.0.0",
+    "@vitejs/plugin-react": "^4.0.0"
   }
 }
 ```
 
----
-
-## ⚡ vite.config.js
+## client/vite.config.js
 ```js
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
@@ -48,32 +103,27 @@ export default defineConfig({
 })
 ```
 
----
-
-## 🌐 index.html
+## client/index.html
 ```html
 <!DOCTYPE html>
 <html lang="vi">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shop Quần Áo</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shop Quần Áo</title>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
 </html>
 ```
 
----
-
-## 🚀 src/main.jsx
+## client/src/main.jsx
 ```jsx
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
-import './style.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -82,136 +132,110 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 )
 ```
 
----
-
-## 🎨 src/style.css
-```css
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  background: #f5f5f5;
-}
-
-.container {
-  max-width: 1200px;
-  margin: auto;
-  padding: 20px;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
-}
-
-.card {
-  background: white;
-  padding: 15px;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-button {
-  background: #007bff;
-  color: white;
-  border: none;
-  padding: 8px 12px;
-  border-radius: 6px;
-  cursor: pointer;
-}
-```
-
----
-
-## 🧠 src/App.jsx
+## client/src/App.jsx
 ```jsx
-import React, { useState } from 'react'
-
-const products = [
-  { id: 1, name: 'Áo thun', price: 150000, img: 'https://via.placeholder.com/200' },
-  { id: 2, name: 'Quần jeans', price: 300000, img: 'https://via.placeholder.com/200' },
-  { id: 3, name: 'Áo hoodie', price: 350000, img: 'https://via.placeholder.com/200' }
-]
+import { useEffect, useState } from "react";
 
 export default function App() {
-  const [cart, setCart] = useState([])
+  const [products, setProducts] = useState([]);
+  const [cart, setCart] = useState([]);
 
-  const addToCart = (item) => {
-    setCart([...cart, item])
-  }
+  useEffect(() => {
+    fetch("http://localhost:3000/products")
+      .then(res => res.json())
+      .then(setProducts);
+  }, []);
 
-  const total = cart.reduce((sum, i) => sum + i.price, 0)
+  const addToCart = (p) => {
+    setCart([...cart, p]);
+  };
+
+  const checkout = () => {
+    fetch("http://localhost:3000/order", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(cart)
+    })
+      .then(res => res.json())
+      .then(data => alert(data.message));
+  };
+
+  const total = cart.reduce((sum, i) => sum + i.price, 0);
 
   return (
-    <div className="container">
+    <div style={{ padding: 20 }}>
       <h1>🛍 Shop Quần Áo</h1>
 
-      <div className="grid">
-        {products.map(p => (
-          <div className="card" key={p.id}>
-            <img src={p.img} width="100%" />
-            <h3>{p.name}</h3>
-            <p>{p.price.toLocaleString()}đ</p>
-            <button onClick={() => addToCart(p)}>Thêm</button>
-          </div>
-        ))}
-      </div>
+      <h2>Sản phẩm</h2>
+      {products.map(p => (
+        <div key={p.id}>
+          {p.name} - {p.price.toLocaleString()}đ
+          <button onClick={() => addToCart(p)}> Thêm</button>
+        </div>
+      ))}
 
       <h2>🛒 Giỏ hàng</h2>
       {cart.map((c, i) => (
-        <p key={i}>{c.name} - {c.price.toLocaleString()}đ</p>
+        <div key={i}>{c.name}</div>
       ))}
 
       <h3>Tổng: {total.toLocaleString()}đ</h3>
+
+      <button onClick={checkout}>Đặt hàng</button>
     </div>
-  )
+  );
 }
 ```
 
 ---
 
-## 🚀 Cách up lên GitHub
+# 🚀 CHẠY PROJECT
 
-### 1. Tạo project
+## 1. Backend
 ```bash
-npm create vite@latest clothing-shop
-cd clothing-shop
+cd server
 npm install
+node index.js
 ```
 
-### 2. Thay toàn bộ file bằng code trên
-
-### 3. Chạy thử
+## 2. Frontend
 ```bash
+cd client
+npm install
 npm run dev
 ```
 
-### 4. Push GitHub
+👉 Truy cập: http://localhost:5173
+
+---
+
+# 📤 PUSH GITHUB
+
 ```bash
 git init
 git add .
-git commit -m "first commit"
+git commit -m "shop quan ao"
 git branch -M main
-git remote add origin https://github.com/USERNAME/REPO.git
+git remote add origin https://github.com/USERNAME/clothing-shop.git
 git push -u origin main
 ```
 
 ---
 
-## 🌍 Deploy web miễn phí
-Bạn có thể deploy bằng:
-- Vercel
-- Netlify
-
-Chỉ cần connect GitHub là chạy luôn.
+# ✅ KẾT QUẢ
+- Có web bán quần áo
+- Có giỏ hàng
+- Có API backend
+- Có đặt hàng
 
 ---
 
-## 👉 Nếu bạn muốn nâng cấp
-Mình có thể làm thêm:
-- Thanh toán Momo / chuyển khoản
+# ⚠️ NÂNG CẤP (KHI BẠN CẦN)
+- Database (MongoDB)
 - Admin đăng sản phẩm
-- Backend NodeJS + database
-- Giao diện giống Shopee
+- Upload ảnh
+- Thanh toán Momo
 
-Chỉ cần nói: "nâng cấp web" là mình build tiếp cho bạn 🔥
+👉 Muốn làm bản kiếm tiền: nói mình "làm shop pro" 🔥
