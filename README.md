@@ -1669,7 +1669,7 @@ img.emoji {
     <div class="footer-primary pull-left">
               <div class="menu-main-menu-container"><ul id="menu-main-menu-1" class="links footer-nav uppercase"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-40"><a href="https://hyperx.mauthemewp.com/" aria-current="page">Trang chủ</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-564"><a href="https://hyperx.mauthemewp.com/gioi-thieu/">Giới thiệu</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-548"><a href="https://hyperx.mauthemewp.com/shop/">Sản phẩm</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-548"><a href="https://4gvpnfree.github.io/esimjapan/">Sản phẩm</a></li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-553"><a href="#">Hỗ trợ khách hàng</a></li>
 <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-560"><a href="https://hyperx.mauthemewp.com/category/tin-tuc/">Tin tức</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38"><a href="https://hyperx.mauthemewp.com/lien-he/">Liên hệ</a></li>
