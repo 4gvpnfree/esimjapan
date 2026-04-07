@@ -1748,6 +1748,8 @@ img.emoji {
 	
 </div>
 <style>.float-contact {
+	<style>
+.float-contact {
 position: fixed;
 bottom: 20px;
 left: 20px;
