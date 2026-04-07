@@ -1910,6 +1910,25 @@ var wc_add_to_cart_variation_params = {"wc_ajax_url":"\/?wc-ajax=%%endpoint%%","
 /* ]]> */
 </script>
 <script type='text/javascript' src='https://hyperx.mauthemewp.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js?ver=6.4.1' id='wc-add-to-cart-variation-js'></script>
+<!-- POPUP -->
+<div id="popup" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5);">
+  <div style="background:white; width:400px; margin:100px auto; padding:20px; border-radius:10px;">
+    
+    <img id="pImg" style="width:100%">
+    <h3 id="pName"></h3>
+    <p id="pPrice"></p>
+
+    <div>
+      <button onclick="changeQty(-1)">-</button>
+      <span id="qty">1</span>
+      <button onclick="changeQty(1)">+</button>
+    </div>
+
+    <br>
+    <button onclick="confirmAdd()">Thêm vào giỏ</button>
+    <button onclick="closePopup()">Đóng</button>
+  </div>
+</div>
 
 </body>
 </html>
