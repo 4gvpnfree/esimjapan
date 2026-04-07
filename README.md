@@ -1918,6 +1918,18 @@ var wc_add_to_cart_variation_params = {"wc_ajax_url":"\/?wc-ajax=%%endpoint%%","
     <h3 id="pName"></h3>
     <p id="pPrice"></p>
 
+    <!-- SIZE -->
+    <div>
+      <p>Chọn size:</p>
+      <button onclick="selectSize('S')" class="size">S</button>
+      <button onclick="selectSize('M')" class="size">M</button>
+      <button onclick="selectSize('L')" class="size">L</button>
+      <button onclick="selectSize('XL')" class="size">XL</button>
+    </div>
+
+    <br>
+
+    <!-- SỐ LƯỢNG -->
     <div>
       <button onclick="changeQty(-1)">-</button>
       <span id="qty">1</span>
