@@ -1943,6 +1943,40 @@ var wc_add_to_cart_variation_params = {"wc_ajax_url":"\/?wc-ajax=%%endpoint%%","
     <button onclick="closePopup()">Đóng</button>
   </div>
 </div>
+<script>
+let selectedSize = "";
+let quantity = 1;
+
+function selectSize(size) {
+  selectedSize = size;
+
+  document.querySelectorAll(".size").forEach(btn => {
+    btn.classList.remove("active");
+  });
+
+  event.target.classList.add("active");
+}
+
+function changeQty(num) {
+  quantity += num;
+  if (quantity < 1) quantity = 1;
+  document.getElementById("qty").innerText = quantity;
+}
+
+function confirmAdd() {
+  if (selectedSize === "") {
+    alert("Vui lòng chọn size!");
+    return;
+  }
+
+  alert("Đã thêm sản phẩm\nSize: " + selectedSize + "\nSố lượng: " + quantity);
+  closePopup();
+}
+
+function closePopup() {
+  document.getElementById("popup").style.display = "none";
+}
+</script>
 
 </body>
 </html>
